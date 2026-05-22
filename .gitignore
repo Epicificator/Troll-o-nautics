@@ -12,6 +12,7 @@
 !/config/tectonic.json
 !/config/aeronautics-server.toml
 !/config/iframestweakerneo-common.toml
+!/config/parcool-server.toml
 
 # kubejs
 !/kubejs/**
