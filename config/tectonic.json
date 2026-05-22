@@ -52,7 +52,7 @@
   },
   "minor_version": 1,
   "oceans": {
-    "deep_ocean_depth": -0.45,
+    "deep_ocean_depth": -3.5,
     "monument_offset": -30,
     "ocean_depth": -0.22,
     "remove_frozen_ocean_ice": false
