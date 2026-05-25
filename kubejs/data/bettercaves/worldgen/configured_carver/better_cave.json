@@ -51,7 +51,7 @@
             }
           }
         ],
-        "cave_spawn_chance": 80.0,
+        "cave_spawn_chance": 76,
         "cave_region_size_frequency": 0.008
       }
     ],

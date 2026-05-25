@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-05-23_21-57-51",
+  "config_datetime": "2026-05-24_22-20-35",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -8,6 +8,20 @@
     "global_spacing_and_separation_modifier": 1.0
   },
   "structure_namespaces": [
+    {
+      "name": "betterarcheology",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river"
+      ]
+    },
     {
       "name": "create_easy_structures",
       "is_disabled": false,
@@ -69,6 +83,10 @@
     }
   ],
   "structures": [
+    {
+      "name": "bettermineshafts:mineshaft_dripstone",
+      "is_disabled": true
+    },
     {
       "name": "common_stargates:cartouche/red_sandstone_cartouche_monument",
       "is_disabled": true
@@ -230,6 +248,14 @@
       "is_disabled": true
     },
     {
+      "name": "create_structures_overhaul:greenhouse",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_overhaul:spooky_house1",
+      "is_disabled": true
+    },
+    {
       "name": "mss:white_house",
       "is_disabled": true
     },
@@ -260,6 +286,81 @@
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_acacia",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_birch",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_cherry",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_dark_oak",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_desert",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_jungle",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_mangrove",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_oak",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_snowy",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_spruce",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:tavern_swamp",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "whitelisted_biomes": [
+        "minecraft:bamboo_jungle"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:sparse_jungle"
+      ]
     },
     {
       "name": "sgjourney:cartouche/abydos_cartouche",
@@ -489,6 +590,28 @@
         "epic:small_ice_dungeon": 1,
         "epic:small_plains_dungeon": 1,
         "epic:small_sand_dungeon": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 36,
+      "name": "nova_structures:taverns",
+      "is_disabled": false,
+      "salt": 783,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:tavern_cherry": 1,
+        "nova_structures:tavern_oak": 1,
+        "nova_structures:tavern_birch": 1,
+        "nova_structures:tavern_acacia": 1,
+        "nova_structures:tavern_jungle": 1,
+        "nova_structures:tavern_mangrove": 1,
+        "nova_structures:tavern_swamp": 1,
+        "nova_structures:tavern_dark_oak": 1,
+        "nova_structures:tavern_desert": 1,
+        "nova_structures:tavern_snowy": 1,
+        "nova_structures:tavern_spruce": 1
       }
     },
     {
