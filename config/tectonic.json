@@ -37,7 +37,7 @@
     "snow_start_offset": 128
   },
   "global_terrain": {
-    "elevation_boost": 0.23,
+    "elevation_boost": 0.22,
     "lava_tunnels": false,
     "max_y": 320,
     "min_y": -64,
