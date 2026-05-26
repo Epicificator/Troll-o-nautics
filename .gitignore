@@ -3,7 +3,6 @@
 !*/
 
 # config files
-!/config/subtle_effects/*
 !/config/burnt_basic.json
 !/config/clavis.yaml
 !/config/DistantHorizons.toml
@@ -19,6 +18,7 @@
 
 # mods
 !/mods/*
+/mods/sodium*
 
 # other
 !/.gitignore
