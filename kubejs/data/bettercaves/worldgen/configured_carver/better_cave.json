@@ -6,7 +6,7 @@
         "carvers": [
           {
             "spawn_weight": 10,
-            "bottom_y": -63,
+            "bottom_y": -64,
             "top_y": 80,
             "surface_cutoff_distance": 15,
             "y_compression": 5.0,
@@ -29,7 +29,7 @@
           },
           {
             "spawn_weight": 5,
-            "bottom_y": -63,
+            "bottom_y": -64,
             "top_y": 80,
             "surface_cutoff_distance": 15,
             "y_compression": 2.2,
@@ -60,7 +60,7 @@
         "carvers": [
           {
             "spawn_weight": 10,
-            "bottom_y": -50,
+            "bottom_y": -64,
             "top_y": -26,
             "y_compression": 1.1,
             "xz_compression": 0.4,
@@ -80,7 +80,7 @@
           },
           {
             "spawn_weight": 10,
-            "bottom_y": -50,
+            "bottom_y": -64,
             "top_y": -38,
             "y_compression": 1.3,
             "xz_compression": 0.6,
