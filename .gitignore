@@ -12,6 +12,15 @@
 !/config/aeronautics-server.toml
 !/config/iframestweakerneo-common.toml
 !/config/parcool-server.toml
+!/config/bettercombat/*
+!/config/EndRemastered-NeoForge/*
+!/config/analogleverdrag-client.toml
+!/config/corpse-server.toml
+!/config/sgjourney*
+!/config/jade/*
+
+# oh god
+!/config/submarine_hull.json
 
 # kubejs
 !/kubejs/**
