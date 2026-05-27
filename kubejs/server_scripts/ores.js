@@ -111,25 +111,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:crafting/materials/raw_lead_block' })
 
 //Brass
-    event.remove({ id: 'create:mixing/brass_ingot' })
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "heated",
-        "ingredients": [
-            { "tag": "c:ingots/copper" },
-            { "tag": "c:ingots/copper" },
-            { "tag": "c:ingots/zinc" }],
-        "results": [{ "count": 3, "id": "create:brass_ingot" }]
-    })
-    event.remove({ id: 'blazinghot:mixing/molten_brass' })
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "heated",
-        "ingredients": [
-            { "type": "neoforge:tag", "amount": 180, "tag": "c:molten_copper" },
-            { "type": "neoforge:tag", "amount": 90, "tag": "c:molten_zinc" }],
-        "results": [{ "amount": 270, "id": "blazinghot:molten_brass" }]
-    })
     event.replaceInput({ id: 'ihmt:bs_tile' }, 'ihmt:bronze_ingot', Ingredient.of('create:brass_ingot'))
 
 //Bronze
@@ -138,16 +119,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createbigcannons:mixing/alloy_bronze_brass' })
     event.remove({ id: 'createbigcannons:mixing/alloy_bronze_tin' })
     event.remove({ id: 'createbigcannons:compacting/forge_bronze_ingot' })
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "heated",
-        "ingredients": [
-            { "tag": "c:ingots/copper" },
-            { "tag": "c:ingots/copper" },
-            { "tag": "c:ingots/copper" },
-            { "tag": "c:ingots/tin" }],
-        "results": [{ "count": 4, "id": "createbigcannons:bronze_ingot" }]
-    })
+
     event.remove({ id: 'ihmt:bronze_mix_craft' })
     event.remove({ id: 'ihmt:bronze_ingot_craft' })
     event.remove({ id: 'ihmt:bz_block' })
@@ -156,56 +128,9 @@ ServerEvents.recipes(event => {
         [ ' a ', 'aba', ' a ' ],
         { a: 'createbigcannons:bronze_ingot', b: { "tag": "c:stones" }})
 
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "heated",
-        "ingredients": [
-            { "type": "neoforge:tag", "amount": 180, "tag": "c:molten_copper" },
-            { "type": "neoforge:tag", "amount": 90, "tag": "c:molten_tin" }],
-            "results": [{ "amount": 270, "id": "createbigcannons:molten_bronze" }]
-    })
-    event.custom({
-        "type": "create:casting",
-        "cooling_duration": 150,
-        "ingredients": [
-            { "item": "blazinghot:porcelain_ingot_mold" },
-            { "type": "neoforge:tag", "amount": 90, "tag": "c:molten_bronze" }],
-        "processing_time": 50,
-        "results": [{ "id": "createbigcannons:bronze_ingot" }]
-    })
 
 //Tin
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "heated",
-        "ingredients": [
-            { "type": "neoforge:tag", "amount": 180, "tag": "c:molten_copper" },
-            { "type": "neoforge:tag", "amount": 90, "tag": "c:molten_tin" }],
-            "results": [{ "amount": 270, "id": "createbigcannons:molten_bronze" }]
-    })
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "superheated",
-        "ingredients": [{ "tag": "c:ingots/tin" }],
-        "processing_time": 600,
-        "results": [{ "amount": 90, "id": "createmetallurgy:molten_tin" }]
-    })
-    event.custom({
-        "type": "create:mixing",
-        "heat_requirement": "superheated",
-        "ingredients": [ { "tag": "c:nuggets/tin" }],
-        "processing_time": 90,
-        "results": [{ "amount": 10, "id": "createmetallurgy:molten_tin" }]
-    })
-    event.custom({
-        "type": "create:blaze_mixing",
-        "heat_requirement": "superheated",
-        "ingredients": [
-            { "tag": "c:raw_materials/tin"},
-            { "type": "neoforge:tag", "amount": 50, "tag": "blazinghot:blaze_mixer_fuel" }],
-        "processing_time": 250,
-        "results": [{ "amount": 120, "id": "createmetallurgy:molten_tin" }]
-    })
+
 
 //Copper
     event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', Ingredient.of('create:copper_nugget'))
