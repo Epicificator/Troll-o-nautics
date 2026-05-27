@@ -17,13 +17,9 @@
     "when_out_of_range": -1
   },
   "when_out_of_range": {
-    "type": "minecraft:add",
-    "argument1": 1,
-    "argument2": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_barrier",
       "xz_scale": 1,
       "y_scale": 0.5
-    }
   }
 }
