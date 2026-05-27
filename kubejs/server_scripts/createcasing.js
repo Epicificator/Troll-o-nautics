@@ -1,0 +1,23 @@
+ServerEvents.recipes(event => {
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/andesite' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/brass' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/copper' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/creative' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/industrial_iron' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/railway' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/refined_radiance' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/shadow_steel' })
+    event.remove({ id: 'createcasing:crafting/configurable_gearbox/weathered_iron' })
+})
+
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove('createcasing:andesite_configurable_gearbox')
+    event.remove('createcasing:brass_configurable_gearbox')
+    event.remove('createcasing:copper_configurable_gearbox')
+    event.remove('createcasing:creative_configurable_gearbox')
+    event.remove('createcasing:industrial_iron_configurable_gearbox')
+    event.remove('createcasing:railway_configurable_gearbox')
+    event.remove('createcasing:refined_radiance_configurable_gearbox')
+    event.remove('createcasing:shadow_steel_configurable_gearbox')
+    event.remove('createcasing:weathered_iron_configurable_gearbox')
+})
