@@ -19,32 +19,12 @@ ServerEvents.recipes(event => {
         [ 'tfmg:aluminum_ingot', '#c:stones' ])
 
 //Electrum
-    event.remove({ output: 'createaddition:electrum_ingot' })
-    event.remove({ input: 'createaddition:electrum_ingot' })
-    event.remove({ id: 'createaddition:charging/electrify_gold_block' })
-    event.remove({ id: 'createaddition:charging/electrify_gold_ingot' })
-    event.remove({ id: 'createaddition:charging/electrify_gold_nugget' })
-    event.remove({ id: 'createaddition:charging/electrify_gold_rod' })
-    event.remove({ id: 'createaddition:charging/electrify_gold_sheet' })
-    event.remove({ id: 'createaddition:charging/electrify_gold_wire' })
     //Crushing
     event.remove({ id: 'create:crushing/tuff' })
     event.remove({ id: 'create:crushing/tuff_recycling' })
     event.remove({ id: 'spelunkery:crushing/tuff' })
     event.remove({ id: 'create:crushing/ochrum' })
     event.remove({ id: 'create:crushing/ochrum_recycling' })
-    event.remove({ id: 'createaddition:crushing/ochrum' })
-    event.remove({ id: 'createaddition:crushing/ochrum_recycling' })
-    event.custom({
-        "type": "create:pressing",
-        "ingredients": [{ item: "oreganized:electrum_ingot" }],
-        "results": [{ "id": "createaddition:electrum_sheet" }]
-    })
-    event.custom({
-        "type": "createaddition:rolling",
-        "ingredients": [{ item: "oreganized:electrum_ingot" }],
-        "results": [{ "count": 2, "id": "createaddition:electrum_rod" }]
-    })
 
 //Lead
     event.replaceInput({ input: '#c:ingots/lead' }, 'tfmg:lead_ingot', Ingredient.of('oreganized:lead_ingot'))
@@ -208,14 +188,14 @@ ServerEvents.recipes(event => {
         "heat_requirement": "superheated",
         "ingredients": [{ "tag": "c:ingots/tin" }],
         "processing_time": 600,
-        "results": [{ "amount": 90, "id": "kubejs:molten_tin" }]
+        "results": [{ "amount": 90, "id": "createmetallurgy:molten_tin" }]
     })
     event.custom({
         "type": "create:mixing",
         "heat_requirement": "superheated",
         "ingredients": [ { "tag": "c:nuggets/tin" }],
         "processing_time": 90,
-        "results": [{ "amount": 10, "id": "kubejs:molten_tin" }]
+        "results": [{ "amount": 10, "id": "createmetallurgy:molten_tin" }]
     })
     event.custom({
         "type": "create:blaze_mixing",
@@ -224,7 +204,7 @@ ServerEvents.recipes(event => {
             { "tag": "c:raw_materials/tin"},
             { "type": "neoforge:tag", "amount": 50, "tag": "blazinghot:blaze_mixer_fuel" }],
         "processing_time": 250,
-        "results": [{ "amount": 120, "id": "kubejs:molten_tin" }]
+        "results": [{ "amount": 120, "id": "createmetallurgy:molten_tin" }]
     })
 
 //Copper
@@ -244,9 +224,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('ihmt:bronze_mix')
     event.remove('ihmt:copper_nugget')
     event.remove('spelunkery:copper_nugget')
-    event.remove('createaddition:electrum_ingot')
-    event.remove('createaddition:electrum_nugget')
-    event.remove('createaddition:electrum_block')
     event.remove('tfmg:lead_ingot')
     event.remove('tfmg:lead_nugget')
     event.remove('tfmg:lead_block')

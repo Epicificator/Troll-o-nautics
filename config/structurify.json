@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-05-25_19-13-21",
+  "config_datetime": "2026-05-26_20-02-13",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -20,6 +20,20 @@
       "biome_check_blacklisted_biomes": [
         "#minecraft:is_river",
         "#c:is_river"
+      ]
+    },
+    {
+      "name": "bettermineshafts",
+      "is_disabled": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "",
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
       ]
     },
     {
@@ -102,6 +116,36 @@
       "is_disabled": true
     },
     {
+      "name": "minecraft:village_desert",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_plains",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
       "name": "bettermineshafts:mineshaft_dripstone",
       "is_disabled": true
     },
@@ -172,6 +216,12 @@
     {
       "name": "common_stargates:stargate/universe/pedestal/stargate_pedestal_end",
       "is_disabled": true
+    },
+    {
+      "name": "create_easy_structures:big_1",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "create_easy_structures:big_2",
