@@ -1,0 +1,11 @@
+{
+  "type": "sgjourney:chulak",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sgjourney:milky_way_planet",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "minecraft:the_void"
+    }
+  }
+}
