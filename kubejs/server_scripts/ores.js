@@ -134,6 +134,7 @@ ServerEvents.recipes(event => {
 
 //Copper
     event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', Ingredient.of('create:copper_nugget'))
+    event.remove({ id: 'ihmt:copper_nugget_craft' })
 
 //MISC
     event.replaceInput({ id: 'abyssal_decor:moonsilver_ingot_recipe' }, 'minecraft:iron_ingot', Ingredient.of('oreganized:silver_ingot'))
