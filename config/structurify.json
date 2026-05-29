@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-05-26_20-02-13",
+  "config_datetime": "2026-05-29_06-04-23",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -78,9 +78,15 @@
     {
       "name": "nomansland",
       "is_disabled": false,
-      "override_global_flatness_check": false,
-      "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": false
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
     },
     {
       "name": "nova_structures",
@@ -312,32 +318,40 @@
       "flatness_check_allow_non_solid_blocks": false
     },
     {
-      "name": "create_structures_overhaul:crimson_portal",
-      "is_disabled": true
-    },
-    {
-      "name": "create_structures_overhaul:graveyard",
-      "is_disabled": true
-    },
-    {
-      "name": "create_structures_overhaul:greenhouse",
-      "is_disabled": true
-    },
-    {
-      "name": "create_structures_overhaul:lightningrodtower",
-      "is_disabled": true
-    },
-    {
-      "name": "create_structures_overhaul:spooky_house1",
-      "is_disabled": true
-    },
-    {
       "name": "mss:nether_portal",
       "is_disabled": true
     },
     {
       "name": "mss:white_house",
       "is_disabled": true
+    },
+    {
+      "name": "nomansland:bell_sanctuary",
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:stony_shore",
+        "minecraft:frozen_river",
+        "minecraft:river",
+        "clifftree:diorite_shore",
+        "clifftree:snowy_diorite_shore",
+        "clifftree:granite_shore",
+        "clifftree:glacier_cliff",
+        "clifftree:desert_cliff",
+        "clifftree:tropical_river",
+        "clifftree:warm_river",
+        "clifftree:cold_river",
+        "nomansland:lush_river",
+        "nomansland:blackwater_river",
+        "nomansland:desert_river"
+      ]
     },
     {
       "name": "nomansland:deep_well",
@@ -352,6 +366,84 @@
         "nomansland:desert_river"
       ],
       "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nomansland:meeting_point",
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:snowy_slopes",
+        "minecraft:snowy_plains",
+        "minecraft:snowy_beach",
+        "minecraft:beach",
+        "minecraft:savanna_plateau",
+        "minecraft:savanna",
+        "minecraft:badlands",
+        "minecraft:desert",
+        "minecraft:wooded_badlands",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:frozen_river",
+        "minecraft:river",
+        "minecraft:ice_spikes",
+        "minecraft:eroded_badlands",
+        "minecraft:windswept_savanna",
+        "minecraft:cherry_grove",
+        "minecraft:frozen_peaks",
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        "minecraft:deep_dark",
+        "minecraft:pale_garden",
+        "minecraft:sulfur_caves",
+        "darkerdepths:molten_cavern",
+        "darkerdepths:sandy_catacombs",
+        "darkerdepths:glowshroom_forest",
+        "clifftree:caves",
+        "clifftree:warm_caves",
+        "clifftree:lukewarm_caves",
+        "clifftree:cold_caves",
+        "clifftree:frozen_caves",
+        "clifftree:mushroom_caves",
+        "clifftree:inferno",
+        "clifftree:diorite_shore",
+        "clifftree:snowy_diorite_shore",
+        "clifftree:granite_shore",
+        "clifftree:glacier_cliff",
+        "clifftree:desert_cliff",
+        "clifftree:glacier_valley",
+        "clifftree:tundra",
+        "clifftree:tropical_beach",
+        "clifftree:gravelly_beach",
+        "natures_spirit:tropical_shores",
+        "nomansland:tropical_beach",
+        "clifftree:tropical_river",
+        "clifftree:warm_river",
+        "clifftree:cold_river",
+        "nomansland:lush_river",
+        "nomansland:blackwater_river",
+        "nomansland:desert_river",
+        "galosphere:crystal_canyons",
+        "galosphere:lichen_caves",
+        "galosphere:pink_salt_caves",
+        "natures_spirit:drylands",
+        "natures_spirit:red_peaks",
+        "natures_spirit:sleeted_slopes",
+        "natures_spirit:snowcapped_red_peaks",
+        "nomansland:mud_beach",
+        "nomansland:frozen_shore",
+        "nomansland:caves",
+        "nomansland:cave_depths"
+      ],
+      "override_global_flatness_check": true,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     },
