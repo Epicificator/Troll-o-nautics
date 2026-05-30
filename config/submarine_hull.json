@@ -3780,34 +3780,6 @@
     "maxWaterDepth": 24,
     "implosionChance": 0.8
   },
-  "aeronautics_utility_objects:brass_universal_joint": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
-  "aeronautics_utility_objects:damping_stress_bearing": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
-  "aeronautics_utility_objects:hydraulic_connection_head": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
-  "aeronautics_utility_objects:hydraulic_hinge_head": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
-  "aeronautics_utility_objects:hydraulic_hinge_link": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
-  "aeronautics_utility_objects:hydraulic_regulator": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
-  "aeronautics_utility_objects:universal_joint": {
-    "maxWaterDepth": 93,
-    "implosionChance": 0.22
-  },
   "aeroworks:gyroscope": {
     "maxWaterDepth": 86,
     "implosionChance": 0.28
@@ -3815,6 +3787,14 @@
   "aeroworks:joystick": {
     "maxWaterDepth": 14,
     "implosionChance": 0.85
+  },
+  "aeroworks:mechanical_servo": {
+    "maxWaterDepth": 86,
+    "implosionChance": 0.28
+  },
+  "aeroworks:stepper_servo": {
+    "maxWaterDepth": 86,
+    "implosionChance": 0.28
   },
   "amendments:carpet_slab": {
     "maxWaterDepth": 16,
@@ -17832,9 +17812,17 @@
     "maxWaterDepth": 220,
     "implosionChance": 0.05
   },
+  "create_submarine:copper_pressurizer": {
+    "maxWaterDepth": 200,
+    "implosionChance": 0.06
+  },
   "create_submarine:creative_oxygenator": {
     "maxWaterDepth": 250,
     "implosionChance": 0.02
+  },
+  "create_submarine:creepvine_seed": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
   },
   "create_submarine:electrolyzer": {
     "maxWaterDepth": 200,
@@ -17844,17 +17832,21 @@
     "maxWaterDepth": 64,
     "implosionChance": 0.46666667
   },
-  "create_submarine:glass_pressurizer": {
-    "maxWaterDepth": 200,
-    "implosionChance": 0.06
-  },
   "create_submarine:industrial_alarm": {
     "maxWaterDepth": 160,
     "implosionChance": 0.08
   },
+  "create_submarine:iron_pressurizer": {
+    "maxWaterDepth": 200,
+    "implosionChance": 0.06
+  },
   "create_submarine:oxygene_diffuser": {
     "maxWaterDepth": 180,
     "implosionChance": 0.07
+  },
+  "create_submarine:submarine_liana": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
   },
   "create_submarine:water_thruster": {
     "maxWaterDepth": 220,
@@ -35776,6 +35768,14 @@
     "maxWaterDepth": 39,
     "implosionChance": 0.67
   },
+  "hotstuff:andesite_link_casing": {
+    "maxWaterDepth": 21,
+    "implosionChance": 0.82
+  },
+  "hotstuff:brass_link_casing": {
+    "maxWaterDepth": 21,
+    "implosionChance": 0.82
+  },
   "hotstuff:copycat_link_casing": {
     "maxWaterDepth": 14,
     "implosionChance": 0.85
@@ -48100,6 +48100,10 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "noxlights:lighthouse_lamp": {
+    "maxWaterDepth": 42,
+    "implosionChance": 0.65
+  },
   "noxlights:wall_of_fog": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -52557,6 +52561,46 @@
     "implosionChance": 0.615
   },
   "simulatedextra:linking_redstone_link": {
+    "maxWaterDepth": 14,
+    "implosionChance": 0.85
+  },
+  "simulatedrubies:actuator": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "simulatedrubies:actuator_plate": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "simulatedrubies:chunk_loader": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "simulatedrubies:fake_shaft": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "simulatedrubies:horizon_gyro": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "simulatedrubies:inverted_gyro": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "simulatedrubies:load_detector": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "simulatedrubies:pole": {
+    "maxWaterDepth": 48,
+    "implosionChance": 0.6
+  },
+  "simulatedrubies:redstone_gyro": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "simulatedrubies:redstone_link": {
     "maxWaterDepth": 14,
     "implosionChance": 0.85
   },
@@ -57143,10 +57187,6 @@
   "vsfluidlink:magnet_hose_connector": {
     "maxWaterDepth": 26,
     "implosionChance": 0.78
-  },
-  "waterwheelbearing:wheel_bearing": {
-    "maxWaterDepth": 33,
-    "implosionChance": 0.7213333
   },
   "wayfinder:signal_array": {
     "maxWaterDepth": 26,

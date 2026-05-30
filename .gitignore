@@ -18,6 +18,7 @@
 !/config/corpse-server.toml
 !/config/sgjourney*
 !/config/jade/*
+!/config/create_submarine-common.toml
 
 # oh god
 !/config/submarine_hull.json
