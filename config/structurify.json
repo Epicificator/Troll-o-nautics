@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-05-29_06-04-23",
+  "config_datetime": "2026-05-29_17-25-24",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -446,6 +446,22 @@
       "override_global_flatness_check": true,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nomansland:small_dungeon",
+      "blacklisted_biomes": [
+        "nomansland:alchemist_ruins"
+      ],
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "nomansland:alchemist_ruins",
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
     },
     {
       "name": "nova_structures:illager_camp",
