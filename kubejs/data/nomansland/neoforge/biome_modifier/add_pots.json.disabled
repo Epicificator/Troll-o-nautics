@@ -1,7 +1,6 @@
 {
   "type": "neoforge:add_features",
   "biomes": "#c:is_overworld",
-  "features": [
-    "nomansland:pots/pots_cave"],
+  "features": "nomansland:pots/pots_cave",
   "step": "underground_structures"
 }
