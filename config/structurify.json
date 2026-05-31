@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-05-29_17-25-24",
+  "config_datetime": "2026-05-30_20-25-58",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -103,6 +103,12 @@
     }
   ],
   "structures": [
+    {
+      "name": "minecraft:mansion",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
     {
       "name": "minecraft:ruined_portal",
       "override_global_flatness_check": false,
@@ -225,12 +231,14 @@
     },
     {
       "name": "create_easy_structures:big_1",
+      "is_disabled": true,
       "override_global_flatness_check": true,
       "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "create_easy_structures:big_2",
+      "is_disabled": true,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
@@ -255,6 +263,7 @@
     },
     {
       "name": "create_easy_structures:camp_4",
+      "is_disabled": true,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
@@ -291,18 +300,21 @@
     },
     {
       "name": "create_easy_structures:house_2",
+      "is_disabled": true,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "create_easy_structures:house_3",
+      "is_disabled": true,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "create_easy_structures:house_4",
+      "is_disabled": true,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
@@ -316,6 +328,15 @@
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "darkerdepths:rope_mine_forest",
+      "whitelisted_biomes": [
+        "#c:is_forest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:plains"
+      ]
     },
     {
       "name": "mss:nether_portal",
