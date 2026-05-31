@@ -1,12 +1,13 @@
 {
   "type": "lithostitched:set_structure_spawn_condition",
   "structures": [
-    "nomansland:small_dungeon",
-    "nomansland:creeper_monument",
     "create_rustic_structures:rustic_barn",
     "create_rustic_structures:rustic_smithy",
     "create_rustic_structures:rustic_well",
     "create_rustic_structures:rustic_windmill",
+    "darkerdepths:rope_mine_forest",
+    "nomansland:small_dungeon",
+    "nomansland:creeper_monument",
     "nova_structures:bunker",
     "epic:large_dungeon",
     "epic:large_ice_dungeon",

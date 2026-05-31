@@ -2,6 +2,7 @@
     "type": "neoforge:remove_features",
     "biomes": [
         "minecraft:badlands",
+        "minecraft:plains",
         "minecraft:snowy_slopes",
         "clifftree:desert_cliff"
     ],
