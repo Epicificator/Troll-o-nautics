@@ -29,4 +29,6 @@ RecipeViewerEvents.removeEntries('fluid', event => {
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createdieselgenerators:crude_oil_bucket')
+    event.remove('createdieselgenerators:gasoline_bucket')
+    event.remove('createdieselgenerators:diesel_bucket')
 })
