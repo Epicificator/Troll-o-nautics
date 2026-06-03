@@ -6,6 +6,8 @@
     "#c:is_snowy",
     "#c:is_mountain",
     "#c:is_beach",
+    "#c:is_hot",
+    "#c:is_dry",
     "#natures_spirit:is_hot",
     "#natures_spirit:is_cold",
     "#natures_spirit:is_freezing",
@@ -16,6 +18,7 @@
     "nomansland:prairie",
     "nomansland:boreal_forest",
     "minecraft:badlands",
-    "minecraft:plains"
+    "minecraft:plains",
+    "minecraft:savanna_plateau"
   ]
 }

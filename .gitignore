@@ -19,6 +19,7 @@
 !/config/sgjourney*
 !/config/jade/*
 !/config/create_submarine-common.toml
+!/config/highfloaty-common.toml
 
 # oh god
 !/config/submarine_hull.json
