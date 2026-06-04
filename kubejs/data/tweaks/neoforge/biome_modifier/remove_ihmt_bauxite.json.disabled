@@ -1,0 +1,9 @@
+{
+    "type": "neoforge:remove_features",
+    "biomes": "#c:is_overworld",
+    "features": [
+        "ihmt:bauxite_ore",
+        "ihmt:deepslate_bauxite_ore"
+    ],
+    "steps": ["underground_ores", "underground_decoration"]
+}

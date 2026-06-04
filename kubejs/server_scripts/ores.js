@@ -1,22 +1,22 @@
 ServerEvents.tags('item', event => {
-    event.add('c:ingots/tin', 'ihmt:tin_ingot')
-    event.add('c:nuggets/tin', 'ihmt:tin_nugget')
-    event.add('c:raw_materials/tin', 'ihmt:raw_tin')
+    // event.add('c:ingots/tin', 'ihmt:tin_ingot')
+    // event.add('c:nuggets/tin', 'ihmt:tin_nugget')
+    // event.add('c:raw_materials/tin', 'ihmt:raw_tin')
     event.add('c:molten_bronze', 'createbigcannons:molten_bronze')
 })
 
 
 ServerEvents.recipes(event => {
 //Remove ihmt Aluminum
-    event.remove({ output: 'ihmt:raw_aluminum' })
-    event.remove({ input: 'ihmt:raw_aluminum' })
-    event.remove({ input: 'ihmt:aluminum_ingot' })
-    event.shapeless(
-        Item.of('ihmt:aluminum_block', 1),
-        [ '9x tfmg:aluminum_ingot' ])
-    event.shapeless(
-        Item.of('ihmt:aluminum_tile', 1),
-        [ 'tfmg:aluminum_ingot', '#c:stones' ])
+    // event.remove({ output: 'ihmt:raw_aluminum' })
+    // event.remove({ input: 'ihmt:raw_aluminum' })
+    // event.remove({ input: 'ihmt:aluminum_ingot' })
+    // event.shapeless(
+        // Item.of('ihmt:aluminum_block', 1),
+        // [ '9x tfmg:aluminum_ingot' ])
+    // event.shapeless(
+        // Item.of('ihmt:aluminum_tile', 1),
+        // [ 'tfmg:aluminum_ingot', '#c:stones' ])
 
 //Electrum
     //Crushing
@@ -111,22 +111,22 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:crafting/materials/raw_lead_block' })
 
 //Brass
-    event.replaceInput({ id: 'ihmt:bs_tile' }, 'ihmt:bronze_ingot', Ingredient.of('create:brass_ingot'))
+    // event.replaceInput({ id: 'ihmt:bs_tile' }, 'ihmt:bronze_ingot', Ingredient.of('create:brass_ingot'))
 
 //Bronze
-    event.replaceInput({ input: 'ihmt:bronze_ingot' }, 'ihmt:bronze_ingot', Ingredient.of('createbigcannons:bronze_ingot'))
+    // event.replaceInput({ input: 'ihmt:bronze_ingot' }, 'ihmt:bronze_ingot', Ingredient.of('createbigcannons:bronze_ingot'))
     event.remove({ id: 'createbigcannons:mixing/alloy_bronze_tinless' })
     event.remove({ id: 'createbigcannons:mixing/alloy_bronze_brass' })
     event.remove({ id: 'createbigcannons:mixing/alloy_bronze_tin' })
     event.remove({ id: 'createbigcannons:compacting/forge_bronze_ingot' })
 
-    event.remove({ id: 'ihmt:bronze_mix_craft' })
-    event.remove({ id: 'ihmt:bronze_ingot_craft' })
-    event.remove({ id: 'ihmt:bz_block' })
-    event.remove({ id: 'ihmt:bblockingot' })
-    event.shaped( Item.of('ihmt:bronze_tile_1', 8),
-        [ ' a ', 'aba', ' a ' ],
-        { a: 'createbigcannons:bronze_ingot', b: { "tag": "c:stones" }})
+    // event.remove({ id: 'ihmt:bronze_mix_craft' })
+    // event.remove({ id: 'ihmt:bronze_ingot_craft' })
+    // event.remove({ id: 'ihmt:bz_block' })
+    // event.remove({ id: 'ihmt:bblockingot' })
+    // event.shaped( Item.of('ihmt:bronze_tile_1', 8),
+        // [ ' a ', 'aba', ' a ' ],
+        // { a: 'createbigcannons:bronze_ingot', b: { "tag": "c:stones" }})
 
 
 //Tin
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
 
 //Copper
     event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', Ingredient.of('create:copper_nugget'))
-    event.remove({ id: 'ihmt:copper_nugget_craft' })
+    // event.remove({ id: 'ihmt:copper_nugget_craft' })
 
 //MISC
     event.replaceInput({ id: 'abyssal_decor:moonsilver_ingot_recipe' }, 'minecraft:iron_ingot', Ingredient.of('oreganized:silver_ingot'))
@@ -142,13 +142,13 @@ ServerEvents.recipes(event => {
 
 
 RecipeViewerEvents.removeEntries('item', event => {
-    event.remove('ihmt:aluminum_ingot')
-    event.remove('ihmt:raw_aluminum')
-    event.remove('ihmt:bauxite_ore')
-    event.remove('ihmt:deepslate_bauxite_ore')
-    event.remove('ihmt:bronze_ingot')
-    event.remove('ihmt:bronze_mix')
-    event.remove('ihmt:copper_nugget')
+    // event.remove('ihmt:aluminum_ingot')
+    // event.remove('ihmt:raw_aluminum')
+    // event.remove('ihmt:bauxite_ore')
+    // event.remove('ihmt:deepslate_bauxite_ore')
+    // event.remove('ihmt:bronze_ingot')
+    // event.remove('ihmt:bronze_mix')
+    // event.remove('ihmt:copper_nugget')
     event.remove('spelunkery:copper_nugget')
     event.remove('tfmg:lead_ingot')
     event.remove('tfmg:lead_nugget')
