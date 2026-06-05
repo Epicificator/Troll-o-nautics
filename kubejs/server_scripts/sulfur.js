@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {
-//remove spelunkery sulfur
-//    event.remove({ id: 'spelunkery:sulfur_from_block' })
-//    event.remove({ id: 'spelunkery:sulfur_block' })
-//    event.remove({ id: 'spelunkery:gunpowder' })
+remove spelunkery sulfur
+    event.remove({ id: 'spelunkery:sulfur_from_block' })
+    event.remove({ id: 'spelunkery:sulfur_block' })
+    event.remove({ id: 'spelunkery:gunpowder' })
 //sulfur dust
     event.remove({ id: 'create:crushing/sulfur' })
     event.custom({
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 })
 
 
-//RecipeViewerEvents.removeEntries('item', event => {
-//    event.remove('spelunkery:sulfur_block')
-//    event.remove('spelunkery:sulfur')
-//})
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove('spelunkery:sulfur_block')
+    event.remove('spelunkery:sulfur')
+})
