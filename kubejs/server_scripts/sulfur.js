@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-remove spelunkery sulfur
+//remove spelunkery sulfur
     event.remove({ id: 'spelunkery:sulfur_from_block' })
     event.remove({ id: 'spelunkery:sulfur_block' })
     event.remove({ id: 'spelunkery:gunpowder' })
