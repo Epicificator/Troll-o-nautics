@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     event.remove({ id: 'createdieselgenerators:distillation/crude_oil' })
-    event.replaceInput({ id: 'createdieselgenerators:crafting/asphalt_block' }, 'createdieselgenerators:crude_oil_bucket', Ingredient.of('tfmg:crude_oil_bucket'))
+    event.replaceInput({ id: 'createdieselgenerators:crafting/asphalt_block' }, 'createdieselgenerators:crude_oil_bucket',  'tfmg:crude_oil_bucket')
 
     event.remove({ id: 'createdieselgenerators:distillation/crude_oil' })
     event.recipes.createdieselgenerators
