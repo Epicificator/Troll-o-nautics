@@ -34,11 +34,11 @@
 			#The distance at which the sounds a Stargate makes can still be heard at full volume
 			# Default: 32
 			# Range: 0 ~ 128
-			stargate_full_sound_distance = 32
+			stargate_full_sound_distance = 8
 			#The distance at which the sounds a Stargate makes can still be heard
 			# Default: 64
 			# Range: 16 ~ 128
-			stargate_max_sound_distance = 64
+			stargate_max_sound_distance = 32
 
 		["Stargate Journey Client Config"."DHD Config".client]
 			#If true, Milky Way DHD symbol positions won't be ordered and instead be based on the canon
