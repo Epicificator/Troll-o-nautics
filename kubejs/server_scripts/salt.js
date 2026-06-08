@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-
+//spelunkery salt bucket cooking
     event.remove({ id: 'createfood:farmersdelight/cooking/salt_from_cooking' })
     event.custom({
         "type":"farmersdelight:cooking",
@@ -8,7 +8,6 @@ ServerEvents.recipes(event => {
         "recipe_book_tab":"misc",
         "result":{ "count":1, "id":"spelunkery:salt_bucket"}
     })
-
 
     event.remove({ id: 'create_dragons_plus:sandpaper_polishing/spelunkery/rock_salt' })
 //salt crushing
