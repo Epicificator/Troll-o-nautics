@@ -3472,14 +3472,6 @@
     "maxWaterDepth": 28,
     "implosionChance": 0.76666665
   },
-  "aerocables:connector": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
-  "aerocables:fe_connector": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
   "aeronautics:adjustable_burner": {
     "maxWaterDepth": 36,
     "implosionChance": 0.7
@@ -3779,6 +3771,34 @@
   "aeronautics:yellow_envelope_encased_shaft": {
     "maxWaterDepth": 24,
     "implosionChance": 0.8
+  },
+  "aeronautics_utility_objects:brass_universal_joint": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
+  },
+  "aeronautics_utility_objects:damping_stress_bearing": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
+  },
+  "aeronautics_utility_objects:hydraulic_connection_head": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
+  },
+  "aeronautics_utility_objects:hydraulic_hinge_head": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
+  },
+  "aeronautics_utility_objects:hydraulic_hinge_link": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
+  },
+  "aeronautics_utility_objects:hydraulic_regulator": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
+  },
+  "aeronautics_utility_objects:universal_joint": {
+    "maxWaterDepth": 93,
+    "implosionChance": 0.22
   },
   "aeroworks:gyroscope": {
     "maxWaterDepth": 86,
@@ -4102,18 +4122,6 @@
   },
   "amendments:water_lily_pad": {
     "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "analogaudio:cassette_deck": {
-    "maxWaterDepth": 19,
-    "implosionChance": 0.835
-  },
-  "analogaudio:radio": {
-    "maxWaterDepth": 5,
-    "implosionChance": 0.85
-  },
-  "analogaudio:speaker": {
-    "maxWaterDepth": 5,
     "implosionChance": 0.85
   },
   "architects_palette:abyssaline": {
@@ -7240,6 +7248,10 @@
     "maxWaterDepth": 21,
     "implosionChance": 0.82
   },
+  "burnt:burnt_envelope": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
   "burnt:burnt_farmland": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
@@ -7368,6 +7380,10 @@
     "maxWaterDepth": 7,
     "implosionChance": 0.85
   },
+  "burnt:burnt_sail": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
   "burnt:burnt_scaffolding": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -7390,6 +7406,10 @@
   },
   "burnt:burnt_sugar_cane": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "burnt:burnt_symmetric_sail": {
+    "maxWaterDepth": 9,
     "implosionChance": 0.85
   },
   "burnt:burnt_trapdoor": {
@@ -7824,6 +7844,10 @@
     "maxWaterDepth": 21,
     "implosionChance": 0.82
   },
+  "burnt:smoldering_envelope": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
   "burnt:smoldering_fence": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -7952,6 +7976,14 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "burnt:smoldering_sail": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
+  "burnt:smoldering_sail_frame": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
   "burnt:smoldering_slab": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -7978,6 +8010,10 @@
   },
   "burnt:smoldering_stripped_wood": {
     "maxWaterDepth": 14,
+    "implosionChance": 0.85
+  },
+  "burnt:smoldering_symmetric_sail": {
+    "maxWaterDepth": 9,
     "implosionChance": 0.85
   },
   "burnt:smoldering_trapdoor": {
@@ -17532,6 +17568,74 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
+  "create_dragons_plus:dragon_breath_cauldron": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.78
+  },
+  "create_dragons_plus:dye_depot_amber_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_aqua_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_beige_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_coral_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_forest_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_ginger_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_indigo_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_maroon_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_mint_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_navy_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_olive_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_rose_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_slate_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_tan_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_teal_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dye_depot_verdant_dye": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
   "create_dragons_plus:fluid_hatch": {
     "maxWaterDepth": 48,
     "implosionChance": 0.6
@@ -17609,6 +17713,10 @@
     "implosionChance": 0.28
   },
   "create_enchantment_industry:blaze_forger": {
+    "maxWaterDepth": 86,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:classic_blaze_enchanter": {
     "maxWaterDepth": 86,
     "implosionChance": 0.28
   },
@@ -17713,22 +17821,6 @@
     "implosionChance": 0.67
   },
   "create_optical:thermal_optical_source": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
-  "create_power_loader:andesite_chunk_loader": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
-  "create_power_loader:brass_chunk_loader": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
-  "create_power_loader:empty_andesite_chunk_loader": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
-  "create_power_loader:empty_brass_chunk_loader": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
   },
@@ -17844,9 +17936,21 @@
     "maxWaterDepth": 180,
     "implosionChance": 0.07
   },
+  "create_submarine:poulis": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
   "create_submarine:submarine_liana": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
+  },
+  "create_submarine:submarine_propeller": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_submarine:underwater_mine": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_submarine:water_thruster": {
     "maxWaterDepth": 220,
@@ -22996,12 +23100,80 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:apple_cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:apple_cream_cake_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:apple_cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:apple_cream_cake_slice_small_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:apple_cream_chocolate_cupcake_plate_block": {
@@ -23094,6 +23266,14 @@
   },
   "createfood:apple_jam_bottle_block": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_jam_chocolate_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:apple_jam_donut_plate_block": {
+    "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
   "createfood:apple_jam_sandwich_plate_block": {
@@ -23204,10 +23384,6 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
-  "createfood:bar_of_chocolate_plate_block": {
-    "maxWaterDepth": 16,
-    "implosionChance": 0.85
-  },
   "createfood:bar_of_dark_chocolate_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -23232,6 +23408,10 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:beef_rice_bowl_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:beef_taco_lettuce_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -23252,7 +23432,75 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:berry_cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:berry_cream_cake_chorus_fruit": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -23260,7 +23508,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:berry_cream_cake_chorus_fruit_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_chorus_fruit_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:berry_cream_cake_glow_berry": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -23268,8 +23588,64 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:berry_cream_cake_glow_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_glow_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:berry_cream_cake_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_red_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:berry_cream_cake_slice_chorus_fruit_small_plate_block": {
@@ -23292,8 +23668,84 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:berry_cream_cake_sweet_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:berry_cream_cake_sweet_berry_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_sweet_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:berry_cream_chocolate_cupcake_plate_block": {
@@ -23400,6 +23852,14 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createfood:berry_jam_chocolate_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_jam_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:berry_jam_sandwich_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -23418,6 +23878,10 @@
   },
   "createfood:berry_milkshake_bottle_block": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:berry_muffin_plate_block": {
+    "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
   "createfood:berry_pie": {
@@ -23500,10 +23964,6 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
-  "createfood:builders_tea_bottle_block": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
   "createfood:buttered_toast_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -23567,6 +24027,10 @@
   "createfood:butterscotch_fudge_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "createfood:butterscotch_fudge_ice_cream_bowl_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
   },
   "createfood:butterscotch_fudge_plate_block": {
     "maxWaterDepth": 16,
@@ -23679,6 +24143,10 @@
   "createfood:caramel_fudge_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "createfood:caramel_fudge_ice_cream_bowl_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
   },
   "createfood:caramel_fudge_plate_block": {
     "maxWaterDepth": 16,
@@ -23860,6 +24328,10 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chicken_rice_bowl_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:chicken_taco_lettuce_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -23932,7 +24404,71 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_butterscotch": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -23940,7 +24476,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_butterscotch_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_butterscotch_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_caramel": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -23948,7 +24556,75 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_caramel_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_caramel_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_chocolate": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -23956,7 +24632,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_chocolate_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_chocolate_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_dark_chocolate": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -23964,8 +24712,64 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_dark_chocolate_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_dark_chocolate_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_red_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:chocolate_cream_cake_slice_butterscotch_small_plate_block": {
@@ -24000,11 +24804,135 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_toffee_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_toffee_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_toffee_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_toffee_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_cake_white_chocolate": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24012,7 +24940,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_cake_white_chocolate_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_white_chocolate_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_chocolate_cake": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24020,8 +25020,24 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chocolate_cream_chocolate_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chocolate_cream_chocolate_cake_slice_small_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chocolate_cream_chocolate_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:chocolate_cream_chocolate_cupcake_plate_block": {
@@ -24083,6 +25099,10 @@
   "createfood:chocolate_fudge_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "createfood:chocolate_fudge_ice_cream_bowl_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
   },
   "createfood:chocolate_fudge_plate_block": {
     "maxWaterDepth": 16,
@@ -24176,7 +25196,75 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:chorus_fruit_cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chorus_fruit_cream_cake_chorus_fruit": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24184,7 +25272,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_chorus_fruit_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chorus_fruit_cream_cake_glow_berry": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24192,8 +25352,64 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:chorus_fruit_cream_cake_glow_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_glow_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chorus_fruit_cream_cake_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_red_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:chorus_fruit_cream_cake_slice_chorus_fruit_small_plate_block": {
@@ -24216,8 +25432,84 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:chorus_fruit_cream_cake_sweet_berry_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_sweet_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:chorus_fruit_cream_chocolate_cupcake_plate_block": {
@@ -24324,6 +25616,14 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createfood:chorus_fruit_jam_chocolate_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_jam_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:chorus_fruit_jam_sandwich_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -24342,6 +25642,10 @@
   },
   "createfood:chorus_fruit_milkshake_bottle_block": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:chorus_fruit_muffin_plate_block": {
+    "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
   "createfood:chorus_fruit_pie": {
@@ -24416,7 +25720,75 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:cream_cake_chorus_fruit": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24424,7 +25796,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:cream_cake_chorus_fruit_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_chorus_fruit_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:cream_cake_glow_berry": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24432,8 +25876,64 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:cream_cake_glow_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_glow_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:cream_cake_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_red_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:cream_cake_slice_chorus_fruit_small_plate_block": {
@@ -24448,6 +25948,14 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:cream_cheese_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
@@ -24456,12 +25964,80 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:cream_chocolate_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:cream_chocolate_cake_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:cream_chocolate_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:cream_chocolate_cake_slice_small_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:cream_chocolate_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:cream_chocolate_cupcake_plate_block": {
@@ -24569,10 +26145,6 @@
     "implosionChance": 0.85
   },
   "createfood:cream_sweet_roll_glow_berry_plate_block": {
-    "maxWaterDepth": 16,
-    "implosionChance": 0.85
-  },
-  "createfood:cream_sweet_roll_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
@@ -24884,6 +26456,10 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
+  "createfood:generic_display_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:glow_berry_cheesecake": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
@@ -24904,7 +26480,75 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:glow_berry_cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:glow_berry_cream_cake_chorus_fruit": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24912,7 +26556,79 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:glow_berry_cream_cake_chorus_fruit_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_chorus_fruit_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:glow_berry_cream_cake_glow_berry": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_pink_candle": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
@@ -24920,8 +26636,64 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:glow_berry_cream_cake_glow_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_glow_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:glow_berry_cream_cake_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_red_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:glow_berry_cream_cake_slice_chorus_fruit_small_plate_block": {
@@ -24944,8 +26716,84 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:glow_berry_cream_cake_sweet_berry_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:glow_berry_cream_cake_sweet_berry_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_sweet_berry_yellow_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:glow_berry_cream_chocolate_cupcake_plate_block": {
@@ -25044,6 +26892,14 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createfood:glow_berry_jam_chocolate_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_jam_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:glow_berry_jam_sandwich_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -25062,6 +26918,10 @@
   },
   "createfood:glow_berry_milkshake_bottle_block": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:glow_berry_muffin_plate_block": {
+    "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
   "createfood:glow_berry_pie": {
@@ -25548,6 +27408,18 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:marshmallow_hot_chocolate_bottle_block": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:marshmallow_hot_dark_chocolate_bottle_block": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:marshmallow_hot_white_chocolate_bottle_block": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "createfood:marshmallow_stick_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -25600,12 +27472,80 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:melon_cream_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:melon_cream_cake_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:melon_cream_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:melon_cream_cake_slice_small_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_cream_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:melon_cream_chocolate_cupcake_plate_block": {
@@ -25698,6 +27638,14 @@
   },
   "createfood:melon_jam_bottle_block": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_jam_chocolate_donut_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:melon_jam_donut_plate_block": {
+    "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
   "createfood:melon_jam_sandwich_plate_block": {
@@ -25841,6 +27789,10 @@
     "implosionChance": 0.85
   },
   "createfood:mushroom_pizza_slice_small_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:mushroom_rice_bowl_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
@@ -26156,6 +28108,34 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:pumpernickel_toast_cream_cheese_beetroot_honey_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpernickel_toast_cream_cheese_beetroot_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpernickel_toast_cream_cheese_mushroom_bacon_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpernickel_toast_cream_cheese_mushroom_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpernickel_toast_cream_cheese_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpernickel_toast_cream_cheese_salmon_onion_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpernickel_toast_cream_cheese_salmon_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:pumpkin_custard_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
@@ -26171,14 +28151,6 @@
   "createfood:pumpkin_pie_filling_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
-  },
-  "createfood:pumpkin_pie_plate_block": {
-    "maxWaterDepth": 16,
-    "implosionChance": 0.85
-  },
-  "createfood:pumpkin_pie_slice_small_plate_block": {
-    "maxWaterDepth": 16,
-    "implosionChance": 0.85
   },
   "createfood:pumpkin_puree_block": {
     "maxWaterDepth": 100,
@@ -26504,6 +28476,14 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:scone_butter_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:scone_butter_small_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:scone_chorus_fruit_jam_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -26700,6 +28680,10 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
+  "createfood:toffee_fudge_ice_cream_bowl_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:toffee_fudge_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -26760,12 +28744,80 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "createfood:ube_cream_ube_cake_black_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_brown_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_cyan_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_green_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_light_blue_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_light_gray_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_lime_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_magenta_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_orange_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_pink_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:ube_cream_ube_cake_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:ube_cream_ube_cake_purple_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_red_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
   "createfood:ube_cream_ube_cake_slice_small_plate_block": {
     "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_white_candle": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "createfood:ube_cream_ube_cake_yellow_candle": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createfood:ube_cream_ube_cupcake_plate_block": {
@@ -27684,6 +29736,14 @@
     "maxWaterDepth": 39,
     "implosionChance": 0.67
   },
+  "createthrusters:entity_launcher_anchor": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "createthrusters:fuel_oxidizer": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
   "createthrusters:gyroscope_link": {
     "maxWaterDepth": 26,
     "implosionChance": 0.78
@@ -27691,6 +29751,10 @@
   "createthrusters:industrial_motor": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "createthrusters:launcher_endpoint": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
   },
   "createthrusters:physics_gantry_belt_wheel": {
     "maxWaterDepth": 39,
@@ -35632,6 +37696,58 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "glaidens_radio_mod:boombox": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.64
+  },
+  "glaidens_radio_mod:cassette_recorder": {
+    "maxWaterDepth": 14,
+    "implosionChance": 0.85
+  },
+  "glaidens_radio_mod:high_quality_radio_receiver": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.55
+  },
+  "glaidens_radio_mod:loudspeaker": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.64
+  },
+  "glaidens_radio_mod:microphone": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.73
+  },
+  "glaidens_radio_mod:radio": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.64
+  },
+  "glaidens_radio_mod:radio_receiver": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.55
+  },
+  "glaidens_radio_mod:radio_station": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.55
+  },
+  "glaidens_radio_mod:radio_tower": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.46
+  },
+  "glaidens_radio_mod:radio_transmitter": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.55
+  },
+  "glaidens_radio_mod:redstone_dynamic": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.55
+  },
+  "glaidens_radio_mod:smart_radio_tower": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.46
+  },
+  "glaidens_radio_mod:telephone": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.73
+  },
   "gnkinetics:andesite_cogwheel": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
@@ -37424,822 +39540,6 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
-  "ihmt:aluminium_can": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_can_chili_beans": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_can_corn": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_can_green_beans": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_can_spam": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_cornerless": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_cornerless_slab": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_cornerless_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_fallout_wastelands": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_slab": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_tile": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:aluminum_tile_1": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bauxite_ore": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.46466666
-  },
-  "ihmt:brass_slabs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_slabs_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_stairs_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_1": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_3": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_4": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_5": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_6": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_7": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_8": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:brass_tile_9": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_bars": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_fence": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_glass": {
-    "maxWaterDepth": 20,
-    "implosionChance": 0.826
-  },
-  "ihmt:bronze_glass_pane": {
-    "maxWaterDepth": 20,
-    "implosionChance": 0.826
-  },
-  "ihmt:bronze_tile_1": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_3": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_4": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_5": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_6": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_slabs_1": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_slabs_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_tile_stairs_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:bronze_wall": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:cassiterite_ore": {
-    "maxWaterDepth": 60,
-    "implosionChance": 0.494
-  },
-  "ihmt:cast_iron_bars": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_bars_2": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_man_hole": {
-    "maxWaterDepth": 58,
-    "implosionChance": 0.516
-  },
-  "ihmt:cast_iron_pressure_plate": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:cast_iron_safe": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_1": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_2": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_2_slabs": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_2_stairs": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_3": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_4": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_5": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_6": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_7": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_8": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cast_iron_tile_9": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.208
-  },
-  "ihmt:cm_br_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cm_gr_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cm_pk_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmb_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmc_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmg_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cml_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmlb_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmll_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmm_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmo_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmp_bl_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmp_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmr_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmw_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:cmy_slab": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_black": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_blue": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_brown": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_cyan": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_green": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_grey": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_light_blue": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_light_grey": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_lime": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_magenta": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_orange": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_pink": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_purple": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_red": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_white": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:colored_metal_yellow": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.4
-  },
-  "ihmt:deepslate_bauxite_ore": {
-    "maxWaterDepth": 68,
-    "implosionChance": 0.428
-  },
-  "ihmt:deepslate_cassiterite_ore": {
-    "maxWaterDepth": 66,
-    "implosionChance": 0.45
-  },
-  "ihmt:fallout_tin_tile": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:forged_metal_button": {
-    "maxWaterDepth": 71,
-    "implosionChance": 0.406
-  },
-  "ihmt:forged_metal_door": {
-    "maxWaterDepth": 76,
-    "implosionChance": 0.362
-  },
-  "ihmt:forged_metal_pressure_plate": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:forged_metal_tile_1": {
-    "maxWaterDepth": 69,
-    "implosionChance": 0.42
-  },
-  "ihmt:forged_metal_tile_2": {
-    "maxWaterDepth": 69,
-    "implosionChance": 0.42
-  },
-  "ihmt:forged_metal_tile_3": {
-    "maxWaterDepth": 69,
-    "implosionChance": 0.42
-  },
-  "ihmt:forged_metal_tile_4": {
-    "maxWaterDepth": 69,
-    "implosionChance": 0.42
-  },
-  "ihmt:forged_metal_tile_slabs": {
-    "maxWaterDepth": 69,
-    "implosionChance": 0.42
-  },
-  "ihmt:forged_metal_tile_stairs": {
-    "maxWaterDepth": 69,
-    "implosionChance": 0.42
-  },
-  "ihmt:forged_metal_trapdoor": {
-    "maxWaterDepth": 76,
-    "implosionChance": 0.362
-  },
-  "ihmt:galvanised_iron_slab": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_1": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_10": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_3": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_4": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_5": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_6": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_6_bars": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_6_slab": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_6_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_7": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_8": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_9": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_9_slab": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_9_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.124000005
-  },
-  "ihmt:galvanised_iron_tile_glass": {
-    "maxWaterDepth": 17,
-    "implosionChance": 0.85
-  },
-  "ihmt:galvanised_iron_tile_glass_pane": {
-    "maxWaterDepth": 17,
-    "implosionChance": 0.85
-  },
-  "ihmt:galvanised_iron_trapdoor": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.46466666
-  },
-  "ihmt:raw_aluminum_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:raw_cassiterite_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:sm_button": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.12
-  },
-  "ihmt:sm_pressure_plate": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:sm_shutter": {
-    "maxWaterDepth": 16,
-    "implosionChance": 0.85
-  },
-  "ihmt:sm_tile_1": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_1_slab": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_2_slab": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_3": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_3_slab": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_4": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_5": {
-    "maxWaterDepth": 28,
-    "implosionChance": 0.76
-  },
-  "ihmt:sm_tile_6": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_7": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_71": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_72": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_73": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_74": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_8": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:sm_tile_9": {
-    "maxWaterDepth": 28,
-    "implosionChance": 0.76
-  },
-  "ihmt:smooth_metal_10_pipe": {
-    "maxWaterDepth": 83,
-    "implosionChance": 0.304
-  },
-  "ihmt:smooth_metal_11_pipe": {
-    "maxWaterDepth": 83,
-    "implosionChance": 0.304
-  },
-  "ihmt:smooth_metal_plating_10": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_2_slabs": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_2_stairs": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_9": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_bars": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_button": {
-    "maxWaterDepth": 48,
-    "implosionChance": 0.5966667
-  },
-  "ihmt:smooth_metal_plating_door": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56
-  },
-  "ihmt:smooth_metal_plating_drawer": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_grid": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_pressure_plate": {
-    "maxWaterDepth": 79,
-    "implosionChance": 0.34
-  },
-  "ihmt:smooth_metal_plating_slabs": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_1": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_2": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_3": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_4": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_5": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_decorated": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_glass": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "ihmt:smooth_metal_plating_tile_glass_pane": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "ihmt:smooth_metal_plating_tile_lamp": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_stairs": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_tile_vertical": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_wall": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smooth_metal_plating_wall_no_bar": {
-    "maxWaterDepth": 86,
-    "implosionChance": 0.28
-  },
-  "ihmt:smt_iile_2": {
-    "maxWaterDepth": 96,
-    "implosionChance": 0.2
-  },
-  "ihmt:tin_block": {
-    "maxWaterDepth": 54,
-    "implosionChance": 0.5466667
-  },
-  "ihmt:tin_door": {
-    "maxWaterDepth": 57,
-    "implosionChance": 0.5233333
-  },
-  "ihmt:tin_hex_glass": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "ihmt:tin_hex_glass_pane": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "ihmt:tin_hex_glass_tinted": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "ihmt:tin_tile": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_2": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_3": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_4": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_5": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_6": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_7": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_cable": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_decorated": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_pipe": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_slabs": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:tin_tile_stairs": {
-    "maxWaterDepth": 52,
-    "implosionChance": 0.56666666
-  },
-  "ihmt:vault_tile_1": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_2": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_3": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_4": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_5": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_6": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_6_hidden_door": {
-    "maxWaterDepth": 80,
-    "implosionChance": 0.33266667
-  },
-  "ihmt:vault_tile_button": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_button_toggle": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_grid": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_grid_slab": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_grid_stairs": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_keypad": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "ihmt:vault_tile_red_meter": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
   "industrialhellscape:amenity_furnishings": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
@@ -38855,10 +40155,6 @@
   "industrialhellscape:yellow_stair_railing": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
-  },
-  "ldlib2:renderer_block": {
-    "maxWaterDepth": 17,
-    "implosionChance": 0.85
   },
   "lootr:decorated_pot": {
     "maxWaterDepth": 18,
@@ -46780,6 +48076,18 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "nomansland:ancestral_carving": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:ancestral_effigy": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:ancient_pot": {
+    "maxWaterDepth": 22,
+    "implosionChance": 0.81666666
+  },
   "nomansland:apple": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -46876,6 +48184,10 @@
     "maxWaterDepth": 18,
     "implosionChance": 0.85
   },
+  "nomansland:chiseled_siltstone": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
   "nomansland:clover_patch": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -46946,6 +48258,14 @@
   },
   "nomansland:crimson_bookshelf_door": {
     "maxWaterDepth": 18,
+    "implosionChance": 0.85
+  },
+  "nomansland:crude_door": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "nomansland:crude_trapdoor": {
+    "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
   "nomansland:cut_sugar_cane": {
@@ -47100,6 +48420,10 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "nomansland:inverted_bell": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
   "nomansland:jungle_bookshelf": {
     "maxWaterDepth": 10,
     "implosionChance": 0.85
@@ -47107,6 +48431,10 @@
   "nomansland:jungle_bookshelf_door": {
     "maxWaterDepth": 10,
     "implosionChance": 0.85
+  },
+  "nomansland:large_ancient_pot": {
+    "maxWaterDepth": 22,
+    "implosionChance": 0.81666666
   },
   "nomansland:large_quartzite_bud": {
     "maxWaterDepth": 15,
@@ -47251,6 +48579,18 @@
   "nomansland:monster_anchor": {
     "maxWaterDepth": 84,
     "implosionChance": 0.3
+  },
+  "nomansland:moon_carving": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:moonlight_basin": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "nomansland:moonlight_candle": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
   },
   "nomansland:mossy_coarse_brick_slab": {
     "maxWaterDepth": 44,
@@ -47455,6 +48795,18 @@
   "nomansland:podzol_path": {
     "maxWaterDepth": 6,
     "implosionChance": 0.85
+  },
+  "nomansland:polished_siltstone": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "nomansland:polished_siltstone_slab": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "nomansland:polished_siltstone_stairs": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
   },
   "nomansland:polished_stone": {
     "maxWaterDepth": 39,
@@ -47680,6 +49032,38 @@
     "maxWaterDepth": 7,
     "implosionChance": 0.85
   },
+  "nomansland:siltstone": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "nomansland:siltstone_brick_slab": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:siltstone_brick_stairs": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:siltstone_brick_wall": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:siltstone_bricks": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
+  "nomansland:siltstone_slab": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "nomansland:siltstone_stairs": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
+  "nomansland:siltstone_wall": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.7
+  },
   "nomansland:small_quartzite_bud": {
     "maxWaterDepth": 15,
     "implosionChance": 0.85
@@ -47710,6 +49094,10 @@
   },
   "nomansland:starflower": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "nomansland:straw_bed": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "nomansland:stripped_maple_log": {
@@ -47755,6 +49143,18 @@
   "nomansland:tap": {
     "maxWaterDepth": 26,
     "implosionChance": 0.78
+  },
+  "nomansland:thatch": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "nomansland:thatch_slab": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "nomansland:thatch_stairs": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
   },
   "nomansland:thistle": {
     "maxWaterDepth": 1,
@@ -48056,6 +49456,14 @@
     "maxWaterDepth": 14,
     "implosionChance": 0.85
   },
+  "nomansland:wooden_platform": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.76666665
+  },
+  "nomansland:wooden_platform_stairs": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.76666665
+  },
   "nomansland:wooden_scaffolding": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -48077,38 +49485,6 @@
     "implosionChance": 0.85
   },
   "nomansland:yellow_lupine": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "noxlights:alarm_light": {
-    "maxWaterDepth": 42,
-    "implosionChance": 0.65
-  },
-  "noxlights:colored_floodlight": {
-    "maxWaterDepth": 48,
-    "implosionChance": 0.6
-  },
-  "noxlights:colored_lantern": {
-    "maxWaterDepth": 42,
-    "implosionChance": 0.65
-  },
-  "noxlights:floodlight": {
-    "maxWaterDepth": 48,
-    "implosionChance": 0.6
-  },
-  "noxlights:glow_block": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "noxlights:lighthouse_lamp": {
-    "maxWaterDepth": 42,
-    "implosionChance": 0.65
-  },
-  "noxlights:wall_of_fog": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "noxlights:wall_of_glitter": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
@@ -51440,13 +52816,13 @@
     "maxWaterDepth": 21,
     "implosionChance": 0.82
   },
-  "sable_schematic_api:blueprint_cannon": {
-    "maxWaterDepth": 75,
-    "implosionChance": 0.37
+  "sable_player_ragdoll:ragdoll_part": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
   },
-  "sable_schematic_api:blueprint_table": {
-    "maxWaterDepth": 18,
-    "implosionChance": 0.85
+  "sable_player_ragdoll:ragdoll_seat": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.78
   },
   "sgjourney:advanced_crystal_interface": {
     "maxWaterDepth": 70,
@@ -51747,6 +53123,10 @@
   "sgjourney:zpm_hub": {
     "maxWaterDepth": 70,
     "implosionChance": 0.41333333
+  },
+  "shield_generators:shield_generator": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "sim_copycats:absurdly_heavy_copycat": {
     "maxWaterDepth": 100,

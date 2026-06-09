@@ -4,7 +4,6 @@
 
 # config files
 !/config/burnt_basic.json
-!/config/clavis.yaml
 !/config/DistantHorizons.toml
 !/config/kiwi-client.yaml
 !/config/structurify.json
@@ -19,7 +18,6 @@
 !/config/sgjourney*
 !/config/jade/*
 !/config/create_submarine-common.toml
-!/config/highfloaty-common.toml
 
 # oh god
 !/config/submarine_hull.json
