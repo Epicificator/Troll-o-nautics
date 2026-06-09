@@ -27,7 +27,7 @@
 
 # mods
 !/mods/*
-/mods/sodium*
+!/servermods/*
 
 # other
 !/.gitignore
