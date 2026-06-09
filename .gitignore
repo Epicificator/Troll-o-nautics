@@ -28,7 +28,6 @@
 
 # mods
 !/mods/*
-!/servermods/*
 
 # other
 !/.gitignore
