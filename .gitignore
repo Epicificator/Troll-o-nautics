@@ -19,6 +19,7 @@
 !/config/jade/*
 !/config/create_submarine-common.toml
 !/config/modernfix-mixins.properties
+!/config/sophisticatedcore-common.toml
 
 # oh god
 !/config/submarine_hull.json
