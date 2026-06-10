@@ -58416,6 +58416,10 @@
     "maxWaterDepth": 64,
     "implosionChance": 0.46666667
   },
+  "tfmg_energy_connector:energy_converter": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.67
+  },
   "tinygates:and_gate_block": {
     "maxWaterDepth": 2,
     "implosionChance": 0.85
