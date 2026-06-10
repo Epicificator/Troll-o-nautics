@@ -59,6 +59,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createthrusters:rope_knot' })
     event.remove({ id: 'createthrusters:thruster' })
     event.remove({ id: 'createthrusters:thruster_lense' })
+    event.remove({ id: 'createthrusters:thruster_lense_mixing' })
     event.remove({ id: 'createthrusters:variable_transmission' })
     event.remove({ id: 'createthrusters:vertical_bidirectional_gearbox' })
     event.remove({ id: 'createthrusters:vertical_variable_transmission' })
