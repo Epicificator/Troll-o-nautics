@@ -162,6 +162,8 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.analogleverdrag.increase_signal:key.keyboard.v
+key_key.analogleverdrag.decrease_signal:key.keyboard.b
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -291,14 +293,14 @@ key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.30809859154929575
 soundCategory_record:0.7095070422535211
 soundCategory_weather:0.7077464788732394
 soundCategory_block:0.6073943661971831
 soundCategory_hostile:0.8045774647887324
 soundCategory_neutral:0.8028169014084507
 soundCategory_player:0.40492957746478875
-soundCategory_ambient:0.6056338028169014
+soundCategory_ambient:0.30809859154929575
 soundCategory_voice:0.801056338028169
 modelPart_cape:true
 modelPart_jacket:true
