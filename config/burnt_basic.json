@@ -3,7 +3,7 @@
   "rain_extinguish": true,
   "vanilla_burn": true,
   "lava_burn": false,
-  "lightning_burn": true,
+  "lightning_burn": false,
   "biome_specific": true,
   "wind": false,
   "wind_influence": 6.0,
