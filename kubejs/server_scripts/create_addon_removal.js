@@ -23,6 +23,13 @@ ServerEvents.recipes(event => {
     event.shaped( 'createpropulsion:solid_burner',
                   [ '   ', 'aba', 'cdc' ],
                   { a: 'tfmg:cast_iron_sheet', b: 'tfmg:cast_iron_ingot', c: 'create:iron_sheet', d: 'minecraft:blast_furnace'})
+    event.remove({ output: 'createpropulsion:platinum_casing' })
+    event.remove({ id: 'createpropulsion:crafting/platinum_fluid_tank' })
+    event.remove({ id: 'createpropulsion:crafting/cable' })
+    event.remove({ id: 'createpropulsion:crafting/cable_relay' })
+    event.remove({ id: 'createpropulsion:mixing/coral' })
+    event.remove({ id: 'createpropulsion:crafting/coral_generator' })
+
 //createthrusters
     event.remove({ id: 'createthrusters:alternator' })
     event.remove({ id: 'createthrusters:analogue_contraption_controller' })
@@ -81,6 +88,11 @@ RecipeViewerEvents.removeEntries('item', event => {
 //createpropulsion
     event.remove('createpropulsion:liquid_burner')
     event.remove('createpropulsion:stirling_engine')
+    event.remove('createpropulsion:platinum_casing')
+    event.remove('createpropulsion:platinum_fluid_tank')
+    event.remove('createpropulsion:cable')
+    event.remove('createpropulsion:cable_relay')
+    event.remove('createpropulsion:coral_generator')
 //createthrusters
     event.remove('createthrusters:alternator')
     event.remove('createthrusters:analogue_contraption_controller')

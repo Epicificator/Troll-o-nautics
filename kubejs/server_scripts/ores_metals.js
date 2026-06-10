@@ -66,6 +66,14 @@ ServerEvents.recipes(event => {
     }
 
 
+//Platinum | Palladium
+    event.remove({ output: 'createpropulsion:platinum_block' })
+    event.remove({ output: 'createpropulsion:platinum_ingot' })
+    event.remove({ output: 'createpropulsion:platinum_nugget' })
+    event.replaceInput({ input: '#c:ingots/platinum' }, 'createpropulsion:platinum_ingot', 'galosphere:palladium_ingot')
+    event.replaceInput({ input: '#c:nuggets/platinum' }, 'createpropulsion:platinum_nugget', 'galosphere:palladium_nugget')
+    event.replaceInput({ input: '#c:storage_blocks/platinum' }, 'createpropulsion:platinum_block', 'galosphere:palladium_block')
+
 //Lead
     event.replaceInput({ input: '#c:ingots/lead' }, 'tfmg:lead_ingot', 'oreganized:lead_ingot')
     event.remove({ output: 'tfmg:lead_ingot' })
@@ -122,8 +130,6 @@ ServerEvents.recipes(event => {
     foundryMelting2('oreganized:raw_lead', 'oreganized:molten_lead', 90, 'createmetallurgy:molten_slag', 45, 'heated', 40)
     event.remove({ id: 'createmetallurgy:melting/lead/raw_crushed' })
     foundryMelting2('create:crushed_raw_lead', 'oreganized:molten_lead', 90, 'createmetallurgy:molten_slag', 45, 'heated', 48)
-
-
 
 //Copper
     event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', 'create:copper_nugget')
@@ -355,6 +361,7 @@ RecipeViewerEvents.removeEntries('fluid', event => {
     event.remove('tfmg:molten_steel')
     event.remove('tfmg:molten_slag')
     event.remove('createmetallurgy:molten_lead')
+    event.remove('createpropulsion:coral')
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
@@ -371,6 +378,13 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('spelunkery:sulfur')
     event.remove('createmetallurgy:slag_block')
     event.remove('createmetallurgy:slag')
+    event.remove('createpropulsion:platinum_ore')
+    event.remove('createpropulsion:deepslate_platinum_ore')
+    event.remove('createpropulsion:platinum_block')
+    event.remove('createpropulsion:raw_platinum_block')
+    event.remove('createpropulsion:platinum_ingot')
+    event.remove('createpropulsion:platinum_nugget')
+    event.remove('createpropulsion:raw_platinum')
     //steel
     event.remove('createbigcannons:steel_block')
     event.remove('createbigcannons:steel_ingot')
@@ -387,6 +401,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('tfmg:molten_steel_bucket')
     event.remove('tfmg:molten_slag_bucket')
     event.remove('createmetallurgy:molten_lead_bucket')
+    event.remove('createpropulsion:coral_bucket')
     //blocks
     event.remove('createbigcannons:basin_foundry_lid')
 })
