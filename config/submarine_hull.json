@@ -17088,22 +17088,6 @@
     "maxWaterDepth": 39,
     "implosionChance": 0.67
   },
-  "create_aeronautics_placeable_wheels:large_tire": {
-    "maxWaterDepth": 2,
-    "implosionChance": 0.85
-  },
-  "create_aeronautics_placeable_wheels:monstrous_tire": {
-    "maxWaterDepth": 2,
-    "implosionChance": 0.85
-  },
-  "create_aeronautics_placeable_wheels:small_tire": {
-    "maxWaterDepth": 2,
-    "implosionChance": 0.85
-  },
-  "create_aeronautics_placeable_wheels:tire": {
-    "maxWaterDepth": 2,
-    "implosionChance": 0.85
-  },
   "create_aquatic_ambitions:fake_active_conduit": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -17240,9 +17224,29 @@
     "maxWaterDepth": 48,
     "implosionChance": 0.6
   },
+  "create_connected:amber_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
   "create_connected:andesite_encased_cross_connector": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "create_connected:aqua_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:beige_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:black_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:blue_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:brake": {
     "maxWaterDepth": 39,
@@ -17259,6 +17263,10 @@
   "create_connected:brass_gearbox": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "create_connected:brown_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:centrifugal_clutch": {
     "maxWaterDepth": 39,
@@ -17300,6 +17308,10 @@
     "maxWaterDepth": 86,
     "implosionChance": 0.28
   },
+  "create_connected:coral_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
   "create_connected:crank_wheel": {
     "maxWaterDepth": 14,
     "implosionChance": 0.85
@@ -17311,6 +17323,10 @@
   "create_connected:cross_connector": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "create_connected:cyan_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:dashboard": {
     "maxWaterDepth": 39,
@@ -17408,9 +17424,29 @@
     "maxWaterDepth": 48,
     "implosionChance": 0.6
   },
+  "create_connected:forest_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
   "create_connected:freewheel_clutch": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "create_connected:ginger_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:gray_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:green_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:indigo_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:inventory_access_port": {
     "maxWaterDepth": 39,
@@ -17447,6 +17483,18 @@
   "create_connected:large_crank_wheel": {
     "maxWaterDepth": 14,
     "implosionChance": 0.85
+  },
+  "create_connected:light_blue_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:light_gray_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:lime_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:linked_acacia_button": {
     "maxWaterDepth": 3,
@@ -17512,6 +17560,30 @@
     "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
+  "create_connected:magenta_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:maroon_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:mint_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:navy_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:olive_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:orange_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
   "create_connected:overstress_clutch": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
@@ -17519,6 +17591,22 @@
   "create_connected:parallel_gearbox": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "create_connected:pink_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:purple_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:red_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:rose_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:sequenced_pulse_generator": {
     "maxWaterDepth": 1,
@@ -17531,6 +17619,26 @@
   "create_connected:six_way_gearbox": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
+  },
+  "create_connected:slate_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:tan_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:teal_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:verdant_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
+  },
+  "create_connected:white_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_connected:wrapped_copycat_fence": {
     "maxWaterDepth": 16,
@@ -17547,6 +17655,10 @@
   "create_connected:wrapped_copycat_wall": {
     "maxWaterDepth": 44,
     "implosionChance": 0.6333333
+  },
+  "create_connected:yellow_fan_dyeing_catalyst": {
+    "maxWaterDepth": 115,
+    "implosionChance": 0.05
   },
   "create_dragons_plus:black_dye": {
     "maxWaterDepth": 100,
@@ -17771,6 +17883,22 @@
   "create_hypertube:hypertube_entrance": {
     "maxWaterDepth": 86,
     "implosionChance": 0.28
+  },
+  "create_lnl:contraption_lift": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_lnl:thruster": {
+    "maxWaterDepth": 48,
+    "implosionChance": 0.6
+  },
+  "create_lnl:thruster_structure": {
+    "maxWaterDepth": 48,
+    "implosionChance": 0.6
+  },
+  "create_lnl:wheel": {
+    "maxWaterDepth": 48,
+    "implosionChance": 0.6
   },
   "create_optical:absorption_polarizing_filter": {
     "maxWaterDepth": 39,
@@ -29774,6 +29902,10 @@
   },
   "createthrusters:rope_knot": {
     "maxWaterDepth": 2,
+    "implosionChance": 0.85
+  },
+  "createthrusters:shipping_manifest": {
+    "maxWaterDepth": 6,
     "implosionChance": 0.85
   },
   "createthrusters:thruster": {
@@ -53123,10 +53255,6 @@
   "sgjourney:zpm_hub": {
     "maxWaterDepth": 70,
     "implosionChance": 0.41333333
-  },
-  "shield_generators:shield_generator": {
-    "maxWaterDepth": 115,
-    "implosionChance": 0.05
   },
   "sim_copycats:absurdly_heavy_copycat": {
     "maxWaterDepth": 100,
