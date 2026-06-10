@@ -1,11 +1,12 @@
 {
   "type": "sgjourney:rima",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "sgjourney:rima",
-    "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "minecraft:the_void"
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "features": false,
+      "lakes": false,
+      "layers": [],
     }
   }
 }
