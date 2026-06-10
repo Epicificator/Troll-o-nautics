@@ -30,6 +30,8 @@
 !/config/mixed_litter-startup.toml
 !/config/CSC/*
 !/config/lmft.json
+!/config/analogleverdrag-client.toml
+!/config/analogleverdrag-common.toml
 
 # oh god
 !/config/submarine_hull.json
