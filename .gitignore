@@ -11,6 +11,7 @@
 !/config/aeronautics-server.toml
 !/config/iframestweakerneo-common.toml
 !/config/parcool-server.toml
+!/config/parcool-client.toml
 !/config/bettercombat/*
 !/config/EndRemastered-NeoForge/*
 !/config/analogleverdrag-client.toml
@@ -19,6 +20,15 @@
 !/config/jade/*
 !/config/create_submarine-common.toml
 !/config/modernfix-mixins.properties
+!/config/subtle_effects/*
+!/config/stellarview-client.toml
+!/config/sounds/*
+!/config/betterclouds-v1.json
+!/config/sable_beyond/*
+!/config/HeadInTheClouds.json5
+!/config/mixed_litter-startup.toml
+!/config/CSC/*
+!/config/lmft.json
 
 # oh god
 !/config/submarine_hull.json
@@ -28,6 +38,9 @@
 
 # mods
 !/mods/*
+
+# resourcepacks
+!/resourcepacks/*
 
 # other
 !/.gitignore
