@@ -5,7 +5,7 @@
 	[Limitations.Action_Permissions]
 		permit_BreakfallReady = true
 		permit_CatLeap = true
-		permit_ChargeJump = true
+		permit_ChargeJump = false
 		permit_ClimbPoles = true
 		permit_ClimbUp = true
 		permit_ClingToCliff = true
@@ -33,9 +33,9 @@
 
 	[Limitations.Stamina]
 		#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
-		forced_stamina = "NONE"
+		forced_stamina = "PARCOOL"
 		#Permission of infinite stamina
-		allow_infinite_stamina = true
+		allow_infinite_stamina = false
 		#Limitation of max stamina value
 		# Default: 2147483647
 		# Range: > 300
@@ -142,7 +142,7 @@
 		#Max number of times of successive Dodge action
 		# Default: 2147483647
 		# Range: > 1
-		max_successive_dodge_count = 2147483647
+		max_successive_dodge_count = 1
 		#Window time of just time breakfall
 		# Default: 5
 		# Range: > 0
@@ -150,7 +150,7 @@
 		#Max coyote time tick (how long tick player can behave like on ground after getting off ledge
 		# Default: 3
 		# Range: 0 ~ 20
-		max_coyote_time = 3
+		max_coyote_time = 5
 		#Lowest fall distance needed to trigger breakfall movements
 		# Default: 2.0
 		# Range: 0.0 ~ 10.0
@@ -176,15 +176,15 @@
 			#FastRun speed modifier
 			# Default: 2.0
 			# Range: 0.001 ~ 10.0
-			max_fast-run_modifier = 2.0
+			max_fast-run_modifier = 1.5
 			#FastSwim speed modifier
 			# Default: 2.0
 			# Range: 0.001 ~ 10.0
-			max_fast-swim_modifier = 2.0
+			max_fast-swim_modifier = 1.5
 			#Dodge speed modifier
 			# Default: 1.0
 			# Range: 0.5 ~ 3.0
-			max_dodge-speed_modifier = 1.0
+			max_dodge-speed_modifier = 1.5
 			#SkyDive speed decrease rate
 			# Default: 0.98
 			# Range: 0.001 ~ 1.0
