@@ -1,11 +1,12 @@
 {
   "type": "sgjourney:unitas",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "sgjourney:unitas",
-    "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "minecraft:the_void"
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "features": false,
+      "lakes": false,
+      "layers": [],
     }
   }
 }
