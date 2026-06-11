@@ -33,6 +33,7 @@
 !/config/analogleverdrag-client.toml
 !/config/analogleverdrag-common.toml
 !/config/inventoryprofilesnext/*
+!/config/createpropulsion-common.toml
 
 # oh god
 !/config/submarine_hull.json
