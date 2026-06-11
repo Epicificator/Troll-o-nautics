@@ -122,7 +122,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createthrusters:propulsion_upgrade_t4')
     event.remove('createthrusters:rope_knot')
     event.remove('createthrusters:thruster')
-    event.remove('createthrusters:thruster_lense')
     event.remove('createthrusters:variable_transmission')
     event.remove('createthrusters:vertical_bidirectional_gearbox')
     event.remove('createthrusters:vertical_variable_transmission')
