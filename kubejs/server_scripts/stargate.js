@@ -67,6 +67,14 @@ ServerEvents.recipes(event => {
     event.stonecutting(Item.of('sgjourney:stargate_variant_crystal[sgjourney:stargate_variant="sgjourney:milky_way_sg-1"]'), 'sgjourney:stargate_variant_crystal')
     event.stonecutting(Item.of('sgjourney:stargate_variant_crystal[sgjourney:stargate_variant="sgjourney:pegasus_atlantis"]'), 'sgjourney:stargate_variant_crystal')
 
+    event.shaped('sgjourney:gdo', [
+        'ab', 'ca'
+    ], { a: 'create:iron_sheet', b: 'create:transmitter' , c: 'powergrid:electrical_gizmo'})
+    
+    event.shaped('sgjourney:transceiver', [
+        'ab', 'cd', 'ab'
+    ], { a: 'create:iron_sheet', b: 'create:copper_sheet' , c: 'ccbr:integrated_circuit', d: 'create:transmitter'})
+
     event.shaped( 'sgjourney:stargate_shielding_ring',
         [ 'aba', 'b b', 'aba' ],
         { a: 'minecraft:iron_nugget', b: 'minecraft:iron_ingot' })
@@ -130,4 +138,6 @@ RecipeViewerEvents.addEntries("item",event => {
     event.add('sgjourney:milky_way_stargate')
     event.add('sgjourney:pegasus_stargate')
     event.add('sgjourney:tollan_stargate')
+    event.add('sgjourney:transceiver')
+    event.add('sgjourney:gdo')
 })
