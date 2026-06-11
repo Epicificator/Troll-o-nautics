@@ -23512,6 +23512,10 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
+  "createfood:bar_of_chocolate_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:bar_of_dark_chocolate_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -24092,6 +24096,10 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
+  "createfood:builders_tea_bottle_block": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "createfood:buttered_toast_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -24203,6 +24211,10 @@
   "createfood:cake_batter_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "createfood:cake_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
   },
   "createfood:cane_syrup_block": {
     "maxWaterDepth": 100,
@@ -28280,6 +28292,14 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
+  "createfood:pumpkin_pie_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:pumpkin_pie_slice_small_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
   "createfood:pumpkin_puree_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
@@ -28729,6 +28749,10 @@
     "implosionChance": 0.85
   },
   "createfood:sweet_roll_base_plate_block": {
+    "maxWaterDepth": 16,
+    "implosionChance": 0.85
+  },
+  "createfood:sweet_roll_plate_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },

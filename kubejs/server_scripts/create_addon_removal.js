@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod2' })
     event.remove({ id: 'aeronautics_utility_objects:damping_stress_bearing' })
 //create_connected
-    event.remove({ id: 'create_connected:crafting/kinetics/kinetic_bridge' })
 //createcasing
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/andesite' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/brass' })
@@ -58,6 +57,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createthrusters:propulsion_upgrade_t4' })
     event.remove({ id: 'createthrusters:rope_knot' })
     event.remove({ id: 'createthrusters:thruster' })
+    event.remove({ id: 'createthrusters:fuel_oxidizer' })
+    event.remove({ id: 'createthrusters:configuration_clipboard' })
     event.remove({ id: 'createthrusters:thruster_lense' })
     event.remove({ id: 'createthrusters:thruster_lense_mixing' })
     event.remove({ id: 'createthrusters:variable_transmission' })
@@ -66,6 +67,8 @@ ServerEvents.recipes(event => {
 //petrolsparts
     event.remove({ id: 'petrolsparts:crafting/pneumatic_tube' })
     event.remove({ id: 'petrolsparts:mechanical_crafting/hydraulic_transmission' })
+//lift n load
+    event.remove({ id: 'create_lnl:thruster' })
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
@@ -122,6 +125,8 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createthrusters:propulsion_upgrade_t4')
     event.remove('createthrusters:rope_knot')
     event.remove('createthrusters:thruster')
+    event.remove('createthrusters:fuel_oxidizer')
+    event.remove('createthrusters:configuration_clipboard')
     event.remove('createthrusters:thruster_lense')
     event.remove('createthrusters:variable_transmission')
     event.remove('createthrusters:vertical_bidirectional_gearbox')
@@ -129,5 +134,7 @@ RecipeViewerEvents.removeEntries('item', event => {
 //petrolsparts
     event.remove('petrolsparts:pneumatic_tube')
     event.remove('petrolsparts:hydraulic_transmission')
+//lift n load
+    event.remove('create_lnl:thruster')
 })
 
