@@ -9,8 +9,8 @@
     "volume_multiplier": 0.5,
     "formula": {
       "enabled": true,
-      "expression": "min(auto_mass, 5)",
-      "fallback_mass": 0.5
+      "expression": "min(auto_mass, 1)",
+      "fallback_mass": 0.2
     },
     "entities": {}
   },

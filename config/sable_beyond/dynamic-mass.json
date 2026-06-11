@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "mass_of_bucket": 0.2,
+  "mass_of_bucket": 0.25,
   "create": {
     "fluid_tank": true,
     "spout": false,
