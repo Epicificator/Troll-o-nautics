@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod2' })
     event.remove({ id: 'aeronautics_utility_objects:damping_stress_bearing' })
 //create_connected
-    // event.remove({ id: 'create_connected:crafting/kinetics/kinetic_bridge' })
 //createcasing
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/andesite' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/brass' })
@@ -129,7 +128,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createthrusters:fuel_oxidizer')
     event.remove('createthrusters:configuration_clipboard')
     event.remove('createthrusters:thruster_lense')
-    event.remove('createthrusters:thruster_lense_mixing')
     event.remove('createthrusters:variable_transmission')
     event.remove('createthrusters:vertical_bidirectional_gearbox')
     event.remove('createthrusters:vertical_variable_transmission')
