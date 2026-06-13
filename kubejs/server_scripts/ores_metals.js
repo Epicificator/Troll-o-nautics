@@ -20,6 +20,7 @@ ServerEvents.tags('item', event => {
     event.remove('c:storage_blocks/cast_iron', 'createbigcannons:cast_iron_block')
     event.remove('c:ingots/cast_iron', 'createbigcannons:cast_iron_ingot')
     event.remove('c:nuggets/cast_iron', 'createbigcannons:cast_iron_nugget')
+    event.remove('c:nuggets/netherite', 'oreganized:netherite_nugget')
 })
 
 
@@ -64,6 +65,11 @@ ServerEvents.recipes(event => {
             results: [{ "amount": amount, "id": output }]
         })
     }
+
+//Netherite
+    event.remove({ id: 'oreganized:netherite_nugget' })
+    event.remove({ input: 'oreganized:netherite_nugget' })
+
 
 
 //Platinum | Palladium
@@ -385,6 +391,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createpropulsion:platinum_ingot')
     event.remove('createpropulsion:platinum_nugget')
     event.remove('createpropulsion:raw_platinum')
+    event.remove('oreganized:netherite_nugget')
     //steel
     event.remove('createbigcannons:steel_block')
     event.remove('createbigcannons:steel_ingot')
