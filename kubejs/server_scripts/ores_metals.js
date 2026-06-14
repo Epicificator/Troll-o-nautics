@@ -66,11 +66,23 @@ ServerEvents.recipes(event => {
         })
     }
 
+//Iron
+    event.remove({ id: 'create:crushing/crimsite_recycling' })
+    event.remove({ id: 'create:crushing/crimsite' })
+
+//Copper
+    event.remove({ id: 'create:crushing/veridium_recycling' })
+    event.remove({ id: 'create:crushing/veridium' })
+    event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', 'create:copper_nugget')
+
+//Zinc
+    event.remove({ id: 'create:crushing/asurine_recycling' })
+    event.remove({ id: 'create:crushing/asurine' })
+
+
 //Netherite
     event.remove({ id: 'oreganized:netherite_nugget' })
     event.remove({ input: 'oreganized:netherite_nugget' })
-
-
 
 //Platinum | Palladium
     event.remove({ output: 'createpropulsion:platinum_block' })
@@ -93,14 +105,14 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: '#c:nuggets/lead' }, 'tfmg:lead_nugget', 'oreganized:lead_nugget')
     //lead proccessing
     event.remove({ id: 'create:crushing/galena' })
-    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.4), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.1)], 'tfmg:galena')
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.4), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.2)], 'tfmg:galena')
     event.remove({ id: 'create:splashing/oreganized/crushed_raw_lead' })
     event.recipes.create.splashing('9x spelunkery:raw_lead_nugget', 'create:crushed_raw_lead')
     event.remove({ id: 'spelunkery:crushing/oreganized/glance_recycling' })
     event.remove({ id: 'oreganized:crushing/glance' })
     event.remove({ id: 'oreganized:crushing/glance_recycling' })
-    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.8), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.8)], Ingredient.of('#tweaks:glance_raw'))
-    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.4), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.4)], Ingredient.of('#tweaks:glance_halve'))
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.6), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.3)], Ingredient.of('#tweaks:glance_raw'))
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.3), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.1)], Ingredient.of('#tweaks:glance_halve'))
     event.remove({ id: 'oreganized:mixing/glance' })
     event.recipes.create.mixing('oreganized:glance"', ['minecraft:diorite', 'oreganized:lead_nugget'])
     //raw lead
@@ -137,8 +149,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createmetallurgy:melting/lead/raw_crushed' })
     foundryMelting2('create:crushed_raw_lead', 'oreganized:molten_lead', 90, 'createmetallurgy:molten_slag', 45, 'heated', 48)
 
-//Copper
-    event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', 'create:copper_nugget')
 
 //Bronze
     event.remove({ id: 'createbigcannons:mixing/alloy_bronze_tinless' })
