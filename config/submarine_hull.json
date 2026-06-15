@@ -29864,6 +29864,10 @@
     "maxWaterDepth": 20,
     "implosionChance": 0.8333333
   },
+  "createthrusters:advanced_contraption_controller": {
+    "maxWaterDepth": 33,
+    "implosionChance": 0.725
+  },
   "createthrusters:alternator": {
     "maxWaterDepth": 39,
     "implosionChance": 0.67
@@ -36599,14 +36603,6 @@
   "fastfooddelight:checkout_machine": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
-  },
-  "fdlib:test": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
-  },
-  "fdlib:test_multiblock": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.67
   },
   "furniture:acacia_bench": {
     "maxWaterDepth": 16,

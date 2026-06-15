@@ -82,10 +82,21 @@ enabled = true
 		# Range: 0 ~ 200
 		graceTicks = 10
 
-	#Self-thrown wind charge suppression.
-	[suppressions.selfWindCharge]
-		#When true, self-thrown wind charges will not ragdoll the throwing player.
+	#Creative/spectator-style flight movement suppression.
+	[suppressions.creativeFlight]
+		#When true, creative flight and its landing deceleration will not trigger movement reactions.
 		enabled = true
+		#Ticks to keep suppressing after the player stops flying.
+		# Default: 10
+		# Range: 0 ~ 200
+		graceTicks = 10
+
+	#Wind charge reaction suppression.
+	[suppressions.windCharge]
+		#When true, no wind charge explosions (from any source) will ragdoll players.
+		suppressAll = true
+		#When true, self-thrown wind charges will not ragdoll the throwing player.
+		suppressSelf = true
 		#Ticks to suppress movement reactions after a self-thrown wind charge explodes.
 		# Default: 10
 		# Range: 0 ~ 200
@@ -97,11 +108,11 @@ enabled = true
 	#Sharp horizontal velocity change reactions.
 	[triggers.impact]
 		#When true, sharp horizontal velocity changes can ragdoll the player.
-		enabled = true
+		enabled = false
 		#Minimum horizontal player velocity change over the 5-tick window (m/s) required to trigger.
-		# Default: 15.0
+		# Default: 20.0
 		# Range: 0.1 ~ 128.0
-		minVelocityDelta = 15.0
+		minVelocityDelta = 30.0
 		#Velocity changes above this (m/s) are ignored as teleports or anomalies rather than physical impacts.
 		# Default: 120.0
 		# Range: 1.0 ~ 1024.0
@@ -144,15 +155,15 @@ enabled = true
 	#Hard fall landing reactions.
 	[triggers.fall]
 		#When true, landing from a high fall ragdolls the player.
-		enabled = false
-		#Minimum fall distance (blocks) required to trigger a ragdoll.
-		# Default: 6.0
-		# Range: 1.0 ~ 256.0
-		minDistance = 6.0
+		enabled = true
 		#Fraction of the landing impact speed driven downward to smash the ragdoll into the ground.
 		# Default: 0.5
 		# Range: 0.0 ~ 2.0
 		slamMultiplier = 0.5
+		#Minimum fall damage actually taken (after feather falling, protection, resistance, etc.) required to trigger a ragdoll.
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		minDamage = 10.0
 
 	#Elytra wall-crash reactions.
 	[triggers.crash]
