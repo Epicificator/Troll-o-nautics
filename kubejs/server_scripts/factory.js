@@ -54,7 +54,7 @@ RecipeViewerEvents.removeEntries('item', event => {
 
 ServerEvents.tags('item', event => {
     event.add('c:music_discs', 'kubejs:blank_disc')
-    event.add('c:music_discs', 'betteracheology:music_disc_swings')
+    event.add('c:music_discs', 'betterarcheology:music_disc_swings')
     event.add('c:music_discs', 'furniture:cphs_pride')
     event.add('c:music_discs', 'furniture:letsdo_theme')
     event.remove('c:plates/zinc', 'powergrid:zinc_sheet')
