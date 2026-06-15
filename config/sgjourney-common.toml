@@ -57,11 +57,11 @@
 			#Maximum amount of energy that can be transferred from the DHD in one tick
 			# Default: 10000000
 			# Range: 0 ~ 9223372036854775807
-			milky_way_dhd_max_energy_extract = 10000000
+			milky_way_dhd_max_energy_extract = 5000000
 			#Energy depleted by pressing a button on the DHD
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
-			milky_way_dhd_button_press_energy_cost = 5000
+			milky_way_dhd_button_press_energy_cost = 1000
 			#Capacity of the energy buffer inside the DHD
 			# Default: 500000
 			# Range: 0 ~ 9223372036854775807
@@ -69,15 +69,15 @@
 			#Maximum amount of energy that can be transferred to the DHD in one tick
 			# Default: 150000
 			# Range: 0 ~ 9223372036854775807
-			pegasus_dhd_max_energy_receive = 150000
+			pegasus_dhd_max_energy_receive = 100000
 			#Maximum amount of energy that can be transferred from the DHD in one tick
 			# Default: 100000000
 			# Range: 0 ~ 9223372036854775807
-			pegasus_dhd_max_energy_extract = 100000000
+			pegasus_dhd_max_energy_extract = 5000000
 			#Energy depleted by pressing a button on the DHD
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
-			pegasus_dhd_button_press_energy_cost = 5000
+			pegasus_dhd_button_press_energy_cost = 1000
 			#Capacity of the energy buffer inside the DHD
 			# Default: 300000
 			# Range: 0 ~ 9223372036854775807
@@ -93,7 +93,7 @@
 			#Energy depleted by pressing a button on the DHD
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
-			classic_dhd_button_press_energy_cost = 5000
+			classic_dhd_button_press_energy_cost = 1000
 
 		["Stargate Journey Common Config"."Interface Config".server]
 			#The default amount of energy the Interface will try to provide until it stops
