@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.shaped( 'sgjourney:universe_stargate_chevron',
                   [ 'bcb', ' a ' ],
                   { a: 'abyssal_decor:industrial_lever', b: 'oreganized:silver_nugget', c: 'powergrid:light_bulb'})
-    event.recipes.createMechanicalCrafting('sgjourney:classic_stargate', [
+    event.recipes.createMechanicalCrafting(Item.of('sgjourney:classic_stargate[minecraft:block_entity_data={id:"sgjourney:classic_stargate",point_of_origin:"sgjourney:terra"}]'), [
         ' aaa ',
         'ab ba',
         'c   c',
