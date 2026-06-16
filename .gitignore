@@ -2,40 +2,42 @@
 *
 !*/
 
-# config files
-!/config/burnt_basic.json
-!/config/DistantHorizons.toml
-!/config/kiwi-client.yaml
-!/config/structurify.json
-!/config/tectonic.json
-!/config/aeronautics-server.toml
-!/config/iframestweakerneo-common.toml
-!/config/parcool-server.toml
-!/config/parcool-client.toml
+# config folders
 !/config/bettercombat/*
-!/config/EndRemastered-NeoForge/*
-!/config/analogleverdrag-client.toml
-!/config/corpse-server.toml
-!/config/sgjourney*
-!/config/jade/*
-!/config/create_submarine-common.toml
-!/config/modernfix-mixins.properties
-!/config/sophisticatedcore-common.toml
-!/config/subtle_effects/*
-!/config/stellarview-client.toml
-!/config/sounds/*
-!/config/betterclouds-v1.json
-!/config/sable_beyond/*
-!/config/HeadInTheClouds.json5
-!/config/mixed_litter-startup.toml
 !/config/CSC/*
-!/config/lmft.json
+!/config/EndRemastered-NeoForge/*
+!/config/inventoryprofilesnext/*
+!/config/jade/*
+!/config/sable_beyond/*
+!/config/sgjourney*
+!/config/sounds/*
+!/config/subtle_effects/*
+# config files
+!/config/aeronautics-server.toml
+!/config/analogleverdrag-client.toml
 !/config/analogleverdrag-client.toml
 !/config/analogleverdrag-common.toml
-!/config/inventoryprofilesnext/*
+!/config/betterclouds-v1.json
+!/config/burnt_basic.json
+!/config/corpse-server.toml
+!/config/createcobblestone-common.toml
 !/config/createpropulsion-common.toml
+!/config/create_submarine-common.toml
+!/config/DistantHorizons.toml
+!/config/HeadInTheClouds.json5
+!/config/iframestweakerneo-common.toml
+!/config/kiwi-client.yaml
+!/config/lmft.json
+!/config/mixed_litter-startup.toml
+!/config/modernfix-mixins.properties
+!/config/parcool-client.toml
+!/config/parcool-server.toml
 !/config/ragdoll_reactions-server.toml
+!/config/sophisticatedcore-common.toml
 !/config/spr_addition-server.toml
+!/config/stellarview-client.toml
+!/config/structurify.json
+!/config/tectonic.json
 
 # oh god
 !/config/submarine_hull.json
