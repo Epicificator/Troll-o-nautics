@@ -1,0 +1,6 @@
+{
+  "block": "create:veridium",
+  "stress": 64,
+  "ratio": 32768,
+  "storage": 64
+}
