@@ -35,7 +35,7 @@
 		#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
 		forced_stamina = "PARCOOL"
 		#Permission of infinite stamina
-		allow_infinite_stamina = false
+		allow_infinite_stamina = true
 		#Limitation of max stamina value
 		# Default: 2147483647
 		# Range: > 300
