@@ -10,7 +10,7 @@
 			#If true you will be able to see Stargate Variants
 			stargate_variants = true
 			#If true Solar Systems will use unique Symbols
-			unique_symbols = true
+			unique_symbols = false
 			#Decide if Event Horizons should be shinier
 			shiny_event_horizons = true
 			#If true Wormholes will produce Vortex after a Kawoosh
@@ -18,7 +18,7 @@
 			#The amount of distortion the Stargate Event Horizon will experience
 			# Default: 25
 			# Range: 0 ~ 25
-			event_horizon_distortion = 5
+			event_horizon_distortion = 3
 			#Decide if Milky Way Stargate should use the Movie Stargate model
 			use_movie_stargate_model = false
 			#If true only the front of the Universe Stargate will rotate
@@ -38,7 +38,7 @@
 			#The distance at which the sounds a Stargate makes can still be heard
 			# Default: 64
 			# Range: 16 ~ 128
-			stargate_max_sound_distance = 32
+			stargate_max_sound_distance = 24
 
 		["Stargate Journey Client Config"."DHD Config".client]
 			#If true, Milky Way DHD symbol positions won't be ordered and instead be based on the canon
