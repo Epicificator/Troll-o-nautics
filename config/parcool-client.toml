@@ -29,7 +29,7 @@
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Light"
+	stamina_hud_type = "Hide"
 	#horizontal alignment
 	#Allowed Values: Left, Right
 	align_h_s_hud = "Right"
@@ -119,7 +119,7 @@
 	crawl_control = "PressKey"
 	#Control of Flipping
 	#Allowed Values: PressRightAndLeft, TapMovementAndJump, PressFlippingKey
-	flip_control = "PressFlippingKey"
+	flip_control = "TapMovementAndJump"
 	#Control of Horizontal Wall Run
 	#Allowed Values: PressKey, Auto
 	h-wall-run_control = "PressKey"
@@ -235,7 +235,7 @@
 [Stamina]
 	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
-	used_stamina = "PARCOOL"
+	used_stamina = "NONE"
 	#Enable slowing down of stamina exhaustion
 	enable_stamina_exhaustion_penalty = false
 
