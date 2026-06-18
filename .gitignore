@@ -34,6 +34,7 @@
 !/config/parcool-server.toml
 !/config/ragdoll_reactions-server.toml
 !/config/sophisticatedcore-common.toml
+!/config/sophisticatedstorage-server.toml
 !/config/spr_addition-server.toml
 !/config/stellarview-client.toml
 !/config/structurify.json
