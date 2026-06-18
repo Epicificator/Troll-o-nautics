@@ -1,0 +1,18 @@
+{
+  "block.sophisticatedstorage.gold_barrel": "%s%sBrass Barrel",
+  "block.sophisticatedstorage.limited_gold_barrel_1": "Limited %s%sBrass Barrel I",
+  "block.sophisticatedstorage.limited_gold_barrel_2": "Limited %s%sBrass Barrel II",
+  "block.sophisticatedstorage.limited_gold_barrel_3": "Limited %s%sBrass Barrel III",
+  "block.sophisticatedstorage.limited_gold_barrel_4": "Limited %s%sBrass Barrel IV",
+  "block.sophisticatedstorage.gold_chest": "%s%sBrass Chest",
+  "item.sophisticatedstorage.gold_shulker_box": "Brass Shulker Box",
+  "block.sophisticatedstorage.gold_shulker_box": "Brass Shulker Box",
+  "item.sophisticatedstorage.basic_to_gold_tier_upgrade": "Basic to Brass Tier Upgrade",
+  "item.sophisticatedstorage.copper_to_gold_tier_upgrade": "Copper to Brass Tier Upgrade",
+  "item.sophisticatedstorage.iron_to_gold_tier_upgrade": "Iron to Brass Tier Upgrade",
+  "item.sophisticatedstorage.gold_to_diamond_tier_upgrade": "Brass to Diamond Tier Upgrade",
+  "item.sophisticatedstorage.gold_to_netherite_tier_upgrade": "Brass to Netherite Tier Upgrade",
+  "sophisticatedstorage.configuration.goldBarrel": "Brass Barrel",
+  "sophisticatedstorage.configuration.goldChest": "Brass Chest",
+  "sophisticatedstorage.configuration.goldShulkerBox": "Brass Shulker Box"
+}
