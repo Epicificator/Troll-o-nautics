@@ -39,6 +39,7 @@
 !/config/stellarview-client.toml
 !/config/structurify.json
 !/config/tectonic.json
+!/config/create-server.toml
 
 # oh god
 !/config/submarine_hull.json
