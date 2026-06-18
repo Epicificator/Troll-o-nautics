@@ -1,11 +1,21 @@
 // Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded server example script)')
+console.info('Hello, World! (Loaded server_scripts main.js)')
 
 ServerEvents.recipes(event => {
     event.smelting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.blasting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.1, 120)
 
+    //overpacked giant backpack recipes
+    event.recipes.shaped('overpacked:giant_backpack',
+        ['aba', 'cdc', 'aaa'],
+        { a: 'minecraft:leather', b: 'simulated:iron_handle', c: 'minecraft:iron_ingot', d: 'sophisticatedstorage:iron_chest' })
+    const dyes = ['white','orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black', 'maroon', 'rose', 'coral', 'indigo', 'navy', 'slate', 'olive', 'amber', 'beige', 'teal', 'mint', 'aqua', 'verdant', 'forest', 'ginger', 'tan']
+    dyes.forEach(dye => {
+        event.shapeless(`overpacked:${dye}_giant_backpack`,[`#c:dyes/${dye}`, Ingredient.of('#overpacked:giant_backpacks')])
+    })
+
+    //sophisticatedstorage changes
     event.replaceInput({ mod: 'sophisticatedstorage', input: '#c:ingots/gold' }, Ingredient.of('#c:ingots/gold'), 'create:brass_ingot')
     event.custom({
         "type": "sophisticatedstorage:double_chest_tier_upgrade",
