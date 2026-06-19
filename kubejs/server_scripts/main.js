@@ -43,4 +43,7 @@ ServerEvents.recipes(event => {
     stupgrade('sophisticatedstorage:limited_gold_barrel_2', 'sophisticatedstorage:limited_iron_barrel_2', 'sophisticatedstorage:limited_gold_barrel_2')
     stupgrade('sophisticatedstorage:limited_gold_barrel_3', 'sophisticatedstorage:limited_iron_barrel_3', 'sophisticatedstorage:limited_gold_barrel_3')
     stupgrade('sophisticatedstorage:limited_gold_barrel_4', 'sophisticatedstorage:limited_iron_barrel_4', 'sophisticatedstorage:limited_gold_barrel_4')
+
+    event.shapeless('wayfinder:signal_array', ['create:golden_sheet','create:transmitter'])
+    event.shaped('wayfinder:signalscope', ['ab', 'ca'], { a: 'create:golden_sheet', b: 'minecraft:spyglass', c: 'create:transmitter'})
 })
