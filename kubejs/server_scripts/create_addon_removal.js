@@ -1,11 +1,11 @@
 ServerEvents.recipes(event => {
-//aeronautics_utility_objects
+    //aeronautics_utility_objects
     event.remove({ id: 'aeronautics_utility_objects:brass_universal_joint' })
     event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod' })
     event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod2' })
     event.remove({ id: 'aeronautics_utility_objects:damping_stress_bearing' })
-//create_connected
-//createcasing
+    //create_connected
+    //createcasing
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/andesite' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/brass' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/copper' })
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/refined_radiance' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/shadow_steel' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/weathered_iron' })
-//createpropulsion
+    //createpropulsion
     event.remove({ id: 'createpropulsion:crafting/liquid_burner' })
     event.remove({ id: 'createpropulsion:crafting/solid_burner' })
     event.remove({ id: 'createpropulsion:crafting/stirling_engine' })
@@ -29,7 +29,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createpropulsion:mixing/coral' })
     event.remove({ id: 'createpropulsion:crafting/coral_generator' })
 
-//createthrusters
+    //createthrusters
+    event.remove({ id: 'createthrusters:advanced_contraption_controller' })
     event.remove({ id: 'createthrusters:alternator' })
     event.remove({ id: 'createthrusters:analogue_contraption_controller' })
     event.remove({ id: 'createthrusters:andesite_cable' })
@@ -64,22 +65,25 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createthrusters:variable_transmission' })
     event.remove({ id: 'createthrusters:vertical_bidirectional_gearbox' })
     event.remove({ id: 'createthrusters:vertical_variable_transmission' })
-//petrolsparts
+    //lift n load
+    event.remove({ id: 'create_lnl:thruster' })
+    //petrolsparts
     event.remove({ id: 'petrolsparts:crafting/pneumatic_tube' })
     event.remove({ id: 'petrolsparts:mechanical_crafting/hydraulic_transmission' })
-//lift n load
-    event.remove({ id: 'create_lnl:thruster' })
+    //sim_copycats
+    event.remove({ id: 'sim_copycats:levitite_copycat' })
+    event.remove({ input: 'sim_copycats:levitite_copycat' })
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
-//aeronautics_utility_objects
+    //aeronautics_utility_objects
     event.remove('aeronautics_utility_objects:brass_universal_joint')
     event.remove('aeronautics_utility_objects:universal_joint_rod')
     event.remove('aeronautics_utility_objects:universal_joint_rod2')
     event.remove('aeronautics_utility_objects:damping_stress_bearing')
-//create_connected
+    //create_connected
     event.remove('create_connected:kinetic_bridge')
-//createcasing
+    //createcasing
     event.remove('createcasing:andesite_configurable_gearbox')
     event.remove('createcasing:brass_configurable_gearbox')
     event.remove('createcasing:copper_configurable_gearbox')
@@ -89,7 +93,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createcasing:refined_radiance_configurable_gearbox')
     event.remove('createcasing:shadow_steel_configurable_gearbox')
     event.remove('createcasing:weathered_iron_configurable_gearbox')
-//createpropulsion
+    //createpropulsion
     event.remove('createpropulsion:liquid_burner')
     event.remove('createpropulsion:stirling_engine')
     event.remove('createpropulsion:platinum_casing')
@@ -97,14 +101,18 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createpropulsion:cable')
     event.remove('createpropulsion:cable_relay')
     event.remove('createpropulsion:coral_generator')
-//createthrusters
+    //createthrusters
+    event.remove('createthrusters:advanced_contraption_controller')
     event.remove('createthrusters:alternator')
     event.remove('createthrusters:analogue_contraption_controller')
     event.remove('createthrusters:andesite_cable')
     event.remove('createthrusters:bidirectional_gearbox')
+    event.remove('createthrusters:configuration_clipboard')
     event.remove('createthrusters:contraption_network_linker')
+    event.remove('createthrusters:entity_launcher')
     event.remove('createthrusters:gyroscope_link')
     event.remove('createthrusters:industrial_motor')
+    event.remove('createthrusters:oxidized_creative_blaze_cake')
     event.remove('createthrusters:physics_goggles')
     event.remove('createthrusters:physics_staff')
     event.remove('createthrusters:processing_upgrade_haunting_t1')
@@ -126,15 +134,17 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createthrusters:rope_knot')
     event.remove('createthrusters:thruster')
     event.remove('createthrusters:fuel_oxidizer')
-    event.remove('createthrusters:configuration_clipboard')
     event.remove('createthrusters:thruster_lense')
     event.remove('createthrusters:variable_transmission')
     event.remove('createthrusters:vertical_bidirectional_gearbox')
     event.remove('createthrusters:vertical_variable_transmission')
-//petrolsparts
+    //lift n load
+    event.remove('create_lnl:thruster')
+    //petrolsparts
     event.remove('petrolsparts:pneumatic_tube')
     event.remove('petrolsparts:hydraulic_transmission')
-//lift n load
-    event.remove('create_lnl:thruster')
+    //sim_copycats
+    event.remove('sim_copycats:levitite_copycat')
+    event.remove('sim_copycats:levitite_copycat_slab')
+    event.remove('sim_copycats:levitite_copycat_stairs')
 })
-
