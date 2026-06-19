@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.6), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.3)], Ingredient.of('#tweaks:glance_raw'))
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_lead', 0.3), CreateItem.of('2x spelunkery:raw_lead_nugget', 0.1)], Ingredient.of('#tweaks:glance_halve'))
     event.remove({ id: 'oreganized:mixing/glance' })
-    event.recipes.create.mixing('oreganized:glance"', ['minecraft:diorite', 'oreganized:lead_nugget'])
+    event.recipes.create.mixing('oreganized:glance', ['minecraft:diorite', 'oreganized:lead_nugget'])
     //raw lead
     event.replaceInput({ input: '#c:raw_materials/lead' }, 'tfmg:raw_lead', 'oreganized:raw_lead')
     event.remove({ id: 'create:crushing/raw_lead' })
