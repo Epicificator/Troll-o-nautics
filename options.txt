@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","continuity:glass_pane_culling_fix","continuity:default","file/Atmospheric Skies \u0026 Fog 1.3.zip","file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/Andesite_Chests+Crafting_Table_1_20_2+.zip","file/Connected-Bricks 1.14-1.21.3 v1.0.zip","file/Connected-Paths 1.14-1.21.8 v2.1.1.zip","file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip","file/rainbows-foliage-polytone-edition-v1.7.zip","file/SGJourney Refreshed.zip","file/Sounds x Create V1.4.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CC Greentech v1.1.zip"]
-incompatibleResourcePacks:["file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/SGJourney Refreshed.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","continuity:glass_pane_culling_fix","continuity:default","file/Atmospheric Skies \u0026 Fog 1.3.zip","file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/Andesite_Chests+Crafting_Table_1_20_2+.zip","file/Connected-Bricks 1.14-1.21.3 v1.0.zip","file/Connected-Paths 1.14-1.21.8 v2.1.1.zip","file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip","file/rainbows-foliage-polytone-edition-v1.7.zip","file/SGJourney Refreshed.zip","file/Sounds x Create V1.4.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CC Greentech v1.1.zip","file/CoolConsole.zip"]
+incompatibleResourcePacks:["file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/SGJourney Refreshed.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CoolConsole.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -124,7 +124,6 @@ key_key.hotbar.9:key.keyboard.9
 key_key.modernfix.config:key.keyboard.unknown
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.y
-key_key.corpse.death_history:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.hackersandslashers.parry:key.mouse.right
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
@@ -164,6 +163,13 @@ key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.analogleverdrag.increase_signal:key.keyboard.v
 key_key.analogleverdrag.decrease_signal:key.keyboard.b
+key_key.analogleverdrag.gear_1:key.keyboard.1
+key_key.analogleverdrag.gear_2:key.keyboard.2
+key_key.analogleverdrag.gear_3:key.keyboard.3
+key_key.analogleverdrag.gear_4:key.keyboard.4
+key_key.analogleverdrag.gear_5:key.keyboard.5
+key_key.analogleverdrag.gear_reverse:key.keyboard.r
+key_key.analogleverdrag.gear_neutral:key.keyboard.n
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -178,7 +184,6 @@ key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_create_lnl.keyinfo.raise_lift:key.keyboard.up
 key_create_lnl.keyinfo.lower_lift:key.keyboard.down
-key_fdlib.key.end_cutscene:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
 key_figura.config.action_wheel_button:key.keyboard.z
 key_figura.config.popup_button:key.keyboard.unknown
@@ -200,19 +205,14 @@ key_key.ok_zoomer.zoom:key.keyboard.grave.accent
 key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
 key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
 key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
-key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.unknown
-key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
-key_key.do_a_barrel_roll.open_config:key.keyboard.unknown
-key_key.do_a_barrel_roll.pitch_up:key.keyboard.unknown
-key_key.do_a_barrel_roll.pitch_down:key.keyboard.unknown
-key_key.do_a_barrel_roll.yaw_left:key.keyboard.a
-key_key.do_a_barrel_roll.yaw_right:key.keyboard.d
-key_key.do_a_barrel_roll.roll_left:key.keyboard.unknown
-key_key.do_a_barrel_roll.roll_right:key.keyboard.unknown
-key_key.do_a_barrel_roll.thrust_forward:key.keyboard.w
-key_key.do_a_barrel_roll.thrust_backward:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.unknown
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
+key_key.map_atlases.open_minimap:key.keyboard.m
+key_key.map_atlases.zoom_out_minimap:key.keyboard.keypad.subtract
+key_key.map_atlases.zoom_in_minimap:key.keyboard.keypad.add
+key_key.map_atlases.place_pin:key.keyboard.b
+key_key.map_atlases.increase_slice:key.keyboard.unknown
+key_key.map_atlases.decrease_slice:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
@@ -247,6 +247,7 @@ key_powergrid.keyinfo.place_trace:key.keyboard.t
 key_powergrid.keyinfo.delete_area:key.keyboard.d
 key_powergrid.keyinfo.pick_component:key.keyboard.s
 key_powergrid.keyinfo.switch_layer:key.keyboard.x
+key_key.overpacked.take_off_backpack:key.keyboard.b
 key_tfmg.keyinfo.transmission_shift_up:key.keyboard.b
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.v
 key_tfmg.keyinfo.custom_button:key.keyboard.n
@@ -276,8 +277,9 @@ key_key.parcool.Flipping:key.keyboard.unknown
 key_key.parcool.HangDown:key.mouse.right
 key_create_radar.key.binocular.use:key.keyboard.g
 key_create_radar.key.binocular.fire:key.mouse.left
-key_key.createrailgrinding.rail_mount_override:key.keyboard.unknown
-key_key.createrailgrinding.grind_crouch_accelerate_override:key.keyboard.unknown
+key_key.createrailgrinding.catch:key.keyboard.space:SHIFT
+key_key.createrailgrinding.grind_jump:key.keyboard.space
+key_key.createrailgrinding.grind_crouch:key.keyboard.left.shift
 key_key.boththrow.desc:key.keyboard.unknown
 key_key.motoronoff.desc:key.keyboard.unknown
 key_key.jumpanddetach.desc:key.keyboard.unknown
@@ -290,8 +292,10 @@ key_key.main_throw.desc:key.keyboard.unknown
 key_key.climbup.desc:key.keyboard.unknown
 key_key.climbdown.desc:key.keyboard.unknown
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
+key_key.dashpanels.select_module:key.mouse.right
+key_key.dashpanels.delete_module:key.keyboard.d
+key_key.dashpanels.move_module:key.mouse.left
 key_key.presencefootsteps.settings:key.keyboard.unknown
-key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.30809859154929575
 soundCategory_record:0.7095070422535211
