@@ -18,7 +18,7 @@ spawnEggUseSoundVolume = 0.5
 spawnEggUseParticles = true
 
 [itemRarity]
-particlesDisplayType = "NONE"
+particlesDisplayType = "OFF"
 particleColorType = "NAME_COLOR"
 mixedColorName = true
 useItemBorder = true
