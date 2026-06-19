@@ -41,6 +41,7 @@
 !/config/structurify.json
 !/config/tectonic.json
 !/config/create-server.toml
+!/config/pvp_flagging-server.toml
 
 # oh god
 !/config/submarine_hull.json
