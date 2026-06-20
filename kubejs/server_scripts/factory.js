@@ -22,22 +22,22 @@ ServerEvents.recipes(event => {
     })
 
 //Circuts
-    event.remove({ id: 'powergrid:mechanical_crafting/integrated_circuit' })
-    event.remove({ id: 'powergrid:sequenced_assembly/electrical_gizmo' })
-    const gizmo = 'powergrid:incomplete_electrical_gizmo'
-    event.recipes.createSequencedAssembly([
-        CreateItem.of('powergrid:electrical_gizmo', 100.0),
-        CreateItem.of('createdeco:zinc_sheet', 7.0),
-        CreateItem.of('create:polished_rose_quartz', 5.0),
-        CreateItem.of('minecraft:gold_nugget', 3.0),
-        CreateItem.of('create:copper_nugget"', 2.0),
-        CreateItem.of('minecraft:repeater', 3.0),
-    ], 'createdeco:zinc_sheet', [
-        event.recipes.createDeploying(gizmo, [gizmo, Ingredient.of('#c:copper_coils')]),
-        event.recipes.createDeploying(gizmo, [gizmo, 'create:electron_tube']),
-        event.recipes.createDeploying(gizmo, [gizmo, 'ccbr:integrated_circuit']),
-        event.recipes.createDeploying(gizmo, [gizmo, 'minecraft:gold_nugget']),
-    ]).transitionalItem(gizmo).loops(1)
+    // event.remove({ id: 'powergrid:mechanical_crafting/integrated_circuit' })
+    // event.remove({ id: 'powergrid:sequenced_assembly/electrical_gizmo' })
+    // const gizmo = 'powergrid:incomplete_electrical_gizmo'
+    // event.recipes.createSequencedAssembly([
+    //     CreateItem.of('powergrid:electrical_gizmo', 100.0),
+    //     CreateItem.of('createdeco:zinc_sheet', 7.0),
+    //     CreateItem.of('create:polished_rose_quartz', 5.0),
+    //     CreateItem.of('minecraft:gold_nugget', 3.0),
+    //     CreateItem.of('create:copper_nugget"', 2.0),
+    //     CreateItem.of('minecraft:repeater', 3.0),
+    // ], 'createdeco:zinc_sheet', [
+    //     event.recipes.createDeploying(gizmo, [gizmo, Ingredient.of('#c:copper_coils')]),
+    //     event.recipes.createDeploying(gizmo, [gizmo, 'create:electron_tube']),
+    //     event.recipes.createDeploying(gizmo, [gizmo, 'ccbr:integrated_circuit']),
+    //     event.recipes.createDeploying(gizmo, [gizmo, 'minecraft:gold_nugget']),
+    // ]).transitionalItem(gizmo).loops(1)
 
     event.remove({ id: 'glaidens_radio_mod:circuit_board' })
     event.replaceInput({ input: 'glaidens_radio_mod:circuit_board'  }, 'glaidens_radio_mod:circuit_board', 'ccbr:basic_integrated_circuit')
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
-    event.remove('powergrid:integrated_circuit')
+    // event.remove('powergrid:integrated_circuit')
     event.remove('glaidens_radio_mod:circuit_board')
 })
 
@@ -57,5 +57,5 @@ ServerEvents.tags('item', event => {
     event.add('c:music_discs', 'betterarcheology:music_disc_swings')
     event.add('c:music_discs', 'furniture:cphs_pride')
     event.add('c:music_discs', 'furniture:letsdo_theme')
-    event.remove('c:plates/zinc', 'powergrid:zinc_sheet')
+    // event.remove('c:plates/zinc', 'powergrid:zinc_sheet')
 })

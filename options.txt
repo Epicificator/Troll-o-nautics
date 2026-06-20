@@ -212,11 +212,6 @@ key_key.aeroworks.joystick.free_camera:key.keyboard.left.shift
 key_key.climbable_ropes.lock_rope_camera:key.keyboard.left.alt
 key_key.pipeorgans.midi_config:key.keyboard.semicolon
 key_key.tracks.open_tuning:key.keyboard.j
-key_key.createthrusters.physics_goggles.toggle_force_gizmo:key.keyboard.g
-key_key.createthrusters.physics_goggles.toggle_diagram:key.keyboard.h
-key_key.createthrusters.physics_goggles.diagram_interactive_mode:key.keyboard.j
-key_key.createthrusters.physics_goggles.edit_overlays_mode:key.keyboard.k
-key_key.createthrusters.contraption_network_linker.cycle_scope_mode_modifier:key.keyboard.left.alt
 key_petrolpark.key.tube.build:key.keyboard.enter
 key_petrolpark.key.tube.delete_control_point:key.keyboard.backspace
 key_petrolpark.key.tube.add_control_point_after:key.keyboard.equal
@@ -230,11 +225,6 @@ key_petrolpark.key.hotbar.14:key.keyboard.unknown
 key_petrolpark.key.hotbar.15:key.keyboard.unknown
 key_petrolpark.key.hotbar.16:key.keyboard.unknown
 key_petrolpark.key.hotbar.17:key.keyboard.unknown
-key_powergrid.keyinfo.rotate_component:key.keyboard.r
-key_powergrid.keyinfo.place_trace:key.keyboard.t
-key_powergrid.keyinfo.delete_area:key.keyboard.d
-key_powergrid.keyinfo.pick_component:key.keyboard.s
-key_powergrid.keyinfo.switch_layer:key.keyboard.x
 key_key.overpacked.take_off_backpack:key.keyboard.b
 key_tfmg.keyinfo.transmission_shift_up:key.keyboard.v
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.c
@@ -279,6 +269,9 @@ key_key.off_throw.desc:key.keyboard.unknown
 key_key.main_throw.desc:key.keyboard.unknown
 key_key.climbup.desc:key.keyboard.unknown
 key_key.climbdown.desc:key.keyboard.unknown
+key_key.dashpanels.delete_module:key.keyboard.d
+key_key.dashpanels.move_module:key.mouse.left
+key_key.dashpanels.select_module:key.mouse.right
 soundCategory_master:0.5091059602649006
 soundCategory_music:0.0
 soundCategory_record:0.7095070422535211
