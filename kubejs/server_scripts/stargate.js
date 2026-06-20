@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'moregate' })
     event.shaped( 'sgjourney:universe_stargate_chevron',
                   [ 'bcb', ' a ' ],
-                  { a: 'abyssal_decor:industrial_lever', b: 'oreganized:silver_nugget', c: 'powergrid:light_bulb'})
+                  { a: 'abyssal_decor:industrial_lever', b: 'oreganized:silver_nugget', c: 'minecraft:iron_ingot'})
     event.recipes.createMechanicalCrafting(Item.of('sgjourney:classic_stargate[minecraft:block_entity_data={id:"sgjourney:classic_stargate",point_of_origin:"sgjourney:terra"}]'), [
         ' aaa ',
         'ab ba',
@@ -13,11 +13,11 @@ ServerEvents.recipes(event => {
     ], {a: 'sgjourney:universe_stargate_chevron',
         b: 'oreganized:silver_block',
         c: 'architects_palette:ender_pearl_block',
-        d: 'powergrid:transformer_core' })
+        d: 'minecraft:iron_block' })
 
     event.shaped( 'sgjourney:basic_interface',
         [ 'aba', 'cdc', 'aea' ],
-        { a: 'powergrid:transformer_core', b: 'minecraft:diamond', c: 'minecraft:ender_pearl', d: 'ccbr:basic_integrated_circuit', e: 'minecraft:redstone' })
+        { a: 'minecraft:iron_block', b: 'minecraft:diamond', c: 'minecraft:ender_pearl', d: 'ccbr:basic_integrated_circuit', e: 'minecraft:redstone' })
     event.shaped( 'sgjourney:crystal_interface',
         [ 'aba', 'cdc', 'efe' ],
         { a: 'tfmg:heavy_machinery_casing', b: 'tfmg:voltage_observer', c: 'tfmg:steel_mechanism', d: 'minecraft:netherite_scrap', e: 'tfmg:machine_input' , f: 'tfmg:electrical_switch'})
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
 
     event.shaped('sgjourney:gdo', [
         'ab', 'ca'
-    ], { a: 'create:iron_sheet', b: 'create:transmitter' , c: 'powergrid:electrical_gizmo'})
+    ], { a: 'create:iron_sheet', b: 'create:transmitter' , c: 'oreganized:silver_ingot'})
     
     event.shaped('sgjourney:transceiver', [
         'ab', 'cd', 'ab'
