@@ -6,10 +6,6 @@ ServerEvents.recipes(event => {
     event.blasting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.1, 120)
 
-    //copycats
-    event.remove({ id: 'sim_copycats:weightless_copycat' })
-    event.recipes.create.mixing('sim_copycats:weightless_copycat', ['create:zinc_ingot', 'minecraft:phantom_membrane'])
-
     //overpacked giant backpack recipes
     event.recipes.shaped('overpacked:giant_backpack',
         ['aba', 'cdc', 'aaa'],
