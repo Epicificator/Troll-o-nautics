@@ -13,9 +13,9 @@ glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
 fullscreen:false
-gamma:0.5
+gamma:0.75
 graphicsMode:1
-guiScale:0
+guiScale:3
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","continuity:glass_pane_culling_fix","continuity:default","file/Atmospheric Skies \u0026 Fog 1.3.zip","file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/Andesite_Chests+Crafting_Table_1_20_2+.zip","file/Connected-Bricks 1.14-1.21.3 v1.0.zip","file/Connected-Paths 1.14-1.21.8 v2.1.1.zip","file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip","file/rainbows-foliage-polytone-edition-v1.7.zip","file/SGJourney Refreshed.zip","file/Sounds x Create V1.4.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CC Greentech v1.1.zip","file/CoolConsole.zip","file/DieselDepot.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","continuity:glass_pane_culling_fix","continuity:default","file/Atmospheric Skies \u0026 Fog 1.3.zip","file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/Andesite_Chests+Crafting_Table_1_20_2+.zip","file/Connected-Bricks 1.14-1.21.3 v1.0.zip","file/Connected-Paths 1.14-1.21.8 v2.1.1.zip","file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip","file/rainbows-foliage-polytone-edition-v1.7.zip","file/SGJourney Refreshed.zip","file/Sounds x Create V1.4.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CC Greentech v1.1.zip","file/CoolConsole.zip","file/DieselDepot.zip","netherexp:jne_retextures"]
 incompatibleResourcePacks:["file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/SGJourney Refreshed.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CoolConsole.zip"]
 lastServer:
 lang:en_us
@@ -59,7 +59,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:true
-pauseOnLostFocus:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -219,16 +219,10 @@ key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
-key_key.sable_player_ragdoll.ragdoll:key.keyboard.h
 key_key.aeroworks.joystick.free_camera:key.keyboard.left.shift
 key_key.climbable_ropes.lock_rope_camera:key.keyboard.left.alt
 key_key.pipeorgans.midi_config:key.keyboard.semicolon
 key_key.tracks.open_tuning:key.keyboard.j
-key_key.createthrusters.physics_goggles.toggle_force_gizmo:key.keyboard.unknown
-key_key.createthrusters.physics_goggles.toggle_diagram:key.keyboard.unknown
-key_key.createthrusters.physics_goggles.diagram_interactive_mode:key.keyboard.unknown
-key_key.createthrusters.physics_goggles.edit_overlays_mode:key.keyboard.unknown
-key_key.createthrusters.contraption_network_linker.cycle_scope_mode_modifier:key.keyboard.unknown
 key_petrolpark.key.tube.build:key.keyboard.unknown
 key_petrolpark.key.tube.delete_control_point:key.keyboard.unknown
 key_petrolpark.key.tube.add_control_point_after:key.keyboard.unknown
@@ -242,11 +236,6 @@ key_petrolpark.key.hotbar.14:key.keyboard.unknown
 key_petrolpark.key.hotbar.15:key.keyboard.unknown
 key_petrolpark.key.hotbar.16:key.keyboard.unknown
 key_petrolpark.key.hotbar.17:key.keyboard.unknown
-key_powergrid.keyinfo.rotate_component:key.keyboard.r
-key_powergrid.keyinfo.place_trace:key.keyboard.t
-key_powergrid.keyinfo.delete_area:key.keyboard.d
-key_powergrid.keyinfo.pick_component:key.keyboard.s
-key_powergrid.keyinfo.switch_layer:key.keyboard.x
 key_key.overpacked.take_off_backpack:key.keyboard.b
 key_tfmg.keyinfo.transmission_shift_up:key.keyboard.b
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.v
@@ -259,6 +248,7 @@ key_key.jade.show_recipes:key.keyboard.unknown
 key_key.jade.show_uses:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details:key.keyboard.left.shift
+key_key.sable_player_ragdoll.ragdoll:key.keyboard.h
 key_key.parcool.Enable:key.keyboard.unknown
 key_key.parcool.Crawl:key.keyboard.c
 key_key.parcool.ClingToCliff:key.mouse.right
@@ -292,12 +282,12 @@ key_key.main_throw.desc:key.keyboard.unknown
 key_key.climbup.desc:key.keyboard.unknown
 key_key.climbdown.desc:key.keyboard.unknown
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
+key_key.dashpanels.move_module:key.mouse.left
 key_key.dashpanels.select_module:key.mouse.right
 key_key.dashpanels.delete_module:key.keyboard.d
-key_key.dashpanels.move_module:key.mouse.left
 key_key.presencefootsteps.settings:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.30809859154929575
+soundCategory_music:0.0
 soundCategory_record:0.7095070422535211
 soundCategory_weather:0.7077464788732394
 soundCategory_block:0.6073943661971831
