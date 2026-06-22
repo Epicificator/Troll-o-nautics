@@ -73,6 +73,8 @@ ServerEvents.recipes(event => {
     //sim_copycats
     event.remove({ id: 'sim_copycats:levitite_copycat' })
     event.remove({ input: 'sim_copycats:levitite_copycat' })
+    event.remove({ id: 'sim_copycats:absurdly_heavy_copycat' })
+    event.remove({ input: 'sim_copycats:absurdly_heavy_copycat' })
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
