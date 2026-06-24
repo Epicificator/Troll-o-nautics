@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "spelunkers_charm:deepslate_lava_geyser",
+  "step": "underground_decoration"
+}
