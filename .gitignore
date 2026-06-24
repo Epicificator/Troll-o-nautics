@@ -42,6 +42,8 @@
 !/config/tectonic.json
 !/config/create-server.toml
 !/config/pvp_flagging-server.toml
+!/config/voicechat/voicechat-server.properties
+!/config/discord_chat_mod-common.toml
 
 # oh god
 !/config/submarine_hull.json
