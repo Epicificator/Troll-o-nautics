@@ -8,6 +8,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.milling('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone')
     event.recipes.create.crushing('natures_spirit:pink_sand', 'minecraft:pink_terracotta')
     event.recipes.create.milling('natures_spirit:pink_sand', 'minecraft:pink_terracotta')
+    event.recipes.create.crushing('minecraft:red_sand', 'minecraft:red_sandstone')
+    event.recipes.create.milling('minecraft:red_sand', 'minecraft:red_sandstone')
 
 //sophisticated storage changes
     event.replaceInput({ mod: 'sophisticatedstorage', input: '#c:ingots/gold' }, Ingredient.of('#c:ingots/gold'), 'create:brass_ingot')
