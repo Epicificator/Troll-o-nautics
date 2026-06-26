@@ -1,21 +1,15 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded server_scripts main.js)')
-
 ServerEvents.recipes(event => {
     event.smelting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.blasting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.1, 120)
 
-    //overpacked giant backpack recipes
-    event.recipes.shaped('overpacked:giant_backpack',
-        ['aba', 'cdc', 'aaa'],
-        { a: 'minecraft:leather', b: 'simulated:iron_handle', c: 'minecraft:iron_ingot', d: 'sophisticatedstorage:iron_chest' })
-    const dyes = ['white','orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black', 'maroon', 'rose', 'coral', 'indigo', 'navy', 'slate', 'olive', 'amber', 'beige', 'teal', 'mint', 'aqua', 'verdant', 'forest', 'ginger', 'tan']
-    dyes.forEach(dye => {
-        event.shapeless(`overpacked:${dye}_giant_backpack`,[`#c:dyes/${dye}`, Ingredient.of('#overpacked:giant_backpacks')])
-    })
+//stones
+    event.recipes.create.crushing('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone')
+    event.recipes.create.milling('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone')
+    event.recipes.create.crushing('natures_spirit:pink_sand', 'minecraft:pink_terracotta')
+    event.recipes.create.milling('natures_spirit:pink_sand', 'minecraft:pink_terracotta')
 
-    //sophisticatedstorage changes
+//sophisticated storage changes
     event.replaceInput({ mod: 'sophisticatedstorage', input: '#c:ingots/gold' }, Ingredient.of('#c:ingots/gold'), 'create:brass_ingot')
     event.custom({
         "type": "sophisticatedstorage:double_chest_tier_upgrade",
@@ -43,4 +37,25 @@ ServerEvents.recipes(event => {
     stupgrade('sophisticatedstorage:limited_gold_barrel_2', 'sophisticatedstorage:limited_iron_barrel_2', 'sophisticatedstorage:limited_gold_barrel_2')
     stupgrade('sophisticatedstorage:limited_gold_barrel_3', 'sophisticatedstorage:limited_iron_barrel_3', 'sophisticatedstorage:limited_gold_barrel_3')
     stupgrade('sophisticatedstorage:limited_gold_barrel_4', 'sophisticatedstorage:limited_iron_barrel_4', 'sophisticatedstorage:limited_gold_barrel_4')
+//Blank Disc
+    event.stonecutting('2x kubejs:blank_disc', 'tfmg:plastic_sheet')
+
+//Remove Turtles
+    event.remove({ output: 'computercraft:turtle_normal' })
+    event.remove({ output: 'computercraft:turtle_advanced' })
+    event.remove('wayfinder:signal_array')
+    event.remove('wayfinder:signalscope')
+})
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove('computercraft:turtle_normal')
+    event.remove('computercraft:turtle_advanced')
+    event.remove('lootr:trophy')
+})
+
+//Tagging
+ServerEvents.tags('item', event => {
+    event.add('c:music_discs', 'kubejs:blank_disc')
+    event.add('c:music_discs', 'betterarcheology:music_disc_swings')
+    event.add('c:music_discs', 'furniture:cphs_pride')
+    event.add('c:music_discs', 'furniture:letsdo_theme')
 })
