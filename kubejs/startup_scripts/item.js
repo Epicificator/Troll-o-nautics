@@ -4,6 +4,9 @@ StartupEvents.registry('item', event => {
 
 ItemEvents.modification(event => {
     event.modify('minecraft:charcoal', item => {
-        item.burnTime = 800
+        item.burnTime = 1200
+    })
+    event.modify('spelunkery:charcoal_lump', item => {
+        item.burnTime = 150
     })
 })

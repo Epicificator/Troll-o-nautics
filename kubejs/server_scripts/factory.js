@@ -41,21 +41,8 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'glaidens_radio_mod:circuit_board' })
     event.replaceInput({ input: 'glaidens_radio_mod:circuit_board'  }, 'glaidens_radio_mod:circuit_board', 'ccbr:basic_integrated_circuit')
-
-
-//Blank Disc
-    event.stonecutting('2x kubejs:blank_disc', 'tfmg:plastic_sheet')
 })
-
 RecipeViewerEvents.removeEntries('item', event => {
     // event.remove('powergrid:integrated_circuit')
     event.remove('glaidens_radio_mod:circuit_board')
-})
-
-ServerEvents.tags('item', event => {
-    event.add('c:music_discs', 'kubejs:blank_disc')
-    event.add('c:music_discs', 'betterarcheology:music_disc_swings')
-    event.add('c:music_discs', 'furniture:cphs_pride')
-    event.add('c:music_discs', 'furniture:letsdo_theme')
-    // event.remove('c:plates/zinc', 'powergrid:zinc_sheet')
 })
