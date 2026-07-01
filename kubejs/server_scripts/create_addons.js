@@ -4,7 +4,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod' })
     event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod2' })
     event.remove({ id: 'aeronautics_utility_objects:damping_stress_bearing' })
-    //create_connected
     //createcasing
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/andesite' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/brass' })
@@ -15,6 +14,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/refined_radiance' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/shadow_steel' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/weathered_iron' })
+    event.remove({ id: 'createcasing:crafting/depot/brass' })
+    //createdieselgenerators
+    event.remove({ id: 'createdieselgenerators:crafting/andesite_girder' })
     //createpropulsion
     event.remove({ id: 'createpropulsion:crafting/liquid_burner' })
     event.remove({ id: 'createpropulsion:crafting/solid_burner' })
@@ -28,7 +30,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createpropulsion:crafting/cable_relay' })
     event.remove({ id: 'createpropulsion:mixing/coral' })
     event.remove({ id: 'createpropulsion:crafting/coral_generator' })
-
     //lift n load
     event.remove({ id: 'create_lnl:thruster' })
     //petrolsparts
@@ -59,6 +60,9 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createcasing:refined_radiance_configurable_gearbox')
     event.remove('createcasing:shadow_steel_configurable_gearbox')
     event.remove('createcasing:weathered_iron_configurable_gearbox')
+    event.remove('createcasing:brass_depot')
+    //createdieselgenerators
+    event.remove('createdieselgenerators:andesite_girder')
     //createpropulsion
     event.remove('createpropulsion:liquid_burner')
     event.remove('createpropulsion:stirling_engine')
