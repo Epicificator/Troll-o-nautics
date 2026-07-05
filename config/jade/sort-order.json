@@ -87,6 +87,10 @@
   "minecraft:zombie_villager": null,
   "petrolpark:contamination": null,
   "petrolpark:drying_rack": null,
+  "sable_player_ragdoll:mob_ragdoll_part": null,
+  "sable_player_ragdoll:mob_ragdoll_part_data": null,
+  "sable_player_ragdoll:ragdoll_part": null,
+  "sable_player_ragdoll:ragdoll_part_data": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null

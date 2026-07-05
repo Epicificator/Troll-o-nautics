@@ -101,9 +101,6 @@
     "lightroom": true,
     "photograph_frame": true
   },
-  "waterwheelbearing": {
-    "wheel_bearing": true
-  },
   "jadeaddons.lootr": {
     "info": true
   },
@@ -119,9 +116,6 @@
   },
   "create_enchantment_industry": {
     "create_enchantment_industry_tooltip": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "create_connected": {
     "create_connected_tooltip": true
