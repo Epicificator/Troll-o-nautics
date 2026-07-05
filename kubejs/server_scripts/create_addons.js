@@ -1,9 +1,4 @@
 ServerEvents.recipes(event => {
-    //aeronautics_utility_objects
-    event.remove({ id: 'aeronautics_utility_objects:brass_universal_joint' })
-    event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod' })
-    event.remove({ id: 'aeronautics_utility_objects:universal_joint_rod2' })
-    event.remove({ id: 'aeronautics_utility_objects:damping_stress_bearing' })
     //createcasing
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/andesite' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/brass' })
@@ -35,21 +30,9 @@ ServerEvents.recipes(event => {
     //petrolsparts
     event.remove({ id: 'petrolsparts:crafting/pneumatic_tube' })
     event.remove({ id: 'petrolsparts:mechanical_crafting/hydraulic_transmission' })
-    //sim_copycats
-    event.remove({ id: 'sim_copycats:levitite_copycat' })
-    event.remove({ input: 'sim_copycats:levitite_copycat' })
-    event.remove({ id: 'sim_copycats:absurdly_heavy_copycat' })
-    event.remove({ input: 'sim_copycats:absurdly_heavy_copycat' })
-    event.remove({ id: 'sim_copycats:weightless_copycat' })
-    event.recipes.create.mixing('sim_copycats:weightless_copycat', ['create:zinc_ingot', 'minecraft:phantom_membrane'])
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
-    //aeronautics_utility_objects
-    event.remove('aeronautics_utility_objects:brass_universal_joint')
-    event.remove('aeronautics_utility_objects:universal_joint_rod')
-    event.remove('aeronautics_utility_objects:universal_joint_rod2')
-    event.remove('aeronautics_utility_objects:damping_stress_bearing')
     //createcasing
     event.remove('createcasing:andesite_configurable_gearbox')
     event.remove('createcasing:brass_configurable_gearbox')
@@ -76,8 +59,4 @@ RecipeViewerEvents.removeEntries('item', event => {
     //petrolsparts
     event.remove('petrolsparts:pneumatic_tube')
     event.remove('petrolsparts:hydraulic_transmission')
-    //sim_copycats
-    event.remove('sim_copycats:levitite_copycat')
-    event.remove('sim_copycats:levitite_copycat_slab')
-    event.remove('sim_copycats:levitite_copycat_stairs')
 })

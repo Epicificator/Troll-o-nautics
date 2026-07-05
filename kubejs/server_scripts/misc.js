@@ -2,10 +2,6 @@ ServerEvents.recipes(event => {
     event.smelting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.blasting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.1, 120)
-//deco item _ industrial iron ingot
-    event.remove({ id: 'i_architecture:industrial_iron_ingot_from_iron_ingot_stonecutting' })
-    event.remove({ id: 'i_architecture:metal_railing_from_industrial_iron_ingot_stonecutting' })
-    event.stonecutting('4x i_architecture:metal_railing', Ingredient.of('#c:ingots/industrial_iron'))
 
 //stones
     event.recipes.create.crushing('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone')
@@ -56,12 +52,10 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
     event.remove('computercraft:turtle_advanced')
     event.remove('lootr:trophy')
-    event.remove('i_architecture:industrial_iron_ingot')
 })
 
 //Tagging
 ServerEvents.tags('item', event => {
-    event.remove('c:ingots/industrial_iron', 'i_architecture:industrial_iron_ingot')
     event.add('c:music_discs', 'kubejs:blank_disc')
     event.add('c:music_discs', 'betterarcheology:music_disc_swings')
     event.add('c:music_discs', 'furniture:cphs_pride')
