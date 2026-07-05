@@ -1,0 +1,14 @@
+{
+  "id": "custom:starfish",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:starfish",
+    "abyssal_decor:starfish_orange_2",
+    "abyssal_decor:starfish_purple_1",
+    "abyssal_decor:starfish_purple_2",
+    "abyssal_decor:starfish_pink_1",
+    "abyssal_decor:starfish_pink_2",
+    "abyssal_decor:dried_starfish",
+    "abyssal_decor:dried_starfish_2"
+  ]
+}

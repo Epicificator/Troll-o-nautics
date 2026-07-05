@@ -1,0 +1,29 @@
+{
+  "id": "custom:celestial_wood",
+  "type": "emixx:group",
+  "contents": [
+    "enderscape:celestial_hanging_sign",
+    "enderscape:celestial_sign",
+    "enderscape:celestial_path_block",
+    "enderscape:celestial_overgrowth",
+    "enderscape:stripped_celestial_stem",
+    "enderscape:celestial_stem",
+    "enderscape:stripped_celestial_hyphae",
+    "enderscape:celestial_hyphae",
+    "enderscape:celestial_cap",
+    "enderscape:celestial_bricks",
+    "enderscape:celestial_brick_stairs",
+    "enderscape:celestial_brick_slab",
+    "enderscape:celestial_brick_wall",
+    "enderscape:celestial_planks",
+    "enderscape:celestial_stairs",
+    "enderscape:celestial_slab",
+    "enderscape:celestial_pressure_plate",
+    "enderscape:celestial_fence",
+    "enderscape:celestial_door",
+    "enderscape:celestial_trapdoor",
+    "enderscape:celestial_fence_gate",
+    "enderscape:celestial_button",
+    "supplementaries:enderscape/way_sign_celestial"
+  ]
+}

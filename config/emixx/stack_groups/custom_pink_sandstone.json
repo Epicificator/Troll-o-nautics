@@ -1,0 +1,16 @@
+{
+  "id": "custom:pink_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:pink_sandstone",
+    "natures_spirit:pink_sandstone_stairs",
+    "natures_spirit:pink_sandstone_slab",
+    "natures_spirit:pink_sandstone_wall",
+    "natures_spirit:chiseled_pink_sandstone",
+    "natures_spirit:smooth_pink_sandstone",
+    "natures_spirit:smooth_pink_sandstone_stairs",
+    "natures_spirit:smooth_pink_sandstone_slab",
+    "natures_spirit:cut_pink_sandstone",
+    "natures_spirit:cut_pink_sandstone_slab"
+  ]
+}

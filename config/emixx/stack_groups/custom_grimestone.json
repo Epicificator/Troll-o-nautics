@@ -1,0 +1,24 @@
+{
+  "id": "custom:grimestone",
+  "type": "emixx:group",
+  "contents": [
+    "darkerdepths:grimestone",
+    "darkerdepths:grimestone_stairs",
+    "darkerdepths:grimestone_slab",
+    "darkerdepths:grimestone_vertical_slab",
+    "darkerdepths:grimestone_wall",
+    "darkerdepths:mossy_grimestone",
+    "darkerdepths:polished_grimestone",
+    "darkerdepths:polished_grimestone_stairs",
+    "darkerdepths:polished_grimestone_slab",
+    "darkerdepths:polished_grimestone_vertical_slab",
+    "darkerdepths:grimestone_bricks",
+    "darkerdepths:grimestone_bricks_stairs",
+    "darkerdepths:grimestone_bricks_slab",
+    "darkerdepths:grimestone_bricks_vertical_slab",
+    "darkerdepths:grimestone_bricks_wall",
+    "darkerdepths:chiseled_grimestone_bricks",
+    "darkerdepths:cracked_grimestone_bricks",
+    "darkerdepths:grimestone_pillar"
+  ]
+}

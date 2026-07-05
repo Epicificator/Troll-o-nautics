@@ -1,0 +1,12 @@
+{
+  "id": "custom:mashed_potatoes",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:mashed_potatoes_bowl",
+    "createfood:mashed_potatoes_bowl_bacon",
+    "createfood:mashed_potatoes_bowl_cheese",
+    "createfood:mashed_potatoes_bowl_mushroom",
+    "createfood:mashed_potatoes_bowl_sour_cream",
+    "nomansland:mashed_potatoes_with_mushrooms"
+  ]
+}

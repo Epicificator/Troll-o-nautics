@@ -1,0 +1,25 @@
+{
+  "id": "custom:bauxite",
+  "type": "emixx:group",
+  "contents": [
+    "tfmg:bauxite",
+    "tfmg:cut_bauxite",
+    "tfmg:cut_bauxite_stairs",
+    "tfmg:cut_bauxite_slab",
+    "tfmg:cut_bauxite_wall",
+    "tfmg:polished_cut_bauxite",
+    "tfmg:polished_cut_bauxite_stairs",
+    "tfmg:polished_cut_bauxite_slab",
+    "tfmg:polished_cut_bauxite_wall",
+    "tfmg:cut_bauxite_bricks",
+    "tfmg:cut_bauxite_brick_stairs",
+    "tfmg:cut_bauxite_brick_slab",
+    "tfmg:cut_bauxite_brick_wall",
+    "tfmg:small_bauxite_bricks",
+    "tfmg:small_bauxite_brick_stairs",
+    "tfmg:small_bauxite_brick_slab",
+    "tfmg:small_bauxite_brick_wall",
+    "tfmg:layered_bauxite",
+    "tfmg:bauxite_pillar"
+  ]
+}

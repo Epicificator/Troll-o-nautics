@@ -1,0 +1,23 @@
+{
+  "id": "custom:joshua_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:joshua_bundle",
+    "natures_spirit:stripped_joshua_bundle",
+    "natures_spirit:joshua_mosaic",
+    "natures_spirit:joshua_mosaic_stairs",
+    "natures_spirit:joshua_mosaic_slab",
+    "natures_spirit:joshua_planks",
+    "natures_spirit:joshua_stairs",
+    "natures_spirit:joshua_slab",
+    "natures_spirit:joshua_fence",
+    "natures_spirit:joshua_fence_gate",
+    "natures_spirit:joshua_pressure_plate",
+    "natures_spirit:joshua_button",
+    "natures_spirit:joshua_door",
+    "natures_spirit:joshua_trapdoor",
+    "natures_spirit:joshua_sign",
+    "natures_spirit:joshua_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_joshua"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "custom:spawn_eggs",
+  "type": "emixx:regex",
+  "regex": ".*:.*spawn_egg",
+  "name": "Spawn Eggs"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "custom:crimsite",
+  "type": "emixx:group",
+  "contents": [
+    "bits_n_bobs:crimsite_tiles",
+    "bits_n_bobs:crimsite_tile_stairs",
+    "bits_n_bobs:crimsite_tile_slab",
+    "bits_n_bobs:crimsite_tile_wall",
+    "create:crimsite",
+    "create:cut_crimsite",
+    "create:cut_crimsite_stairs",
+    "create:cut_crimsite_slab",
+    "create:cut_crimsite_wall",
+    "create:polished_cut_crimsite",
+    "create:polished_cut_crimsite_stairs",
+    "create:polished_cut_crimsite_slab",
+    "create:polished_cut_crimsite_wall",
+    "create:cut_crimsite_bricks",
+    "create:cut_crimsite_brick_stairs",
+    "create:cut_crimsite_brick_slab",
+    "create:cut_crimsite_brick_wall",
+    "create:small_crimsite_bricks",
+    "create:small_crimsite_brick_stairs",
+    "create:small_crimsite_brick_slab",
+    "create:small_crimsite_brick_wall",
+    "create:layered_crimsite",
+    "create:crimsite_pillar"
+  ]
+}

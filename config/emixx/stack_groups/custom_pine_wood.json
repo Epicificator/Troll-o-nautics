@@ -1,0 +1,25 @@
+{
+  "id": "custom:pine_wood",
+  "type": "emixx:group",
+  "contents": [
+    "nomansland:pine_planks",
+    "nomansland:pine_stairs",
+    "nomansland:pine_slab",
+    "nomansland:trimmed_pine_planks",
+    "nomansland:pine_log",
+    "nomansland:pine_wood",
+    "nomansland:stripped_pine_log",
+    "nomansland:stripped_pine_wood",
+    "nomansland:pine_fence",
+    "nomansland:pine_fence_gate",
+    "nomansland:pine_button",
+    "nomansland:pine_pressure_plate",
+    "nomansland:pine_door",
+    "nomansland:pine_trapdoor",
+    "nomansland:pine_bookshelf",
+    "nomansland:pine_cabinet",
+    "supplementaries:nomansland/way_sign_pine",
+    "nomansland:pine_sign",
+    "nomansland:pine_hanging_sign"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "custom:popsicles",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:melon_popsicle",
+    "createfood:apple_popsicle",
+    "createfood:berry_popsicle",
+    "createfood:chorus_fruit_popsicle",
+    "createfood:glow_berry_popsicle"
+  ]
+}

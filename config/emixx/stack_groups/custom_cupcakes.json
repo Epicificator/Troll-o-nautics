@@ -1,0 +1,26 @@
+{
+  "id": "custom:cupcakes",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_cream_chocolate_cupcake",
+    "createfood:apple_cream_cupcake",
+    "createfood:berry_cream_chocolate_cupcake",
+    "createfood:berry_cream_cupcake",
+    "createfood:chocolate_cream_chocolate_cupcake",
+    "createfood:chocolate_cream_cupcake",
+    "createfood:chocolate_cupcake_base",
+    "createfood:chorus_fruit_cream_chocolate_cupcake",
+    "createfood:chorus_fruit_cream_cupcake",
+    "createfood:cream_chocolate_cupcake",
+    "createfood:cream_cupcake",
+    "createfood:cupcake_base",
+    "createfood:glow_berry_cream_chocolate_cupcake",
+    "createfood:glow_berry_cream_cupcake",
+    "createfood:honeyed_chocolate_cupcake",
+    "createfood:honeyed_cupcake",
+    "createfood:melon_cream_chocolate_cupcake",
+    "createfood:melon_cream_cupcake",
+    "createfood:ube_cream_ube_cupcake",
+    "createfood:ube_cupcake_base"
+  ]
+}

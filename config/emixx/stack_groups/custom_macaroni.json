@@ -1,0 +1,14 @@
+{
+  "id": "custom:macaroni",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:macaroni",
+    "createfood:macaroni_bowl",
+    "createfood:macaroni_bowl_bacon",
+    "createfood:macaroni_bowl_cheese",
+    "createfood:macaroni_bowl_cheese_bacon",
+    "createfood:macaroni_bowl_cheese_sausage",
+    "createfood:macaroni_bowl_sausage",
+    "createfood:raw_macaroni"
+  ]
+}

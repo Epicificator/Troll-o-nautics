@@ -1,0 +1,14 @@
+{
+  "id": "custom:baked_potatos",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:baked_potato",
+    "createfood:baked_potato_butter",
+    "createfood:baked_potato_butter_bacon",
+    "createfood:baked_potato_butter_cheese",
+    "createfood:baked_potato_butter_fish",
+    "createfood:baked_potato_butter_fried_egg",
+    "createfood:baked_potato_butter_mushroom",
+    "createfood:baked_potato_butter_sour_cream"
+  ]
+}

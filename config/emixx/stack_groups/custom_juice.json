@@ -1,0 +1,13 @@
+{
+  "id": "custom:juice",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:melon_juice",
+    "createfood:apple_juice_bottle",
+    "createfood:berry_juice_bottle",
+    "createfood:chorus_fruit_juice_bottle",
+    "createfood:glow_berry_juice_bottle",
+    "nomansland:pear_juice",
+    "createfood:sugar_cane_juice_bottle"
+  ]
+}

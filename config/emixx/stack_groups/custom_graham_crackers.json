@@ -1,0 +1,19 @@
+{
+  "id": "custom:graham_crackers",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:chocolate_graham_cracker_glow_berry_ice_cream",
+    "createfood:chocolate_graham_cracker_ice_cream",
+    "createfood:chocolate_graham_cracker_melon_ice_cream",
+    "createfood:chocolate_graham_cracker_neapolitan_scoop_1",
+    "createfood:chocolate_graham_cracker_neapolitan_scoop_2",
+    "createfood:chocolate_graham_cracker_neapolitan_scoop_3",
+    "createfood:graham_cracker_marshmallow",
+    "createfood:graham_cracker_chocolate_marshmallow",
+    "createfood:chocolate_graham_cracker",
+    "createfood:chocolate_graham_cracker_apple_ice_cream",
+    "createfood:chocolate_graham_cracker_berry_ice_cream",
+    "createfood:chocolate_graham_cracker_chocolate_ice_cream",
+    "createfood:chocolate_graham_cracker_chorus_fruit_ice_cream"
+  ]
+}

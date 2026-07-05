@@ -1,0 +1,14 @@
+{
+  "id": "custom:sausage_rolls",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:raw_sausage_roll",
+    "createfood:raw_sausage_roll_cheese",
+    "createfood:raw_spicy_sausage_roll",
+    "createfood:raw_spicy_sausage_roll_cheese",
+    "createfood:sausage_roll",
+    "createfood:sausage_roll_cheese",
+    "createfood:spicy_sausage_roll",
+    "createfood:spicy_sausage_roll_cheese"
+  ]
+}

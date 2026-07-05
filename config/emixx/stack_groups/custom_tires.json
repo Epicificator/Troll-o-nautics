@@ -1,0 +1,14 @@
+{
+  "id": "custom:tires",
+  "type": "emixx:group",
+  "contents": [
+    "offroad:small_tire",
+    "offroad:tire",
+    "offroad:large_tire",
+    "offroad:monstrous_tire",
+    "create_lnl:monstrous_slime_tire",
+    "create_lnl:large_slime_tire",
+    "create_lnl:slime_tire",
+    "create_lnl:small_slime_tire"
+  ]
+}

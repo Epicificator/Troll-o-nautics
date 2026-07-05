@@ -1,0 +1,29 @@
+{
+  "id": "custom:asurine",
+  "type": "emixx:group",
+  "contents": [
+    "bits_n_bobs:asurine_tiles",
+    "bits_n_bobs:asurine_tile_stairs",
+    "bits_n_bobs:asurine_tile_slab",
+    "bits_n_bobs:asurine_tile_wall",
+    "create:asurine",
+    "create:cut_asurine",
+    "create:cut_asurine_stairs",
+    "create:cut_asurine_slab",
+    "create:cut_asurine_wall",
+    "create:polished_cut_asurine",
+    "create:polished_cut_asurine_stairs",
+    "create:polished_cut_asurine_slab",
+    "create:polished_cut_asurine_wall",
+    "create:cut_asurine_bricks",
+    "create:cut_asurine_brick_stairs",
+    "create:cut_asurine_brick_slab",
+    "create:cut_asurine_brick_wall",
+    "create:small_asurine_bricks",
+    "create:small_asurine_brick_stairs",
+    "create:small_asurine_brick_slab",
+    "create:small_asurine_brick_wall",
+    "create:layered_asurine",
+    "create:asurine_pillar"
+  ]
+}

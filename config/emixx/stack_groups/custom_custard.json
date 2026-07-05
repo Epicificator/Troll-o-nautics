@@ -1,0 +1,15 @@
+{
+  "id": "custom:custard",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:glow_berry_custard",
+    "createfood:apple_custard_bottle",
+    "createfood:berry_custard_bottle",
+    "createfood:chocolate_custard_bottle",
+    "createfood:chorus_fruit_custard_bottle",
+    "createfood:custard_bottle",
+    "createfood:custard_sugar_bottle",
+    "createfood:melon_custard_bottle",
+    "createfood:pumpkin_custard_bottle"
+  ]
+}

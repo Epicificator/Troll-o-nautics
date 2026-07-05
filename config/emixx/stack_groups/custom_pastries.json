@@ -1,0 +1,20 @@
+{
+  "id": "custom:pastries",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:butterscotch_pastry",
+    "createfood:apple_cream_pastry",
+    "createfood:berry_cream_pastry",
+    "createfood:caramel_pastry",
+    "createfood:chocolate_pastry",
+    "createfood:chorus_fruit_cream_pastry",
+    "createfood:cream_pastry",
+    "createfood:dark_chocolate_pastry",
+    "createfood:glow_berry_cream_pastry",
+    "createfood:melon_cream_pastry",
+    "createfood:pastry_base",
+    "createfood:raw_pastry_base",
+    "createfood:toffee_pastry",
+    "createfood:white_chocolate_pastry"
+  ]
+}

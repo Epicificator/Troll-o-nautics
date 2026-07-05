@@ -1,0 +1,23 @@
+{
+  "id": "custom:duskrock",
+  "type": "emixx:group",
+  "contents": [
+    "darkerdepths:duskrock",
+    "darkerdepths:duskrock_stairs",
+    "darkerdepths:duskrock_slab",
+    "darkerdepths:duskrock_vertical_slab",
+    "darkerdepths:duskrock_wall",
+    "darkerdepths:polished_duskrock",
+    "darkerdepths:polished_duskrock_stairs",
+    "darkerdepths:polished_duskrock_slab",
+    "darkerdepths:polished_duskrock_vertical_slab",
+    "darkerdepths:duskrock_bricks",
+    "darkerdepths:duskrock_bricks_stairs",
+    "darkerdepths:duskrock_bricks_slab",
+    "darkerdepths:duskrock_bricks_vertical_slab",
+    "darkerdepths:duskrock_bricks_wall",
+    "darkerdepths:chiseled_duskrock_bricks",
+    "darkerdepths:cracked_duskrock_bricks",
+    "darkerdepths:duskrock_pillar"
+  ]
+}

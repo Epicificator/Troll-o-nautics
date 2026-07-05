@@ -1,0 +1,21 @@
+{
+  "id": "custom:meatballs",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:raw_beef_meatball",
+    "createfood:raw_endermite_meatball",
+    "createfood:raw_pork_meatball",
+    "createfood:raw_rabbit_meatball",
+    "createfood:raw_strider_meatball",
+    "createfood:rabbit_meatball",
+    "createfood:pork_meatball",
+    "createfood:beef_meatball",
+    "createfood:endermite_meatball",
+    "createfood:strider_meatball",
+    "createfood:small_beef_meatballs",
+    "createfood:small_endermite_meatballs",
+    "createfood:small_pork_meatballs",
+    "createfood:small_rabbit_meatballs",
+    "createfood:small_strider_meatballs"
+  ]
+}

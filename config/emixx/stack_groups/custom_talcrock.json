@@ -1,0 +1,20 @@
+{
+  "id": "custom:talcrock",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:cobbled_talcrock",
+    "abyssal_decor:cobbled_talcrock_bottom",
+    "abyssal_decor:polished_talcrock",
+    "abyssal_decor:talcrock_pillar",
+    "abyssal_decor:talcrock_wall",
+    "abyssal_decor:polished_talcrock_slab",
+    "abyssal_decor:polished_talcrock_stairs",
+    "abyssal_decor:cobbled_talcrock_wall",
+    "abyssal_decor:cobbled_talcrock_slab",
+    "abyssal_decor:cobbled_talcrock_stairs",
+    "abyssal_decor:talcrock_border",
+    "abyssal_decor:talcrock_border_flipped",
+    "abyssal_decor:talcrock_arrow_slit",
+    "abyssal_decor:fanned_talcrock"
+  ]
+}

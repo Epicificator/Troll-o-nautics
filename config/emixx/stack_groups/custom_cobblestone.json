@@ -1,0 +1,24 @@
+{
+  "id": "custom:cobblestone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_slab",
+    "minecraft:mossy_cobblestone",
+    "minecraft:cobblestone_stairs",
+    "minecraft:infested_cobblestone",
+    "minecraft:cobblestone_wall",
+    "minecraft:mossy_cobblestone_wall",
+    "minecraft:mossy_cobblestone_stairs",
+    "minecraft:mossy_cobblestone_slab",
+    "nomansland:cobblestone_bricks",
+    "nomansland:cobblestone_brick_stairs",
+    "nomansland:cobblestone_brick_slab",
+    "nomansland:cobblestone_brick_wall",
+    "nomansland:cracked_cobblestone_bricks",
+    "nomansland:mossy_cobblestone_bricks",
+    "nomansland:mossy_cobblestone_brick_stairs",
+    "nomansland:mossy_cobblestone_brick_slab",
+    "nomansland:mossy_cobblestone_brick_wall"
+  ]
+}

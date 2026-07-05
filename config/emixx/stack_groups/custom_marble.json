@@ -1,0 +1,23 @@
+{
+  "id": "custom:marble",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:raw_marble",
+    "abyssal_decor:polished_marble",
+    "abyssal_decor:marble_flooring",
+    "abyssal_decor:marble_pillar",
+    "abyssal_decor:marble_pillar_top",
+    "abyssal_decor:marble_pillar_mid",
+    "abyssal_decor:marble_pillar_bottom",
+    "abyssal_decor:polished_marble_stairs",
+    "abyssal_decor:polished_marble_slab",
+    "abyssal_decor:polished_marble_wall",
+    "abyssal_decor:marble_bust",
+    "abyssal_decor:marble_spire",
+    "abyssal_decor:tall_marble_spire",
+    "abyssal_decor:marble_sconce",
+    "abyssal_decor:upsidedown_marble_sconce",
+    "abyssal_decor:big_marble_sconce",
+    "abyssal_decor:big_upsidedown_marble_sconce"
+  ]
+}

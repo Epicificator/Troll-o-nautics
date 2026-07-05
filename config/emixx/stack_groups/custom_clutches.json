@@ -1,0 +1,28 @@
+{
+  "id": "custom:clutches",
+  "type": "emixx:group",
+  "contents": [
+    "create_connected:overstress_clutch",
+    "create_connected:inverted_clutch",
+    "create_connected:centrifugal_clutch",
+    "create_connected:freewheel_clutch",
+    "create:clutch",
+    "createcasing:andesite_automatic_clutch",
+    "createcasing:brass_clutch",
+    "createcasing:brass_automatic_clutch",
+    "createcasing:copper_clutch",
+    "createcasing:copper_automatic_clutch",
+    "createcasing:railway_clutch",
+    "createcasing:railway_automatic_clutch",
+    "createcasing:shadow_steel_clutch",
+    "createcasing:shadow_steel_automatic_clutch",
+    "createcasing:refined_radiance_clutch",
+    "createcasing:refined_radiance_automatic_clutch",
+    "createcasing:creative_clutch",
+    "createcasing:creative_automatic_clutch",
+    "createcasing:industrial_iron_clutch",
+    "createcasing:industrial_iron_automatic_clutch",
+    "createcasing:weathered_iron_clutch",
+    "createcasing:weathered_iron_automatic_clutch"
+  ]
+}

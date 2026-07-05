@@ -1,0 +1,30 @@
+{
+  "id": "custom:dripstone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:dripstone_block",
+    "minecraft:pointed_dripstone",
+    "bits_n_bobs:dripstone_tiles",
+    "bits_n_bobs:dripstone_tile_stairs",
+    "bits_n_bobs:dripstone_tile_slab",
+    "bits_n_bobs:dripstone_tile_wall",
+    "create:cut_dripstone",
+    "create:cut_dripstone_stairs",
+    "create:cut_dripstone_slab",
+    "create:cut_dripstone_wall",
+    "create:polished_cut_dripstone",
+    "create:polished_cut_dripstone_stairs",
+    "create:polished_cut_dripstone_slab",
+    "create:polished_cut_dripstone_wall",
+    "create:cut_dripstone_bricks",
+    "create:cut_dripstone_brick_stairs",
+    "create:cut_dripstone_brick_slab",
+    "create:cut_dripstone_brick_wall",
+    "create:small_dripstone_bricks",
+    "create:small_dripstone_brick_stairs",
+    "create:small_dripstone_brick_slab",
+    "create:small_dripstone_brick_wall",
+    "create:layered_dripstone",
+    "create:dripstone_pillar"
+  ]
+}
