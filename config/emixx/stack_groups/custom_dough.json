@@ -1,0 +1,22 @@
+{
+  "id": "custom:dough",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:wheat_dough",
+    "create:dough",
+    "createfood:butter_dough",
+    "createfood:butter_dough_small",
+    "createfood:chocolate_sugar_dough",
+    "createfood:chocolate_sugar_dough_small",
+    "createfood:pita_dough",
+    "createfood:pumpernickel_dough",
+    "createfood:salt_dough",
+    "createfood:salt_dough_small",
+    "createfood:sugar_dough",
+    "createfood:sugar_dough_small",
+    "createfood:ube_sugar_dough",
+    "createfood:wheat_dough_small",
+    "createfood:pizza_dough",
+    "createfood:pizza_dough_tomato_sauce"
+  ]
+}

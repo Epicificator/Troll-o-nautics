@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/shadow_steel' })
     event.remove({ id: 'createcasing:crafting/configurable_gearbox/weathered_iron' })
     event.remove({ id: 'createcasing:crafting/depot/brass' })
+    event.remove({ id: 'createcasing:crafting/fluid_pipe/brass_vertical' })
     //createdieselgenerators
     event.remove({ id: 'createdieselgenerators:crafting/andesite_girder' })
     //createpropulsion
@@ -30,6 +31,11 @@ ServerEvents.recipes(event => {
     //petrolsparts
     event.remove({ id: 'petrolsparts:crafting/pneumatic_tube' })
     event.remove({ id: 'petrolsparts:mechanical_crafting/hydraulic_transmission' })
+    //simulatedrubies
+    event.remove({ id: 'simulatedrubies:chunk_loader' })
+    //tfmg
+    event.remove({ id: 'tfmg:crafting/materials/brass_pipe' })
+    event.remove({ id: 'tfmg:crafting/materials/brass_pipe_vertical' })
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
@@ -59,4 +65,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     //petrolsparts
     event.remove('petrolsparts:pneumatic_tube')
     event.remove('petrolsparts:hydraulic_transmission')
+    //simulatedrubies
+    event.remove('simulatedrubies:chunk_loader')
 })

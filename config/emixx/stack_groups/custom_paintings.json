@@ -1,0 +1,7 @@
+{
+  "id": "custom:paintings",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:painting"
+  ]
+}

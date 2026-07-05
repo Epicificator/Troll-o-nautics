@@ -1,0 +1,27 @@
+{
+  "id": "custom:murublight_wood",
+  "type": "emixx:group",
+  "contents": [
+    "enderscape:murublight_hanging_sign",
+    "enderscape:murublight_sign",
+    "enderscape:stripped_murublight_stem",
+    "enderscape:murublight_stem",
+    "enderscape:stripped_murublight_hyphae",
+    "enderscape:murublight_hyphae",
+    "enderscape:murublight_cap",
+    "enderscape:murublight_bricks",
+    "enderscape:murublight_brick_stairs",
+    "enderscape:murublight_brick_slab",
+    "enderscape:murublight_brick_wall",
+    "enderscape:murublight_planks",
+    "enderscape:murublight_stairs",
+    "enderscape:murublight_slab",
+    "enderscape:murublight_pressure_plate",
+    "enderscape:murublight_fence",
+    "enderscape:murublight_door",
+    "enderscape:murublight_trapdoor",
+    "enderscape:murublight_fence_gate",
+    "enderscape:murublight_button",
+    "supplementaries:enderscape/way_sign_murublight"
+  ]
+}

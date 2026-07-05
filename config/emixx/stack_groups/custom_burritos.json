@@ -1,0 +1,20 @@
+{
+  "id": "custom:burritos",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:beef_burrito_rice",
+    "createfood:chicken_burrito_rice",
+    "createfood:egg_burrito",
+    "createfood:egg_burrito_bacon",
+    "createfood:egg_burrito_cheese",
+    "createfood:egg_burrito_cheese_bacon",
+    "createfood:egg_burrito_cheese_sausage",
+    "createfood:egg_burrito_cheese_sausage_bacon",
+    "createfood:egg_burrito_sausage",
+    "createfood:fish_burrito_rice",
+    "createfood:mushroom_burrito_rice",
+    "createfood:mutton_burrito_rice",
+    "createfood:pork_burrito_rice",
+    "createfood:rabbit_burrito_rice"
+  ]
+}

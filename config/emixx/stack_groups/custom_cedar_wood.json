@@ -1,0 +1,22 @@
+{
+  "id": "custom:cedar_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:cedar_log",
+    "natures_spirit:stripped_cedar_log",
+    "natures_spirit:cedar_wood",
+    "natures_spirit:stripped_cedar_wood",
+    "natures_spirit:cedar_planks",
+    "natures_spirit:cedar_stairs",
+    "natures_spirit:cedar_slab",
+    "natures_spirit:cedar_fence",
+    "natures_spirit:cedar_fence_gate",
+    "natures_spirit:cedar_pressure_plate",
+    "natures_spirit:cedar_button",
+    "natures_spirit:cedar_door",
+    "natures_spirit:cedar_trapdoor",
+    "natures_spirit:cedar_sign",
+    "natures_spirit:cedar_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_cedar"
+  ]
+}

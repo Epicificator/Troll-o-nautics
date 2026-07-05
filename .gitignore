@@ -6,6 +6,8 @@
 !/config/bettercombat/*
 !/config/CSC/*
 !/config/EndRemastered-NeoForge/*
+!/config/emixx/*
+!/config/emixx/stack_groups/*
 !/config/inventoryprofilesnext/*
 !/config/jade/*
 !/config/sable_beyond/*
@@ -20,10 +22,13 @@
 !/config/betterclouds-v1.json
 !/config/burnt_basic.json
 !/config/corpse-server.toml
+!/config/create-server.toml
 !/config/createcobblestone-common.toml
 !/config/createpropulsion-common.toml
 !/config/create_submarine-common.toml
+!/config/discord_chat_mod-common.toml
 !/config/DistantHorizons.toml
+!/config/emi.css
 !/config/fastfooddelight.toml
 !/config/HeadInTheClouds.json5
 !/config/iframestweakerneo-common.toml
@@ -33,17 +38,16 @@
 !/config/modernfix-mixins.properties
 !/config/parcool-client.toml
 !/config/parcool-server.toml
+!/config/pvp_flagging-server.toml
 !/config/ragdoll_reactions-server.toml
+!/config/sophisticatedbackpacks-server.toml
 !/config/sophisticatedcore-common.toml
 !/config/sophisticatedstorage-server.toml
 !/config/spr_addition-server.toml
 !/config/stellarview-client.toml
 !/config/structurify.json
 !/config/tectonic.json
-!/config/create-server.toml
-!/config/pvp_flagging-server.toml
 !/config/voicechat/voicechat-server.properties
-!/config/discord_chat_mod-common.toml
 
 # oh god
 !/config/submarine_hull.json

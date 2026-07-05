@@ -1,0 +1,29 @@
+{
+  "id": "custom:scoria",
+  "type": "emixx:group",
+  "contents": [
+    "bits_n_bobs:scoria_tiles",
+    "bits_n_bobs:scoria_tile_stairs",
+    "bits_n_bobs:scoria_tile_slab",
+    "bits_n_bobs:scoria_tile_wall",
+    "create:scoria",
+    "create:cut_scoria",
+    "create:cut_scoria_stairs",
+    "create:cut_scoria_slab",
+    "create:cut_scoria_wall",
+    "create:polished_cut_scoria",
+    "create:polished_cut_scoria_stairs",
+    "create:polished_cut_scoria_slab",
+    "create:polished_cut_scoria_wall",
+    "create:cut_scoria_bricks",
+    "create:cut_scoria_brick_stairs",
+    "create:cut_scoria_brick_slab",
+    "create:cut_scoria_brick_wall",
+    "create:small_scoria_bricks",
+    "create:small_scoria_brick_stairs",
+    "create:small_scoria_brick_slab",
+    "create:small_scoria_brick_wall",
+    "create:layered_scoria",
+    "create:scoria_pillar"
+  ]
+}

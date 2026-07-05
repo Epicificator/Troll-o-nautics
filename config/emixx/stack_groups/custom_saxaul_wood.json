@@ -1,0 +1,22 @@
+{
+  "id": "custom:saxaul_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:saxaul_log",
+    "natures_spirit:stripped_saxaul_log",
+    "natures_spirit:saxaul_wood",
+    "natures_spirit:stripped_saxaul_wood",
+    "natures_spirit:saxaul_planks",
+    "natures_spirit:saxaul_stairs",
+    "natures_spirit:saxaul_slab",
+    "natures_spirit:saxaul_fence",
+    "natures_spirit:saxaul_fence_gate",
+    "natures_spirit:saxaul_pressure_plate",
+    "natures_spirit:saxaul_button",
+    "natures_spirit:saxaul_door",
+    "natures_spirit:saxaul_trapdoor",
+    "natures_spirit:saxaul_sign",
+    "natures_spirit:saxaul_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_saxaul"
+  ]
+}

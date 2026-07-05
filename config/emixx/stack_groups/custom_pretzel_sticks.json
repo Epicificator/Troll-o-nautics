@@ -1,0 +1,16 @@
+{
+  "id": "custom:pretzel_sticks",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:butterscotch_pretzel_stick",
+    "createfood:caramel_pretzel_stick",
+    "createfood:cheese_pretzel_stick",
+    "createfood:chocolate_pretzel_stick",
+    "createfood:dark_chocolate_pretzel_stick",
+    "createfood:honeyed_pretzel_stick",
+    "createfood:pretzel_stick",
+    "createfood:raw_pretzel_stick",
+    "createfood:toffee_pretzel_stick",
+    "createfood:white_chocolate_pretzel_stick"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "custom:verde_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:palo_verde_log",
+    "natures_spirit:stripped_palo_verde_log",
+    "natures_spirit:palo_verde_wood",
+    "natures_spirit:stripped_palo_verde_wood",
+    "natures_spirit:palo_verde_planks",
+    "natures_spirit:palo_verde_stairs",
+    "natures_spirit:palo_verde_slab",
+    "natures_spirit:palo_verde_fence",
+    "natures_spirit:palo_verde_fence_gate",
+    "natures_spirit:palo_verde_pressure_plate",
+    "natures_spirit:palo_verde_button",
+    "natures_spirit:palo_verde_door",
+    "natures_spirit:palo_verde_trapdoor",
+    "natures_spirit:palo_verde_leaves",
+    "natures_spirit:palo_verde_sapling",
+    "natures_spirit:palo_verde_sign",
+    "natures_spirit:palo_verde_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_palo_verde"
+  ]
+}

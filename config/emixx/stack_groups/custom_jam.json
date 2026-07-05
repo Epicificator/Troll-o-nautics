@@ -1,0 +1,11 @@
+{
+  "id": "custom:jam",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_jam_bottle",
+    "createfood:berry_jam_bottle",
+    "createfood:chorus_fruit_jam_bottle",
+    "createfood:glow_berry_jam_bottle",
+    "createfood:melon_jam_bottle"
+  ]
+}

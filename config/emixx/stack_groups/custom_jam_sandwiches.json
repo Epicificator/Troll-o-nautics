@@ -1,0 +1,14 @@
+{
+  "id": "custom:jam_sandwiches",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_jam_sandwich",
+    "createfood:berry_jam_sandwich",
+    "createfood:chorus_fruit_jam_sandwich",
+    "createfood:glow_berry_jam_sandwich",
+    "createfood:melon_jam_sandwich",
+    "createfood:peanut_butter_apple_jam_sandwich",
+    "createfood:peanut_butter_chorus_fruit_jam_sandwich",
+    "createfood:peanut_butter_melon_jam_sandwich"
+  ]
+}

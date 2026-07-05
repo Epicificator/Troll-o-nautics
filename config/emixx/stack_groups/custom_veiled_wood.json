@@ -1,0 +1,22 @@
+{
+  "id": "custom:veiled_wood",
+  "type": "emixx:group",
+  "contents": [
+    "enderscape:veiled_planks",
+    "enderscape:veiled_stairs",
+    "enderscape:veiled_slab",
+    "enderscape:veiled_pressure_plate",
+    "enderscape:veiled_fence",
+    "enderscape:veiled_door",
+    "enderscape:veiled_trapdoor",
+    "enderscape:veiled_fence_gate",
+    "enderscape:veiled_button",
+    "supplementaries:enderscape/way_sign_veiled",
+    "enderscape:veiled_hanging_sign",
+    "enderscape:veiled_sign",
+    "enderscape:stripped_veiled_log",
+    "enderscape:veiled_log",
+    "enderscape:stripped_veiled_wood",
+    "enderscape:veiled_wood"
+  ]
+}

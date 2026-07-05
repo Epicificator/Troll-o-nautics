@@ -1,0 +1,21 @@
+{
+  "id": "custom:endstone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:end_stone",
+    "minecraft:end_stone_bricks",
+    "minecraft:end_stone_brick_wall",
+    "minecraft:end_stone_brick_stairs",
+    "minecraft:end_stone_brick_slab",
+    "enderscape:end_stone_stairs",
+    "enderscape:end_stone_slab",
+    "enderscape:end_stone_wall",
+    "enderscape:polished_end_stone",
+    "enderscape:polished_end_stone_stairs",
+    "enderscape:polished_end_stone_slab",
+    "enderscape:polished_end_stone_wall",
+    "enderscape:polished_end_stone_button",
+    "enderscape:polished_end_stone_pressure_plate",
+    "enderscape:chiseled_end_stone"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "custom:kelp_rolls",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:kelp_roll",
+    "farmersdelight:kelp_roll_slice",
+    "createfood:kelp_roll_beetroot",
+    "createfood:kelp_roll_brown_mushroom",
+    "createfood:kelp_roll_crimson_fungus",
+    "createfood:kelp_roll_fish",
+    "createfood:kelp_roll_lettuce",
+    "createfood:kelp_roll_onion",
+    "createfood:kelp_roll_red_mushroom",
+    "createfood:kelp_roll_rice",
+    "createfood:kelp_roll_slice_beetroot",
+    "createfood:kelp_roll_slice_brown_mushroom",
+    "createfood:kelp_roll_slice_crimson_fungus",
+    "createfood:kelp_roll_slice_fish",
+    "createfood:kelp_roll_slice_lettuce",
+    "createfood:kelp_roll_slice_onion",
+    "createfood:kelp_roll_slice_red_mushroom",
+    "createfood:kelp_roll_slice_rice",
+    "createfood:kelp_roll_slice_tomato",
+    "createfood:kelp_roll_slice_warped_fungus",
+    "createfood:kelp_roll_tomato",
+    "createfood:kelp_roll_warped_fungus"
+  ]
+}

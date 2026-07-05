@@ -1,0 +1,21 @@
+{
+  "id": "custom:ghaf",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:ghaf_log",
+    "natures_spirit:stripped_ghaf_log",
+    "natures_spirit:ghaf_wood",
+    "natures_spirit:stripped_ghaf_wood",
+    "natures_spirit:ghaf_planks",
+    "natures_spirit:ghaf_stairs",
+    "natures_spirit:ghaf_slab",
+    "natures_spirit:ghaf_fence",
+    "natures_spirit:ghaf_fence_gate",
+    "natures_spirit:ghaf_pressure_plate",
+    "natures_spirit:ghaf_button",
+    "natures_spirit:ghaf_door",
+    "natures_spirit:ghaf_trapdoor",
+    "natures_spirit:ghaf_sign",
+    "supplementaries:natures_spirit/way_sign_ghaf"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "custom:bamboo_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:bamboo_planks",
+    "minecraft:bamboo_mosaic",
+    "minecraft:bamboo_block",
+    "minecraft:stripped_bamboo_block",
+    "minecraft:bamboo_slab",
+    "minecraft:bamboo_mosaic_slab",
+    "minecraft:bamboo_fence",
+    "minecraft:bamboo_stairs",
+    "minecraft:bamboo_mosaic_stairs",
+    "minecraft:bamboo_button",
+    "minecraft:bamboo_pressure_plate",
+    "minecraft:bamboo_door",
+    "minecraft:bamboo_trapdoor",
+    "minecraft:bamboo_fence_gate",
+    "minecraft:bamboo_sign",
+    "minecraft:bamboo_hanging_sign",
+    "supplementaries:way_sign_bamboo",
+    "nomansland:bamboo_bookshelf",
+    "nomansland:trimmed_bamboo_planks",
+    "create:bamboo_window",
+    "create:bamboo_window_pane",
+    "farmersdelight:bamboo_cabinet"
+  ]
+}

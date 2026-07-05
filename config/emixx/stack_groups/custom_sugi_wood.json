@@ -1,0 +1,25 @@
+{
+  "id": "custom:sugi_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:sugi_log",
+    "natures_spirit:stripped_sugi_log",
+    "natures_spirit:sugi_wood",
+    "natures_spirit:stripped_sugi_wood",
+    "natures_spirit:sugi_mosaic",
+    "natures_spirit:sugi_mosaic_stairs",
+    "natures_spirit:sugi_mosaic_slab",
+    "natures_spirit:sugi_planks",
+    "natures_spirit:sugi_stairs",
+    "natures_spirit:sugi_slab",
+    "natures_spirit:sugi_fence",
+    "natures_spirit:sugi_fence_gate",
+    "natures_spirit:sugi_pressure_plate",
+    "natures_spirit:sugi_button",
+    "natures_spirit:sugi_door",
+    "natures_spirit:sugi_trapdoor",
+    "natures_spirit:sugi_sign",
+    "natures_spirit:sugi_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_sugi"
+  ]
+}

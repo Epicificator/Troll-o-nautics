@@ -1,0 +1,25 @@
+{
+  "id": "custom:milkshakes",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_milkshake_bottle",
+    "createfood:berry_milkshake_bottle",
+    "createfood:butterscotch_chip_chocolate_milkshake_bottle",
+    "createfood:butterscotch_chip_milkshake_bottle",
+    "createfood:caramel_chip_chocolate_milkshake_bottle",
+    "createfood:caramel_chip_milkshake_bottle",
+    "createfood:chocolate_chip_chocolate_milkshake_bottle",
+    "createfood:chocolate_chip_milkshake_bottle",
+    "createfood:chocolate_milkshake_bottle",
+    "createfood:chorus_fruit_milkshake_bottle",
+    "createfood:dark_chocolate_chip_chocolate_milkshake_bottle",
+    "createfood:dark_chocolate_chip_milkshake_bottle",
+    "createfood:glow_berry_milkshake_bottle",
+    "createfood:melon_milkshake_bottle",
+    "createfood:milkshake_bottle",
+    "createfood:toffee_chip_chocolate_milkshake_bottle",
+    "createfood:toffee_chip_milkshake_bottle",
+    "createfood:white_chocolate_chip_chocolate_milkshake_bottle",
+    "createfood:white_chocolate_chip_milkshake_bottle"
+  ]
+}

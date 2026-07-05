@@ -1,0 +1,11 @@
+{
+  "id": "custom:meatball_sandwiches",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:beef_meatball_sandwich",
+    "createfood:endermite_meatball_sandwich",
+    "createfood:pork_meatball_sandwich",
+    "createfood:rabbit_meatball_sandwich",
+    "createfood:strider_meatball_sandwich"
+  ]
+}

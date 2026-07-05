@@ -1,0 +1,27 @@
+{
+  "id": "custom:walnut_wood",
+  "type": "emixx:group",
+  "contents": [
+    "nomansland:walnut_sign",
+    "nomansland:walnut_hanging_sign",
+    "nomansland:walnut_planks",
+    "nomansland:walnut_stairs",
+    "nomansland:walnut_slab",
+    "nomansland:trimmed_walnut_planks",
+    "nomansland:walnut_log",
+    "nomansland:walnut_wood",
+    "nomansland:stripped_walnut_log",
+    "nomansland:stripped_walnut_wood",
+    "nomansland:walnut_fence",
+    "nomansland:walnut_fence_gate",
+    "nomansland:walnut_button",
+    "nomansland:walnut_pressure_plate",
+    "nomansland:walnut_door",
+    "nomansland:walnut_trapdoor",
+    "nomansland:walnut_bookshelf",
+    "nomansland:walnut_leaves",
+    "nomansland:walnut_sapling",
+    "nomansland:walnut_cabinet",
+    "supplementaries:nomansland/way_sign_walnut"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "custom:encased_fans",
+  "type": "emixx:regex",
+  "regex": ".*:.*encased.*fan",
+  "name": "Encased Fans"
+}

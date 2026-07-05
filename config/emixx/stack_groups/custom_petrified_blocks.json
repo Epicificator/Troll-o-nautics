@@ -1,0 +1,21 @@
+{
+  "id": "custom:petrified_blocks",
+  "type": "emixx:group",
+  "contents": [
+    "darkerdepths:stripped_petrified_log",
+    "darkerdepths:stripped_petrified_wood",
+    "darkerdepths:petrified_log",
+    "darkerdepths:petrified_wood",
+    "darkerdepths:petrified_planks",
+    "darkerdepths:petrified_boards",
+    "darkerdepths:vertical_petrified_planks",
+    "darkerdepths:petrified_stairs",
+    "darkerdepths:petrified_slab",
+    "darkerdepths:petrified_vertical_slab",
+    "darkerdepths:trimmed_petrified_planks",
+    "darkerdepths:petrified_bookshelf",
+    "darkerdepths:petrified_post",
+    "darkerdepths:stripped_petrified_post",
+    "darkerdepths:porous_petrified_log"
+  ]
+}

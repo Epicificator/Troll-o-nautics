@@ -1,0 +1,18 @@
+{
+  "id": "custom:siltstone",
+  "type": "emixx:group",
+  "contents": [
+    "nomansland:siltstone",
+    "nomansland:siltstone_stairs",
+    "nomansland:siltstone_slab",
+    "nomansland:siltstone_wall",
+    "nomansland:polished_siltstone",
+    "nomansland:polished_siltstone_stairs",
+    "nomansland:polished_siltstone_slab",
+    "nomansland:siltstone_bricks",
+    "nomansland:siltstone_brick_stairs",
+    "nomansland:siltstone_brick_slab",
+    "nomansland:siltstone_brick_wall",
+    "nomansland:chiseled_siltstone"
+  ]
+}

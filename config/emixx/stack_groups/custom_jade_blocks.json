@@ -1,0 +1,16 @@
+{
+  "id": "custom:jade_blocks",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:jade_pillar",
+    "abyssal_decor:jade_lantern_off",
+    "abyssal_decor:jade_lantern_on",
+    "abyssal_decor:gilded_jade_pillar",
+    "abyssal_decor:jade_brick_stairs",
+    "abyssal_decor:jade_brick_slab",
+    "abyssal_decor:jade_brick_wall",
+    "abyssal_decor:rough_jade",
+    "abyssal_decor:polished_jade",
+    "abyssal_decor:jade_bricks"
+  ]
+}

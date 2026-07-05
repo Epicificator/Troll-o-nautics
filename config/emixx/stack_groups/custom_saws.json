@@ -1,0 +1,15 @@
+{
+  "id": "custom:saws",
+  "type": "emixx:group",
+  "contents": [
+    "create:mechanical_saw",
+    "createcasing:brass_mechanical_saw",
+    "createcasing:copper_mechanical_saw",
+    "createcasing:railway_mechanical_saw",
+    "createcasing:shadow_steel_mechanical_saw",
+    "createcasing:refined_radiance_mechanical_saw",
+    "createcasing:creative_mechanical_saw",
+    "createcasing:industrial_iron_mechanical_saw",
+    "createcasing:weathered_iron_mechanical_saw"
+  ]
+}

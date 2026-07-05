@@ -1,0 +1,20 @@
+{
+  "id": "custom:sandwiches",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:bacon_sandwich",
+    "createfood:bacon_sandwich",
+    "createfood:bacon_sandwich_lettuce",
+    "createfood:cheese_sandwich",
+    "createfood:fried_egg_hash_brown_sandwich",
+    "createfood:grilled_cheese_sandwich",
+    "createfood:honey_sandwich",
+    "createfood:mutton_sandwich",
+    "createfood:mutton_sandwich_beetroot",
+    "createfood:vegetable_sandwich_beetroot_lettuce",
+    "createfood:vegetable_sandwich_lettuce_tomato",
+    "createfood:scrambled_egg_sandwich",
+    "farmersdelight:egg_sandwich",
+    "farmersdelight:chicken_sandwich"
+  ]
+}

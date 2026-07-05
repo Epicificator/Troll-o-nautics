@@ -1,0 +1,25 @@
+{
+  "id": "custom:mahogany_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:mahogany_log",
+    "natures_spirit:stripped_mahogany_log",
+    "natures_spirit:mahogany_wood",
+    "natures_spirit:stripped_mahogany_wood",
+    "natures_spirit:mahogany_mosaic",
+    "natures_spirit:mahogany_mosaic_stairs",
+    "natures_spirit:mahogany_mosaic_slab",
+    "natures_spirit:mahogany_planks",
+    "natures_spirit:mahogany_stairs",
+    "natures_spirit:mahogany_slab",
+    "natures_spirit:mahogany_fence",
+    "natures_spirit:mahogany_fence_gate",
+    "natures_spirit:mahogany_pressure_plate",
+    "natures_spirit:mahogany_button",
+    "natures_spirit:mahogany_door",
+    "natures_spirit:mahogany_trapdoor",
+    "natures_spirit:mahogany_sign",
+    "natures_spirit:mahogany_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_mahogany"
+  ]
+}

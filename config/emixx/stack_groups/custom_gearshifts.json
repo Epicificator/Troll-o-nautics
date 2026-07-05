@@ -1,0 +1,18 @@
+{
+  "id": "custom:gearshifts",
+  "type": "emixx:group",
+  "contents": [
+    "simulated:directional_gearshift",
+    "create_connected:inverted_gearshift",
+    "create:gearshift",
+    "create:sequenced_gearshift",
+    "createcasing:brass_gearshift",
+    "createcasing:copper_gearshift",
+    "createcasing:railway_gearshift",
+    "createcasing:shadow_steel_gearshift",
+    "createcasing:refined_radiance_gearshift",
+    "createcasing:creative_gearshift",
+    "createcasing:industrial_iron_gearshift",
+    "createcasing:weathered_iron_gearshift"
+  ]
+}

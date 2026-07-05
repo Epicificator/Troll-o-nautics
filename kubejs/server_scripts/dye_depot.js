@@ -44,4 +44,7 @@ ServerEvents.tags('item', event => {
     dyeTags('electroenergetics:','_electric_motor','minecraft:mineable/pickaxe')
     dyeTags('electroenergetics:','_electric_motor','oreganized:silktouch_using_scribe')
     dyeTags('electroenergetics:','_electric_motor','spelunkery:chiselable')
+
+    event.add('dndecor:industrial_cogwheels', 'gnkinetics:industrial_gear')
+    event.add('dndecor:large_industrial_cogwheel', 'gnkinetics:large_industrial_gear')
 })

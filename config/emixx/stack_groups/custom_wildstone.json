@@ -1,0 +1,19 @@
+{
+  "id": "custom:wildstone",
+  "type": "emixx:group",
+  "contents": [
+    "spelunkers_charm:wildstone",
+    "spelunkers_charm:cobbled_wildstone",
+    "spelunkers_charm:cobbled_wildstone_stairs",
+    "spelunkers_charm:cobbled_wildstone_slab",
+    "spelunkers_charm:cobbled_wildstone_wall",
+    "spelunkers_charm:wildstone_stairs",
+    "spelunkers_charm:wildstone_slab",
+    "spelunkers_charm:wildstone_wall",
+    "spelunkers_charm:wildstone_bricks",
+    "spelunkers_charm:wildstone_brick_stairs",
+    "spelunkers_charm:wildstone_brick_slab",
+    "spelunkers_charm:wildstone_brick_wall",
+    "spelunkers_charm:chiseled_wildstone_bricks"
+  ]
+}

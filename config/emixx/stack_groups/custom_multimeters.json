@@ -1,0 +1,23 @@
+{
+  "id": "custom:multimeters",
+  "type": "emixx:group",
+  "contents": [
+    "tfmg:white_multimeter",
+    "tfmg:blue_multimeter",
+    "tfmg:light_blue_multimeter",
+    "tfmg:red_multimeter",
+    "tfmg:green_multimeter",
+    "tfmg:lime_multimeter",
+    "tfmg:pink_multimeter",
+    "tfmg:magenta_multimeter",
+    "tfmg:yellow_multimeter",
+    "tfmg:gray_multimeter",
+    "tfmg:light_gray_multimeter",
+    "tfmg:brown_multimeter",
+    "tfmg:cyan_multimeter",
+    "tfmg:purple_multimeter",
+    "tfmg:orange_multimeter",
+    "tfmg:black_multimeter",
+    "tfmg:multimeter"
+  ]
+}

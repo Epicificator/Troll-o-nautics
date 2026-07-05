@@ -1,0 +1,28 @@
+{
+  "id": "custom:natures_spirit_maple_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:maple_log",
+    "natures_spirit:stripped_maple_log",
+    "natures_spirit:maple_wood",
+    "natures_spirit:stripped_maple_wood",
+    "natures_spirit:red_maple_leaves",
+    "natures_spirit:orange_maple_leaves",
+    "natures_spirit:yellow_maple_leaves",
+    "natures_spirit:red_maple_sapling",
+    "natures_spirit:orange_maple_sapling",
+    "natures_spirit:yellow_maple_sapling",
+    "natures_spirit:maple_planks",
+    "natures_spirit:maple_stairs",
+    "natures_spirit:maple_slab",
+    "natures_spirit:maple_fence",
+    "natures_spirit:maple_fence_gate",
+    "natures_spirit:maple_pressure_plate",
+    "natures_spirit:maple_button",
+    "natures_spirit:maple_door",
+    "natures_spirit:maple_trapdoor",
+    "natures_spirit:maple_sign",
+    "natures_spirit:maple_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_maple"
+  ]
+}

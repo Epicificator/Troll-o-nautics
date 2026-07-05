@@ -1,0 +1,22 @@
+{
+  "id": "custom:willow_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:willow_wood",
+    "natures_spirit:stripped_willow_log",
+    "natures_spirit:stripped_willow_wood",
+    "natures_spirit:willow_fence",
+    "natures_spirit:willow_fence_gate",
+    "natures_spirit:willow_button",
+    "natures_spirit:willow_pressure_plate",
+    "natures_spirit:willow_door",
+    "natures_spirit:willow_trapdoor",
+    "natures_spirit:willow_sign",
+    "natures_spirit:willow_hanging_sign",
+    "natures_spirit:willow_planks",
+    "natures_spirit:willow_stairs",
+    "natures_spirit:willow_slab",
+    "natures_spirit:willow_log",
+    "supplementaries:natures_spirit/way_sign_willow"
+  ]
+}

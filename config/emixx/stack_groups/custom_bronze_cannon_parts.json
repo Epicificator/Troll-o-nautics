@@ -1,0 +1,23 @@
+{
+  "id": "custom:bronze_cannon_parts",
+  "type": "emixx:group",
+  "contents": [
+    "createbigcannons:bronze_cannon_barrel",
+    "createbigcannons:bronze_cannon_chamber",
+    "createbigcannons:bronze_cannon_end",
+    "createbigcannons:bronze_quickfiring_breech",
+    "createbigcannons:bronze_sliding_breech",
+    "createbigcannons:unbored_bronze_cannon_barrel",
+    "createbigcannons:unbored_bronze_cannon_chamber",
+    "createbigcannons:incomplete_bronze_sliding_breech",
+    "createbigcannons:unbored_bronze_sliding_breech",
+    "createbigcannons:bronze_autocannon_barrel",
+    "createbigcannons:bronze_autocannon_breech",
+    "createbigcannons:bronze_autocannon_recoil_spring",
+    "createbigcannons:incomplete_bronze_autocannon_recoil_spring",
+    "createbigcannons:incomplete_bronze_autocannon_breech",
+    "createbigcannons:unbored_bronze_autocannon_barrel",
+    "createbigcannons:unbored_bronze_autocannon_recoil_spring",
+    "createbigcannons:unbored_bronze_autocannon_breech"
+  ]
+}

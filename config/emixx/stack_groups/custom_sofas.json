@@ -1,0 +1,22 @@
+{
+  "id": "custom:sofas",
+  "type": "emixx:group",
+  "contents": [
+    "furniture:sofa_white",
+    "furniture:sofa_light_gray",
+    "furniture:sofa_gray",
+    "furniture:sofa_black",
+    "furniture:sofa_red",
+    "furniture:sofa_orange",
+    "furniture:sofa_yellow",
+    "furniture:sofa_lime",
+    "furniture:sofa_green",
+    "furniture:sofa_cyan",
+    "furniture:sofa_light_blue",
+    "furniture:sofa_blue",
+    "furniture:sofa_purple",
+    "furniture:sofa_magenta",
+    "furniture:sofa_pink",
+    "furniture:sofa_brown"
+  ]
+}

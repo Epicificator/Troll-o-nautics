@@ -1,0 +1,21 @@
+{
+  "id": "custom:kurodite",
+  "type": "emixx:group",
+  "contents": [
+    "enderscape:kurodite",
+    "enderscape:kurodite_stairs",
+    "enderscape:kurodite_slab",
+    "enderscape:kurodite_wall",
+    "enderscape:polished_kurodite",
+    "enderscape:polished_kurodite_stairs",
+    "enderscape:polished_kurodite_slab",
+    "enderscape:polished_kurodite_wall",
+    "enderscape:polished_kurodite_button",
+    "enderscape:polished_kurodite_pressure_plate",
+    "enderscape:kurodite_bricks",
+    "enderscape:kurodite_brick_stairs",
+    "enderscape:kurodite_brick_slab",
+    "enderscape:kurodite_brick_wall",
+    "enderscape:chiseled_kurodite"
+  ]
+}

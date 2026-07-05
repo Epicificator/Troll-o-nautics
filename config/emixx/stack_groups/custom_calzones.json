@@ -1,0 +1,27 @@
+{
+  "id": "custom:calzones",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:bacon_calzone",
+    "createfood:beef_calzone",
+    "createfood:cheese_calzone",
+    "createfood:chicken_calzone",
+    "createfood:fish_calzone",
+    "createfood:mushroom_calzone",
+    "createfood:mutton_calzone",
+    "createfood:onion_calzone",
+    "createfood:rabbit_calzone",
+    "createfood:raw_bacon_calzone",
+    "createfood:raw_beef_calzone",
+    "createfood:raw_calzone",
+    "createfood:raw_cheese_calzone",
+    "createfood:raw_chicken_calzone",
+    "createfood:raw_fish_calzone",
+    "createfood:raw_mushroom_calzone",
+    "createfood:raw_mutton_calzone",
+    "createfood:raw_onion_calzone",
+    "createfood:raw_rabbit_calzone",
+    "createfood:raw_sausage_calzone",
+    "createfood:sausage_calzone"
+  ]
+}

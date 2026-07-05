@@ -1,0 +1,15 @@
+{
+  "id": "custom:salads",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:fruit_salad",
+    "farmersdelight:mixed_salad",
+    "farmersdelight:nether_salad",
+    "farmersdelight:gleaming_salad_block",
+    "farmersdelight:gleaming_salad",
+    "createfood:mixed_salad_beetroot_carrot",
+    "delightfulcreators:incomplete_fruit_salad",
+    "delightfulcreators:incomplete_mixed_salad",
+    "delightfulcreators:incomplete_nether_salad"
+  ]
+}
