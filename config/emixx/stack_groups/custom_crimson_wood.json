@@ -1,0 +1,27 @@
+{
+  "id": "custom:crimson_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:crimson_planks",
+    "minecraft:crimson_stem",
+    "minecraft:stripped_crimson_stem",
+    "minecraft:stripped_crimson_hyphae",
+    "minecraft:crimson_hyphae",
+    "minecraft:crimson_slab",
+    "minecraft:crimson_fence",
+    "minecraft:crimson_stairs",
+    "minecraft:crimson_button",
+    "minecraft:crimson_pressure_plate",
+    "minecraft:crimson_door",
+    "minecraft:crimson_trapdoor",
+    "minecraft:crimson_fence_gate",
+    "minecraft:crimson_sign",
+    "minecraft:crimson_hanging_sign",
+    "farmersdelight:crimson_cabinet",
+    "nomansland:crimson_bookshelf",
+    "nomansland:trimmed_crimson_planks",
+    "create:crimson_window",
+    "create:crimson_window_pane",
+    "supplementaries:way_sign_crimson"
+  ]
+}

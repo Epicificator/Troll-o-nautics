@@ -1,0 +1,25 @@
+{
+  "id": "custom:wisteria_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:wisteria_log",
+    "natures_spirit:stripped_wisteria_log",
+    "natures_spirit:wisteria_wood",
+    "natures_spirit:stripped_wisteria_wood",
+    "natures_spirit:wisteria_pressure_plate",
+    "natures_spirit:wisteria_button",
+    "natures_spirit:wisteria_door",
+    "natures_spirit:wisteria_trapdoor",
+    "natures_spirit:wisteria_sign",
+    "natures_spirit:wisteria_hanging_sign",
+    "natures_spirit:wisteria_mosaic",
+    "natures_spirit:wisteria_mosaic_stairs",
+    "natures_spirit:wisteria_mosaic_slab",
+    "natures_spirit:wisteria_planks",
+    "natures_spirit:wisteria_stairs",
+    "natures_spirit:wisteria_slab",
+    "natures_spirit:wisteria_fence",
+    "natures_spirit:wisteria_fence_gate",
+    "supplementaries:natures_spirit/way_sign_wisteria"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "custom:fir_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:fir_planks",
+    "natures_spirit:fir_stairs",
+    "natures_spirit:fir_slab",
+    "natures_spirit:fir_fence",
+    "natures_spirit:fir_fence_gate",
+    "natures_spirit:fir_pressure_plate",
+    "natures_spirit:fir_button",
+    "natures_spirit:fir_door",
+    "natures_spirit:fir_trapdoor",
+    "natures_spirit:fir_sign",
+    "natures_spirit:fir_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_fir",
+    "natures_spirit:fir_log",
+    "natures_spirit:stripped_fir_log",
+    "natures_spirit:fir_wood",
+    "natures_spirit:stripped_fir_wood"
+  ]
+}

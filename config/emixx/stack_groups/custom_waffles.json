@@ -1,0 +1,13 @@
+{
+  "id": "custom:waffles",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:butterscotch_chip_waffle",
+    "createfood:caramel_chip_waffle",
+    "createfood:chocolate_chip_waffle",
+    "createfood:dark_chocolate_chip_waffle",
+    "createfood:toffee_chip_waffle",
+    "createfood:waffle",
+    "createfood:white_chocolate_chip_waffle"
+  ]
+}

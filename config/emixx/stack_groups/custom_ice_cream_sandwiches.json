@@ -1,0 +1,14 @@
+{
+  "id": "custom:ice_cream_sandwiches",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_ice_cream_sandwich",
+    "createfood:berry_ice_cream_sandwich",
+    "createfood:chocolate_ice_cream_sandwich",
+    "createfood:chorus_fruit_ice_cream_sandwich",
+    "createfood:glow_berry_ice_cream_sandwich",
+    "createfood:ice_cream_sandwich",
+    "createfood:ice_cream_sandwich_neapolitan",
+    "createfood:melon_ice_cream_sandwich"
+  ]
+}

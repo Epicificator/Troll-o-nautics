@@ -1,0 +1,11 @@
+{
+  "id": "custom:nachos",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:nacho_bowl",
+    "createfood:nacho_bowl_beef",
+    "createfood:nacho_bowl_beef_taco_sauce",
+    "createfood:nacho_bowl_sour_cream",
+    "createfood:nacho_bowl_taco_sauce"
+  ]
+}

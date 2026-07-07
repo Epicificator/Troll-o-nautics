@@ -1,0 +1,22 @@
+{
+  "id": "custom:aspen_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:aspen_log",
+    "natures_spirit:stripped_aspen_log",
+    "natures_spirit:aspen_wood",
+    "natures_spirit:stripped_aspen_wood",
+    "natures_spirit:aspen_planks",
+    "natures_spirit:aspen_stairs",
+    "natures_spirit:aspen_slab",
+    "natures_spirit:aspen_fence",
+    "natures_spirit:aspen_fence_gate",
+    "natures_spirit:aspen_pressure_plate",
+    "natures_spirit:aspen_button",
+    "natures_spirit:aspen_door",
+    "natures_spirit:aspen_trapdoor",
+    "natures_spirit:aspen_sign",
+    "natures_spirit:aspen_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_aspen"
+  ]
+}

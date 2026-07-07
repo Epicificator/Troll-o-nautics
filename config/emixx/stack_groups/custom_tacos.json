@@ -1,0 +1,30 @@
+{
+  "id": "custom:tacos",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:cave_taco",
+    "abyssal_decor:cave_taco_with_stones",
+    "createfood:beef_taco",
+    "createfood:beef_taco_lettuce",
+    "createfood:beef_taco_lettuce_taco_sauce",
+    "createfood:chicken_taco",
+    "createfood:chicken_taco_lettuce",
+    "createfood:chicken_taco_lettuce_taco_sauce",
+    "createfood:fish_taco",
+    "createfood:fish_taco_kelp",
+    "createfood:fish_taco_kelp_taco_sauce",
+    "createfood:mushroom_taco",
+    "createfood:mushroom_taco_lettuce",
+    "createfood:mushroom_taco_lettuce_taco_sauce",
+    "createfood:mutton_taco",
+    "createfood:mutton_taco_lettuce",
+    "createfood:mutton_taco_lettuce_taco_sauce",
+    "createfood:pork_taco",
+    "createfood:pork_taco_lettuce",
+    "createfood:pork_taco_lettuce_taco_sauce",
+    "createfood:rabbit_taco",
+    "createfood:rabbit_taco_lettuce",
+    "createfood:rabbit_taco_lettuce_taco_sauce",
+    "createfood:taco_shell"
+  ]
+}

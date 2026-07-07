@@ -1,0 +1,19 @@
+{
+  "id": "custom:soups",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:beetroot_soup",
+    "farmersdelight:chicken_soup",
+    "farmersdelight:vegetable_soup",
+    "farmersdelight:pumpkin_soup",
+    "farmersdelight:noodle_soup",
+    "farmersdelight:onion_soup",
+    "abyssal_decor:muckroot_soup",
+    "createfood:kelp_soup_bowl",
+    "createfood:leather_soup_bowl",
+    "createfood:mushroom_cream_soup_bowl",
+    "createfood:potato_cream_soup_bowl",
+    "createfood:potato_cream_soup_bowl_cheese",
+    "createfood:tomato_cream_soup_bowl"
+  ]
+}

@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         ' ada '
     ], {a: 'sgjourney:universe_stargate_chevron',
         b: 'oreganized:silver_block',
-        c: 'architects_palette:ender_pearl_block',
+        c: 'minecraft:ender_pearl',
         d: 'minecraft:iron_block' })
 
     event.shaped( 'sgjourney:basic_interface',

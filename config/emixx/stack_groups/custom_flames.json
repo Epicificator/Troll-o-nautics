@@ -1,0 +1,29 @@
+{
+  "id": "custom:flames",
+  "type": "emixx:group",
+  "contents": [
+    "burnt:grass_flames",
+    "burnt:wood_fire",
+    "burnt:wood_fire_2",
+    "burnt:wood_fire_3",
+    "burnt:stairs_fire",
+    "burnt:stairs_fire_2",
+    "burnt:stairs_fire_3",
+    "burnt:wood_fire_4",
+    "burnt:wood_fire_5",
+    "burnt:wood_fire_6",
+    "burnt:wood_fire_7",
+    "burnt:wood_fire_8",
+    "burnt:wood_fire_9",
+    "burnt:tall_flames",
+    "burnt:stairs_fire_4",
+    "burnt:stairs_fire_5",
+    "burnt:copper_fire",
+    "burnt:copper_fire_7",
+    "burnt:copper_fire_2",
+    "burnt:copper_fire_3",
+    "burnt:copper_fire_4",
+    "burnt:copper_fire_5",
+    "burnt:copper_fire_6"
+  ]
+}

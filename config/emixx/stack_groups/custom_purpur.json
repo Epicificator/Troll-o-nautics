@@ -1,0 +1,21 @@
+{
+  "id": "custom:purpur",
+  "type": "emixx:group",
+  "contents": [
+    "enderscape:dusk_purpur_block",
+    "enderscape:dusk_purpur_stairs",
+    "enderscape:dusk_purpur_slab",
+    "enderscape:dusk_purpur_wall",
+    "enderscape:chiseled_dusk_purpur",
+    "enderscape:dusk_purpur_pillar",
+    "enderscape:purpur_tiles",
+    "enderscape:purpur_tile_stairs",
+    "enderscape:purpur_tile_slab",
+    "minecraft:purpur_slab",
+    "minecraft:purpur_block",
+    "minecraft:purpur_pillar",
+    "minecraft:purpur_stairs",
+    "enderscape:purpur_wall",
+    "enderscape:chiseled_purpur"
+  ]
+}

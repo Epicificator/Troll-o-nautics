@@ -1,0 +1,17 @@
+{
+  "id": "custom:muffins",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:berry_muffin",
+    "createfood:butterscotch_chip_muffin",
+    "createfood:caramel_chip_muffin",
+    "createfood:chocolate_chip_muffin",
+    "createfood:chorus_fruit_muffin",
+    "createfood:dark_chocolate_chip_muffin",
+    "createfood:glow_berry_muffin",
+    "createfood:honeyed_muffin",
+    "createfood:muffin_base",
+    "createfood:toffee_chip_muffin",
+    "createfood:white_chocolate_chip_muffin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "custom:lamps",
+  "type": "emixx:group",
+  "contents": [
+    "furniture:lamp_white",
+    "furniture:lamp_light_gray",
+    "furniture:lamp_gray",
+    "furniture:lamp_black",
+    "furniture:lamp_red",
+    "furniture:lamp_orange",
+    "furniture:lamp_yellow",
+    "furniture:lamp_lime",
+    "furniture:lamp_green",
+    "furniture:lamp_cyan",
+    "furniture:lamp_light_blue",
+    "furniture:lamp_blue",
+    "furniture:lamp_purple",
+    "furniture:lamp_magenta",
+    "furniture:lamp_pink",
+    "furniture:lamp_brown"
+  ]
+}

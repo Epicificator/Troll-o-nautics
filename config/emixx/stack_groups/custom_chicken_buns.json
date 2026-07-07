@@ -1,0 +1,18 @@
+{
+  "id": "custom:chicken_buns",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:chicken_bun",
+    "createfood:chicken_bun_bacon",
+    "createfood:chicken_bun_bacon_lettuce",
+    "createfood:chicken_bun_cheese",
+    "createfood:chicken_bun_cheese_bacon",
+    "createfood:chicken_bun_cheese_bacon_lettuce",
+    "createfood:chicken_bun_cheese_lettuce",
+    "createfood:chicken_bun_cheese_lettuce_tomato",
+    "createfood:chicken_bun_cheese_tomato",
+    "createfood:chicken_bun_lettuce",
+    "createfood:chicken_bun_lettuce_tomato",
+    "createfood:chicken_bun_tomato"
+  ]
+}

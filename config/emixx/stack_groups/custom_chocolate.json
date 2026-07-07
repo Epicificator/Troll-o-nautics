@@ -1,0 +1,20 @@
+{
+  "id": "custom:chocolate",
+  "type": "emixx:group",
+  "contents": [
+    "create:bar_of_chocolate",
+    "createfood:apple_cream_chocolate",
+    "createfood:berry_cream_chocolate",
+    "createfood:butterscotch_chocolate",
+    "createfood:caramel_chocolate",
+    "createfood:chorus_fruit_cream_chocolate",
+    "createfood:cream_chocolate",
+    "createfood:glow_berry_cream_chocolate",
+    "createfood:hollow_chocolate",
+    "createfood:marshmallow_chocolate",
+    "createfood:melon_cream_chocolate",
+    "createfood:toffee_chocolate",
+    "createfood:chocolate_fudge",
+    "createfood:marshmallow_chocolate_fudge"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "custom:bread_slices",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:bread_slice",
+    "createfood:bread_slice_apple_jam",
+    "createfood:bread_slice_bacon",
+    "createfood:bread_slice_bacon_lettuce",
+    "createfood:bread_slice_bacon_lettuce_tomato",
+    "createfood:bread_slice_beetroot",
+    "createfood:bread_slice_beetroot_lettuce",
+    "createfood:bread_slice_berry_jam",
+    "createfood:bread_slice_cheese",
+    "createfood:bread_slice_chorus_fruit_jam",
+    "createfood:bread_slice_glow_berry_jam",
+    "createfood:bread_slice_honey",
+    "createfood:bread_slice_lettuce",
+    "createfood:bread_slice_lettuce_tomato",
+    "createfood:bread_slice_melon_jam",
+    "createfood:bread_slice_mutton",
+    "createfood:bread_slice_mutton_beetroot",
+    "createfood:bread_slice_peanut_butter",
+    "createfood:bread_slice_scrambled_egg",
+    "createfood:bread_slice_tomato",
+    "createfood:pumpernickel_bread_slice",
+    "createfood:pumpernickel_toast_slice",
+    "createfood:toast_slice"
+  ]
+}

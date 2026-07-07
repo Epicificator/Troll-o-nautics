@@ -1,0 +1,30 @@
+{
+  "id": "custom:mixed_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:mixed_bricks",
+    "abyssal_decor:mixed_bricks_2",
+    "abyssal_decor:mixed_bricks_3",
+    "abyssal_decor:mixed_bricks_4",
+    "abyssal_decor:mossy_mixed_bricks",
+    "abyssal_decor:mossy_mixed_bricks_2",
+    "abyssal_decor:mossy_mixed_bricks_3",
+    "abyssal_decor:mossy_mixed_bricks_4",
+    "abyssal_decor:mixed_brick_slab",
+    "abyssal_decor:mixed_brick_slab_2",
+    "abyssal_decor:mixed_brick_slab_3",
+    "abyssal_decor:mixed_brick_slab_4",
+    "abyssal_decor:mossy_mixed_brick_slab",
+    "abyssal_decor:mossy_mixed_brick_slab_2",
+    "abyssal_decor:mossy_mixed_brick_slab_3",
+    "abyssal_decor:mossy_mixed_brick_slab_4",
+    "abyssal_decor:mixed_brick_stairs",
+    "abyssal_decor:mixed_brick_stairs_2",
+    "abyssal_decor:mixed_brick_stairs_3",
+    "abyssal_decor:mixed_brick_stairs_4",
+    "abyssal_decor:mossy_mixed_brick_stairs",
+    "abyssal_decor:mossy_mixed_brick_stairs_2",
+    "abyssal_decor:mossy_mixed_brick_stairs_3",
+    "abyssal_decor:mossy_mixed_brick_stairs_4"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "custom:plough",
+  "type": "emixx:group",
+  "contents": [
+    "create:mechanical_plough",
+    "createcasing:brass_mechanical_plough",
+    "createcasing:copper_mechanical_plough",
+    "createcasing:railway_mechanical_plough",
+    "createcasing:shadow_steel_mechanical_plough",
+    "createcasing:refined_radiance_mechanical_plough",
+    "createcasing:creative_mechanical_plough",
+    "createcasing:industrial_iron_mechanical_plough",
+    "createcasing:weathered_iron_mechanical_plough"
+  ]
+}

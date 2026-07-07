@@ -1,0 +1,17 @@
+{
+  "id": "custom:ice_cream",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_ice_cream_bowl",
+    "createfood:berry_ice_cream_bowl",
+    "createfood:butterscotch_fudge_ice_cream_bowl",
+    "createfood:caramel_fudge_ice_cream_bowl",
+    "createfood:chocolate_fudge_ice_cream_bowl",
+    "createfood:chocolate_ice_cream_bowl",
+    "createfood:chorus_fruit_ice_cream_bowl",
+    "createfood:glow_berry_ice_cream_bowl",
+    "createfood:ice_cream_bowl",
+    "createfood:melon_ice_cream_bowl",
+    "createfood:toffee_fudge_ice_cream_bowl"
+  ]
+}

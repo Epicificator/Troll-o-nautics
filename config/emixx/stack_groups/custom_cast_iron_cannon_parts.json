@@ -1,0 +1,23 @@
+{
+  "id": "custom:cast_iron_cannon_parts",
+  "type": "emixx:group",
+  "contents": [
+    "createbigcannons:cast_iron_cannon_barrel",
+    "createbigcannons:cast_iron_cannon_chamber",
+    "createbigcannons:cast_iron_cannon_end",
+    "createbigcannons:cast_iron_quickfiring_breech",
+    "createbigcannons:cast_iron_sliding_breech",
+    "createbigcannons:unbored_cast_iron_cannon_barrel",
+    "createbigcannons:unbored_cast_iron_cannon_chamber",
+    "createbigcannons:incomplete_cast_iron_sliding_breech",
+    "createbigcannons:unbored_cast_iron_sliding_breech",
+    "createbigcannons:cast_iron_autocannon_barrel",
+    "createbigcannons:cast_iron_autocannon_breech",
+    "createbigcannons:cast_iron_autocannon_recoil_spring",
+    "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring",
+    "createbigcannons:incomplete_cast_iron_autocannon_breech",
+    "createbigcannons:unbored_cast_iron_autocannon_barrel",
+    "createbigcannons:unbored_cast_iron_autocannon_recoil_spring",
+    "createbigcannons:unbored_cast_iron_autocannon_breech"
+  ]
+}

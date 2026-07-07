@@ -1,0 +1,22 @@
+{
+  "id": "custom:pouffes",
+  "type": "emixx:group",
+  "contents": [
+    "furniture:pouffe_white",
+    "furniture:pouffe_light_gray",
+    "furniture:pouffe_gray",
+    "furniture:pouffe_black",
+    "furniture:pouffe_red",
+    "furniture:pouffe_orange",
+    "furniture:pouffe_yellow",
+    "furniture:pouffe_lime",
+    "furniture:pouffe_green",
+    "furniture:pouffe_cyan",
+    "furniture:pouffe_light_blue",
+    "furniture:pouffe_blue",
+    "furniture:pouffe_purple",
+    "furniture:pouffe_magenta",
+    "furniture:pouffe_pink",
+    "furniture:pouffe_brown"
+  ]
+}

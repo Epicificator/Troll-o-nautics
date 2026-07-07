@@ -1,0 +1,29 @@
+{
+  "id": "custom:nomansland_maple_wood",
+  "type": "emixx:group",
+  "contents": [
+    "nomansland:maple_planks",
+    "nomansland:maple_stairs",
+    "nomansland:maple_slab",
+    "nomansland:trimmed_maple_planks",
+    "nomansland:maple_log",
+    "nomansland:maple_wood",
+    "nomansland:stripped_maple_log",
+    "nomansland:stripped_maple_wood",
+    "nomansland:maple_fence",
+    "nomansland:maple_fence_gate",
+    "nomansland:maple_button",
+    "nomansland:maple_pressure_plate",
+    "nomansland:maple_door",
+    "nomansland:maple_trapdoor",
+    "nomansland:maple_bookshelf",
+    "nomansland:maple_leaves",
+    "nomansland:maple_sapling",
+    "nomansland:red_maple_leaves",
+    "nomansland:red_maple_sapling",
+    "nomansland:maple_cabinet",
+    "nomansland:maple_sign",
+    "nomansland:maple_hanging_sign",
+    "supplementaries:nomansland/way_sign_maple"
+  ]
+}

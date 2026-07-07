@@ -1,0 +1,29 @@
+{
+  "id": "custom:calcite",
+  "type": "emixx:group",
+  "contents": [
+    "bits_n_bobs:calcite_tiles",
+    "bits_n_bobs:calcite_tile_stairs",
+    "bits_n_bobs:calcite_tile_slab",
+    "bits_n_bobs:calcite_tile_wall",
+    "create:cut_calcite",
+    "create:cut_calcite_stairs",
+    "create:cut_calcite_slab",
+    "create:cut_calcite_wall",
+    "create:polished_cut_calcite",
+    "create:polished_cut_calcite_stairs",
+    "create:polished_cut_calcite_slab",
+    "create:polished_cut_calcite_wall",
+    "create:cut_calcite_bricks",
+    "create:cut_calcite_brick_stairs",
+    "create:cut_calcite_brick_slab",
+    "create:cut_calcite_brick_wall",
+    "create:small_calcite_bricks",
+    "create:small_calcite_brick_stairs",
+    "create:small_calcite_brick_slab",
+    "create:small_calcite_brick_wall",
+    "create:layered_calcite",
+    "create:calcite_pillar",
+    "minecraft:calcite"
+  ]
+}

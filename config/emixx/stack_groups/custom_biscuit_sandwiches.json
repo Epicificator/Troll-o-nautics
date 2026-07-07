@@ -1,0 +1,15 @@
+{
+  "id": "custom:biscuit_sandwiches",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:cheese_biscuit_sandwich",
+    "createfood:sausage_biscuit_sandwich",
+    "createfood:sausage_biscuit_sandwich_bacon",
+    "createfood:sausage_biscuit_sandwich_cheese",
+    "createfood:sausage_biscuit_sandwich_cheese_bacon",
+    "createfood:sausage_biscuit_sandwich_cheese_fried_egg",
+    "createfood:sausage_biscuit_sandwich_cheese_fried_egg_bacon",
+    "createfood:sausage_biscuit_sandwich_fried_egg",
+    "createfood:sausage_biscuit_sandwich_fried_egg_bacon"
+  ]
+}

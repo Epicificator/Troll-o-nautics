@@ -1,0 +1,26 @@
+{
+  "id": "custom:warped_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:warped_planks",
+    "minecraft:warped_stem",
+    "minecraft:stripped_warped_stem",
+    "minecraft:stripped_warped_hyphae",
+    "minecraft:warped_hyphae",
+    "minecraft:warped_slab",
+    "minecraft:warped_fence",
+    "minecraft:warped_stairs",
+    "minecraft:warped_wart_block",
+    "minecraft:warped_button",
+    "minecraft:warped_pressure_plate",
+    "minecraft:warped_door",
+    "minecraft:warped_trapdoor",
+    "minecraft:warped_fence_gate",
+    "farmersdelight:warped_cabinet",
+    "create:warped_window",
+    "create:warped_window_pane",
+    "nomansland:warped_bookshelf",
+    "nomansland:trimmed_warped_planks",
+    "supplementaries:way_sign_warped"
+  ]
+}

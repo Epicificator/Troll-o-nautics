@@ -1,0 +1,19 @@
+{
+  "id": "custom:permafrost",
+  "type": "emixx:group",
+  "contents": [
+    "spelunkers_charm:permafrost",
+    "spelunkers_charm:cobbled_permafrost",
+    "spelunkers_charm:cobbled_permafrost_stairs",
+    "spelunkers_charm:cobbled_permafrost_slab",
+    "spelunkers_charm:cobbled_permafrost_wall",
+    "spelunkers_charm:permafrost_stairs",
+    "spelunkers_charm:permafrost_slab",
+    "spelunkers_charm:permafrost_wall",
+    "spelunkers_charm:permafrost_bricks",
+    "spelunkers_charm:permafrost_brick_stairs",
+    "spelunkers_charm:permafrost_brick_slab",
+    "spelunkers_charm:permafrost_brick_wall",
+    "spelunkers_charm:chiseled_permafrost_bricks"
+  ]
+}

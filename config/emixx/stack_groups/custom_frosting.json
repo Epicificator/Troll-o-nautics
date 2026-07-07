@@ -1,0 +1,22 @@
+{
+  "id": "custom:frosting",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_cream_frosting_bottle",
+    "createfood:berry_cream_frosting_bottle",
+    "createfood:chocolate_cream_frosting_bottle",
+    "createfood:chorus_fruit_cream_frosting_bottle",
+    "createfood:melon_cream_frosting_bottle",
+    "createfood:ube_cream_frosting_bottle",
+    "createfood:glow_berry_cream_frosting_bottle",
+    "createfood:cream_frosting_bottle",
+    "createfood:chocolate_cream_frosting_piping_bag",
+    "createfood:cream_frosting_piping_bag",
+    "createfood:melon_cream_frosting_piping_bag",
+    "createfood:ube_cream_frosting_piping_bag",
+    "createfood:berry_cream_frosting_piping_bag",
+    "createfood:chorus_fruit_cream_frosting_piping_bag",
+    "createfood:apple_cream_frosting_piping_bag",
+    "createfood:glow_berry_cream_frosting_piping_bag"
+  ]
+}

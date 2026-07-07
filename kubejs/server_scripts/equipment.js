@@ -1,9 +1,9 @@
 ServerEvents.recipes(event => {
 //grapplemod
-    event.remove({ mod: 'grapplemod' })
-    event.shapeless(
-        Item.of('grapplemod:grappling_hook', 1),
-                    ['minecraft:iron_pickaxe', '4x #c:ropes'])
+//    event.remove({ mod: 'grapplemod' })
+//    event.shapeless(
+//        Item.of('grapplemod:grappling_hook', 1),
+//                    ['minecraft:iron_pickaxe', '4x #c:ropes'])
 //tfmg
     event.remove({ id: 'tfmg:crafting/materials/steel_sword' })
     event.remove({ id: 'tfmg:crafting/materials/steel_pickaxe' })
@@ -19,12 +19,12 @@ ServerEvents.recipes(event => {
 
 RecipeViewerEvents.removeEntries('item', event => {
 //grapplemod
-    event.remove('grapplemod:ender_staff')
-    event.remove('grapplemod:forcefield')
-    event.remove('grapplemod:rocket')
-    event.remove('grapplemod:base_upgrade')
-    event.remove('grapplemod:long_fall_boots')
-    event.remove('grapplemod:long_fall_boots_smithing_template')
+//    event.remove('grapplemod:ender_staff')
+//    event.remove('grapplemod:forcefield')
+//    event.remove('grapplemod:rocket')
+//    event.remove('grapplemod:base_upgrade')
+//    event.remove('grapplemod:long_fall_boots')
+//    event.remove('grapplemod:long_fall_boots_smithing_template')
 //tfmg
     event.remove('tfmg:steel_sword')
     event.remove('tfmg:steel_pickaxe')

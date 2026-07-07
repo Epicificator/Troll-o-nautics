@@ -1,0 +1,22 @@
+{
+  "id": "custom:cheesecakes",
+  "type": "emixx:group",
+  "contents": [
+    "farmersdelight:sweet_berry_cheesecake",
+    "farmersdelight:sweet_berry_cheesecake_slice",
+    "createfood:apple_cheesecake_slice",
+    "createfood:cheesecake_slice",
+    "createfood:chorus_fruit_cheesecake_slice",
+    "createfood:glow_berry_cheesecake_slice",
+    "createfood:apple_cheesecake",
+    "createfood:cheesecake",
+    "createfood:chorus_fruit_cheesecake",
+    "createfood:glow_berry_cheesecake",
+    "createfood:raw_apple_cheesecake",
+    "createfood:raw_berry_cheesecake",
+    "createfood:raw_cheesecake",
+    "createfood:raw_chorus_fruit_cheesecake",
+    "createfood:raw_glow_berry_cheesecake",
+    "delightfulcreators:incomplete_sweet_berry_cheesecake"
+  ]
+}

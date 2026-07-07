@@ -1,0 +1,13 @@
+{
+  "id": "custom:ice_cream_scoops",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:apple_ice_cream_stick",
+    "createfood:berry_ice_cream_stick",
+    "createfood:chocolate_ice_cream_stick",
+    "createfood:chorus_fruit_ice_cream_stick",
+    "createfood:glow_berry_ice_cream_stick",
+    "createfood:ice_cream_stick",
+    "createfood:melon_ice_cream_stick"
+  ]
+}

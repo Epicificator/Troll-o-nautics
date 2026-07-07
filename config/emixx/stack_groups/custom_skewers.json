@@ -1,0 +1,32 @@
+{
+  "id": "custom:skewers",
+  "type": "emixx:group",
+  "contents": [
+    "createfood:pork_meatball_stick_1",
+    "createfood:pork_meatball_stick_2",
+    "createfood:pork_meatball_stick_3",
+    "createfood:rabbit_meatball_stick_1",
+    "createfood:rabbit_meatball_stick_2",
+    "createfood:rabbit_meatball_stick_3",
+    "createfood:beef_meatball_stick_1",
+    "createfood:beef_meatball_stick_2",
+    "createfood:beef_meatball_stick_3",
+    "createfood:strider_meatball_stick_1",
+    "createfood:strider_meatball_stick_2",
+    "createfood:endermite_meatball_stick_1",
+    "createfood:endermite_meatball_stick_2",
+    "createfood:endermite_meatball_stick_3",
+    "createfood:dark_chocolate_marshmallow_stick",
+    "createfood:corn_stick",
+    "createfood:cotton_candy_stick",
+    "createfood:chocolate_marshmallow_stick",
+    "createfood:magma_cream_marshmallow_stick",
+    "createfood:marshmallow_stick",
+    "createfood:white_chocolate_marshmallow_stick",
+    "createfood:toffee_marshmallow_stick",
+    "createfood:strider_meatball_stick_3",
+    "createfood:caramel_marshmallow_stick",
+    "createfood:butterscotch_marshmallow_stick",
+    "farmersdelight:barbecue_stick"
+  ]
+}

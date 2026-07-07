@@ -1,0 +1,6 @@
+{
+  "id": "custom:encased_shafts",
+  "type": "emixx:regex",
+  "regex": "createcasing:.*encased.*shaft",
+  "name": "Encased Shafts"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "custom:willow_wood",
+  "type": "emixx:group",
+  "contents": [
+    "nomansland:willow_wood",
+    "nomansland:stripped_willow_log",
+    "nomansland:stripped_willow_wood",
+    "nomansland:willow_fence",
+    "nomansland:willow_fence_gate",
+    "nomansland:willow_button",
+    "nomansland:willow_pressure_plate",
+    "nomansland:willow_door",
+    "nomansland:willow_trapdoor",
+    "nomansland:willow_bookshelf",
+    "nomansland:willow_sign",
+    "nomansland:willow_hanging_sign",
+    "nomansland:willow_planks",
+    "nomansland:willow_stairs",
+    "nomansland:willow_slab",
+    "nomansland:trimmed_willow_planks",
+    "nomansland:willow_log",
+    "nomansland:willow_cabinet",
+    "supplementaries:nomansland/way_sign_willow"
+  ]
+}

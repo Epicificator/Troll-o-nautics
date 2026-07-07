@@ -1,0 +1,22 @@
+{
+  "id": "custom:cypress_wood",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:cypress_planks",
+    "natures_spirit:cypress_stairs",
+    "natures_spirit:cypress_slab",
+    "natures_spirit:cypress_fence",
+    "natures_spirit:cypress_fence_gate",
+    "natures_spirit:cypress_pressure_plate",
+    "natures_spirit:cypress_button",
+    "natures_spirit:cypress_door",
+    "natures_spirit:cypress_trapdoor",
+    "natures_spirit:cypress_sign",
+    "natures_spirit:cypress_hanging_sign",
+    "supplementaries:natures_spirit/way_sign_cypress",
+    "natures_spirit:cypress_log",
+    "natures_spirit:stripped_cypress_log",
+    "natures_spirit:cypress_wood",
+    "natures_spirit:stripped_cypress_wood"
+  ]
+}
