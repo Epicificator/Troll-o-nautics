@@ -1,0 +1,7 @@
+{
+  "id": "custom:zipline_ropes",
+  "type": "emixx:group",
+  "contents": [
+    "parcool:zipline_rope"
+  ]
+}

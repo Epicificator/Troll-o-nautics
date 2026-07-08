@@ -4,6 +4,7 @@
   "contents": [
     "natures_spirit:joshua_bundle",
     "natures_spirit:stripped_joshua_bundle",
+    "natures_spirit:stripped_joshua_log",
     "natures_spirit:joshua_mosaic",
     "natures_spirit:joshua_mosaic_stairs",
     "natures_spirit:joshua_mosaic_slab",
@@ -18,6 +19,7 @@
     "natures_spirit:joshua_trapdoor",
     "natures_spirit:joshua_sign",
     "natures_spirit:joshua_hanging_sign",
+    "natures_spirit:joshua_log",
     "supplementaries:natures_spirit/way_sign_joshua"
   ]
 }
