@@ -1,0 +1,8 @@
+{
+  "id": "custom:ancient_pots",
+  "type": "emixx:group",
+  "contents": [
+    "nomansland:ancient_pot",
+    "nomansland:large_ancient_pot"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "id": "custom:willow_wood",
+  "id": "custom:willow_wood_ns",
   "type": "emixx:group",
   "contents": [
     "natures_spirit:willow_wood",
@@ -16,7 +16,6 @@
     "natures_spirit:willow_planks",
     "natures_spirit:willow_stairs",
     "natures_spirit:willow_slab",
-    "natures_spirit:willow_log",
-    "supplementaries:natures_spirit/way_sign_willow"
+    "natures_spirit:willow_log"
   ]
 }
