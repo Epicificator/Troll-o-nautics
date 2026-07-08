@@ -1,5 +1,5 @@
 {
-  "id": "custom:willow_wood",
+  "id": "custom:willow_wood_nml",
   "type": "emixx:group",
   "contents": [
     "nomansland:willow_wood",
@@ -19,7 +19,6 @@
     "nomansland:willow_slab",
     "nomansland:trimmed_willow_planks",
     "nomansland:willow_log",
-    "nomansland:willow_cabinet",
-    "supplementaries:nomansland/way_sign_willow"
+    "nomansland:willow_cabinet"
   ]
 }
