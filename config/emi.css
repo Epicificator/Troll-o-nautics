@@ -19,7 +19,7 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative-plus-registered;
+	index-source: creative;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -51,7 +51,7 @@
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: top;
+	effect-location: left-compressed;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -172,12 +172,12 @@
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: lookup-history 1, craft-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 10, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -207,12 +207,12 @@
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: lookup-history 1, craft-history 1;
+	right-sidebar-subpanels: none;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 11, 100;
+	right-sidebar-size: 10, 100;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
