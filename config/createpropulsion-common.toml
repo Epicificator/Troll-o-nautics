@@ -4,7 +4,7 @@
 	#Effective thrust uses: baseThrust * fuel_thrust_percent / 100.
 	# Default: 533.333333333
 	# Range: 1.0 ~ 1.0E7
-	baseThrust = 533.333333333
+	baseThrust = 333.333333333
 	#How many blocks behind the nozzle are checked for obstruction.
 	# Default: 10
 	# Range: 1 ~ 64
