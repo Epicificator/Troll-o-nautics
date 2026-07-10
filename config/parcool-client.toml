@@ -23,7 +23,7 @@
 	can_Tap = true
 	can_Vault = true
 	can_VerticalWallRun = true
-	can_WallJump = true
+	can_WallJump = false
 	can_WallSlide = true
 	can_StartSwimByCrawl = true
 
@@ -150,7 +150,7 @@
 	#acceptable walll angle of wall jump : `0` means you exactly opposite to wall, `180` allow you to wall jump for all angle
 	# Default: 110
 	# Range: 0 ~ 180
-	acceptable_angle_wall_jump = 110
+	acceptable_angle_wall_jump = 60
 	#How long duration of dodge is deal as successive dodge
 	# Default: 30
 	# Range: > 0
@@ -188,7 +188,7 @@
 	#How long you can do Horizontal Wall Run
 	# Default: 25
 	# Range: 15 ~ 100
-	wall-run_continuable_tick = 40
+	wall-run_continuable_tick = 60
 	#How long you can do Slide
 	# Default: 15
 	# Range: 10 ~ 60
@@ -204,7 +204,7 @@
 	#Dodge speed modifier
 	# Default: 1.0
 	# Range: 0.5 ~ 3.0
-	dodge-speed_modifier = 1.5
+	dodge-speed_modifier = 2.0
 	#SkyDive speed decreasement rate
 	# Default: 0.98
 	# Range: 0.001 ~ 1.0
