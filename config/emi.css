@@ -88,7 +88,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -172,7 +172,7 @@
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: lookup-history 1, craft-history 1;
+	left-sidebar-subpanels: craft-history 2;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
@@ -207,7 +207,7 @@
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: none;
+	right-sidebar-subpanels: lookup-history 2;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to

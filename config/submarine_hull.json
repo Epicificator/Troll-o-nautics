@@ -20221,6 +20221,50 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createfirefightingadd:bucket_controller": {
+    "maxWaterDepth": 92,
+    "implosionChance": 0.45
+  },
+  "createfirefightingadd:cone_nozzle": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:fire_hose": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:fire_hose_connector": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:fire_pole": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "createfirefightingadd:firefighting_nozzle": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:flat_nozzle": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:flow_meter": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:high_pressure_pump": {
+    "maxWaterDepth": 92,
+    "implosionChance": 0.45
+  },
+  "createfirefightingadd:pipeline_turbine": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:water_intake": {
+    "maxWaterDepth": 92,
+    "implosionChance": 0.45
+  },
   "createfood:apple_cheesecake": {
     "maxWaterDepth": 8,
     "implosionChance": 0.85
@@ -26872,6 +26916,26 @@
   "createpropulsion:wing": {
     "maxWaterDepth": 27,
     "implosionChance": 0.8333333
+  },
+  "createunderpressure:cylinder": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.73
+  },
+  "createunderpressure:cylinder_anchor": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.73
+  },
+  "createunderpressure:hose_connector": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
+  "createunderpressure:hose_pulley": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createunderpressure:pressure_gauge": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.73
   },
   "darkerdepths:amber_block": {
     "maxWaterDepth": 16,

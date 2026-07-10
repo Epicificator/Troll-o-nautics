@@ -94,6 +94,9 @@
     "block_velocity": true,
     "block_mass": true
   },
+  "createfirefightingadd": {
+    "water_intake_fluid": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

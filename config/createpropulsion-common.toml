@@ -344,7 +344,7 @@
 			#Fuel burn rate percentage for tfmg:kerosene.
 			# Default: 90
 			# Range: 0 ~ 10000
-			burnRate = 90
+			burnRate = 180
 
 		["Fuel Configuration".fuelProperties.createdieselgenerators_gasoline]
 			#Fuel efficiency percentage for createdieselgenerators:gasoline.
