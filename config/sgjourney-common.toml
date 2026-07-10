@@ -119,11 +119,11 @@
 			#The amount of energy an Advanced Crystal Interface can hold
 			# Default: 100000000000
 			# Range: 1 ~ 9223372036854775807
-			advanced_crystal_interface_capacity = 500
+			advanced_crystal_interface_capacity = 5000
 			#The maximum amount of energy an Advanced Crystal Interface can transfer at once
 			# Default: 100000000000
 			# Range: 1 ~ 9223372036854775807
-			advanced_crystal_interface_max_transfer = 500
+			advanced_crystal_interface_max_transfer = 5000
 
 		["Stargate Journey Common Config"."Stargate Config".server]
 			#If true, Stargate will load the chunk it's in while it's connected to another Stargate

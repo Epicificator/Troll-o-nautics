@@ -3,17 +3,16 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'moregate' })
     event.shaped( 'sgjourney:universe_stargate_chevron',
                   [ 'bcb', ' a ' ],
-                  { a: 'abyssal_decor:industrial_lever', b: 'oreganized:silver_nugget', c: 'minecraft:iron_ingot'})
+                  { a: 'oreganized:silver_ingot', b: 'oreganized:silver_nugget', c: 'tfmg:steel_mechanism'})
     event.recipes.createMechanicalCrafting(Item.of('sgjourney:classic_stargate[minecraft:block_entity_data={id:"sgjourney:classic_stargate",point_of_origin:"sgjourney:terra"}]'), [
         ' aaa ',
         'ab ba',
-        'c   c',
+        'b   b',
         'ab ba',
-        ' ada '
+        ' aca '
     ], {a: 'sgjourney:universe_stargate_chevron',
         b: 'oreganized:silver_block',
-        c: 'minecraft:ender_pearl',
-        d: 'minecraft:iron_block' })
+        c: 'minecraft:netherite_ingot' })
 
     event.shaped( 'sgjourney:basic_interface',
         [ 'aba', 'cdc', 'aea' ],
@@ -23,7 +22,7 @@ ServerEvents.recipes(event => {
         { a: 'tfmg:heavy_machinery_casing', b: 'tfmg:voltage_observer', c: 'tfmg:steel_mechanism', d: 'minecraft:netherite_scrap', e: 'tfmg:machine_input' , f: 'tfmg:electrical_switch'})
     event.shaped( 'sgjourney:advanced_crystal_interface',
         [ 'aba', 'cdc', 'efe' ],
-        { a: 'tfmg:heavy_machinery_casing', b: 'minecraft:netherite_ingot', c: 'darkerdepths:crystal_melon', d: 'tfmg:generator', e: 'tfmg:machine_input' , f: 'tfmg:electrical_switch'})
+        { a: 'tfmg:heavy_machinery_casing', b: 'minecraft:netherite_ingot', c: 'enderscape:nebulite', d: 'tfmg:generator', e: 'tfmg:machine_input' , f: 'tfmg:electrical_switch'})
 
     const dhd = (output, eye) => {
         event.recipes.createMechanicalCrafting(Item.of('sgjourney:'+output+'_dhd[minecraft:block_entity_data={id:"sgjourney:'+output+'_dhd",crystal_inventory:{Items:[{Slot:0,id:"sgjourney:large_control_crystal",count:1}]}}]'), [
