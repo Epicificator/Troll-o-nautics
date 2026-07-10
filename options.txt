@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:0.5
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Atmospheric Skies \u0026 Fog 1.3.zip","file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/Andesite_Chests+Crafting_Table_1_20_2+.zip","file/Connected-Bricks 1.14-1.21.3 v1.0.zip","file/Connected-Paths 1.14-1.21.8 v2.1.1.zip","file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip","file/rainbows-foliage-polytone-edition-v1.7.zip","file/SGJourney Refreshed.zip","file/Sounds x Create V1.4.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CC Greentech v1.1.zip","file/CoolConsole.zip","file/DieselDepot.zip"]
-incompatibleResourcePacks:["file/Better Create Glass Pipes.zip","file/Create Tunnel Transparency Pack.zip","file/CreateSophStorage.zip","file/SGJourney Refreshed.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CoolConsole.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Atmospheric Skies \u0026 Fog 1.3.zip","file/CreateSophStorage.zip","file/Andesite_Chests+Crafting_Table_1_20_2+.zip","file/SGJourney Refreshed.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CC Greentech v1.1.zip","file/CoolConsole.zip","file/DieselDepot.zip","file/CreateSophBackpacks.zip"]
+incompatibleResourcePacks:["file/CreateSophStorage.zip","file/SGJourney Refreshed.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/§bRe§6Created§bGoggles.zip","file/Angel\u0027s_Weather_v1.8.1hf.zip","file/CoolConsole.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -202,14 +202,15 @@ key_key.clipboardcurios.open_clipboard:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
+key_key.createunderpressure.toggle_network_debug:key.keyboard.g
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_key.antique_atlas.open:key.keyboard.m
@@ -273,8 +274,8 @@ key_key.createrailgrinding.grind_jump:key.keyboard.space
 key_key.createrailgrinding.grind_crouch:key.keyboard.left.shift
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.dashpanels.select_module:key.mouse.right
-key_key.dashpanels.delete_module:key.keyboard.d
 key_key.dashpanels.move_module:key.mouse.left
+key_key.dashpanels.delete_module:key.keyboard.d
 key_key.presencefootsteps.settings:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
