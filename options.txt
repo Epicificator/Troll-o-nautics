@@ -13,7 +13,7 @@ glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
 fullscreen:false
-gamma:0.75
+gamma:0.5
 graphicsMode:1
 guiScale:3
 maxFps:120
@@ -21,7 +21,7 @@ mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"fast"
+renderClouds:"true"
 renderDistance:6
 simulationDistance:10
 screenEffectScale:1.0
@@ -272,11 +272,9 @@ key_create_radar.key.binocular.fire:key.mouse.left
 key_key.createrailgrinding.catch:key.keyboard.space:SHIFT
 key_key.createrailgrinding.grind_jump:key.keyboard.space
 key_key.createrailgrinding.grind_crouch:key.keyboard.left.shift
-key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.dashpanels.select_module:key.mouse.right
 key_key.dashpanels.move_module:key.mouse.left
 key_key.dashpanels.delete_module:key.keyboard.d
-key_key.presencefootsteps.settings:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:0.7095070422535211
