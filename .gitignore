@@ -48,6 +48,7 @@
 !/config/structurify.json
 !/config/tectonic.json
 !/config/voicechat/voicechat-server.properties
+!/config/enderchestcmd.json
 
 # oh god
 !/config/submarine_hull.json
