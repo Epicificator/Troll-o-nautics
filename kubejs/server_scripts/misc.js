@@ -41,7 +41,13 @@ ServerEvents.recipes(event => {
     stupgrade('sophisticatedstorage:limited_gold_barrel_4', 'sophisticatedstorage:limited_iron_barrel_4', 'sophisticatedstorage:limited_gold_barrel_4')
 //Blank Disc
     event.stonecutting('2x kubejs:blank_disc', 'tfmg:plastic_sheet')
-
+    const discs = Ingredient.of("#c:music_discs").getItemIds()
+    discs.forEach(disc => {
+        event.recipes.createdieselgenerators.basin_fermenting(
+            [Item.of(disc).withLore("Copy"), disc],
+                                                              [Ingredient.of('#c:music_discs'), disc],
+        ).processingTime(180)
+    })
 //Remove Turtles
     event.remove({ output: 'computercraft:turtle_normal' })
     event.remove({ output: 'computercraft:turtle_advanced' })
