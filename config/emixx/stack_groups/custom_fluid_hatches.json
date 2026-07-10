@@ -2,6 +2,7 @@
   "id": "custom:fluid_hatches",
   "type": "emixx:group",
   "contents": [
+    "create_dragons_plus:fluid_hatch",
     "colorfulpipes:white_fluid_hatch",
     "colorfulpipes:orange_fluid_hatch",
     "colorfulpipes:magenta_fluid_hatch",
