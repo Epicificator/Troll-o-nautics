@@ -347,7 +347,7 @@ ServerEvents.recipes(event => {
         ['aba', 'a a', 'a a'],
         { a: 'create:andesite_alloy', b: 'tfmg:fireproof_brick' })
 //MISC
-    event.replaceInput({ id: 'abyssal_decor:moonsilver_ingot_recipe' }, 'minecraft:iron_ingot', 'oreganized:silver_ingot')
+    event.replaceInput({ id: 'abyssal_decor:moonsilver_ingot_recipe' }, 'minecraft:iron_ingot', 'galosphere:palladium_ingot')
     //remove createbigcannons melting
     event.remove({ id: 'createbigcannons:basin_foundry_lid' })
     event.remove({ type: 'createbigcannons:melting' })
