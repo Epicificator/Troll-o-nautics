@@ -1,7 +1,7 @@
 ["Possibility_of_Actions(Some_do_not_have_to_work)"]
 	can_BreakfallReady = true
 	can_CatLeap = true
-	can_ChargeJump = true
+	can_ChargeJump = false
 	can_ClimbPoles = true
 	can_ClimbUp = true
 	can_ClingToCliff = true
@@ -11,7 +11,7 @@
 	can_Dodge = true
 	can_FastRun = true
 	can_FastSwim = true
-	can_Flipping = true
+	can_Flipping = false
 	can_HangDown = true
 	can_HorizontalWallRun = true
 	can_JumpFromBar = true
@@ -23,13 +23,13 @@
 	can_Tap = true
 	can_Vault = true
 	can_VerticalWallRun = true
-	can_WallJump = true
+	can_WallJump = false
 	can_WallSlide = true
 	can_StartSwimByCrawl = true
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Light"
+	stamina_hud_type = "Hide"
 	#horizontal alignment
 	#Allowed Values: Left, Right
 	align_h_s_hud = "Right"
@@ -85,7 +85,7 @@
 	[Animations.Animators]
 		enable_BackwardWallJumpAnimator = true
 		enable_CatLeapAnimator = true
-		enable_ChargeJumpAnimator = true
+		enable_ChargeJumpAnimator = false
 		enable_ClimbUpAnimator = true
 		enable_ClingToCliffAnimator = true
 		enable_CrawlAnimator = true
@@ -136,13 +136,13 @@
 	#Enable Crawl in air
 	enable_crawl_in_air = true
 	#Enable Vault in air
-	enable_vault_in_air = true
+	enable_vault_in_air = false
 	#Enable getting off steps while doing dodge
-	can_get_off_steps_while_dodge = false
+	can_get_off_steps_while_dodge = true
 	#Enable Roll when creative mode (experimental)
 	enable_roll_creative = false
 	#Make Vault need Vault Key Pressed
-	vault_needs_key_pressed = false
+	vault_needs_key_pressed = true
 	#Make HideInBlock need player sneaking
 	hideinblock_needs_sneaking = true
 	#enable players to do actions needing Fast-Running by sprint
@@ -150,7 +150,7 @@
 	#acceptable walll angle of wall jump : `0` means you exactly opposite to wall, `180` allow you to wall jump for all angle
 	# Default: 110
 	# Range: 0 ~ 180
-	acceptable_angle_wall_jump = 110
+	acceptable_angle_wall_jump = 60
 	#How long duration of dodge is deal as successive dodge
 	# Default: 30
 	# Range: > 0
@@ -162,7 +162,7 @@
 	#Max number of times of successive Dodge action
 	# Default: 3
 	# Range: > 1
-	successive_dodge_count = 3
+	successive_dodge_count = 1
 	#Window time of just time breakfall
 	# Default: 5
 	# Range: > 0
@@ -170,7 +170,7 @@
 	#coyote time tick (how long tick player can behave like on ground after getting off ledge
 	# Default: 3
 	# Range: 0 ~ 20
-	coyote_time = 3
+	coyote_time = 4
 	#Lowest fall distance needed to trigger breakfall movements
 	# Default: 2.0
 	# Range: 0.0 ~ 10.0
@@ -188,23 +188,23 @@
 	#How long you can do Horizontal Wall Run
 	# Default: 25
 	# Range: 15 ~ 100
-	wall-run_continuable_tick = 25
+	wall-run_continuable_tick = 60
 	#How long you can do Slide
 	# Default: 15
 	# Range: 10 ~ 60
-	sliding_continuable_tick = 15
+	sliding_continuable_tick = 30
 	#FastRun speed modifier
 	# Default: 2.0
 	# Range: 0.001 ~ 10.0
-	fast-run_modifier = 2.0
+	fast-run_modifier = 1.5
 	#FastSwim speed modifier
 	# Default: 2.0
 	# Range: 0.001 ~ 10.0
-	fast-swim_modifier = 2.0
+	fast-swim_modifier = 1.5
 	#Dodge speed modifier
 	# Default: 1.0
 	# Range: 0.5 ~ 3.0
-	dodge-speed_modifier = 1.0
+	dodge-speed_modifier = 2.0
 	#SkyDive speed decreasement rate
 	# Default: 0.98
 	# Range: 0.001 ~ 1.0
@@ -224,7 +224,7 @@
 	#Enable particles triggered by Action
 	enable_particles = true
 	#Enable particles triggered by just-time breakfall
-	enable_particles_jt_breakfall = true
+	enable_particles_jt_breakfall = false
 	#Enable block like rendering of zipline
 	enable_3d_render_zipline = true
 	#Notify if auto resynchronization of Limitation is executed
@@ -235,9 +235,9 @@
 [Stamina]
 	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
-	used_stamina = "PARCOOL"
+	used_stamina = "NONE"
 	#Enable slowing down of stamina exhaustion
-	enable_stamina_exhaustion_penalty = true
+	enable_stamina_exhaustion_penalty = false
 
 	[Stamina.Consumption]
 		# Default: 0

@@ -5,7 +5,7 @@
 	[Limitations.Action_Permissions]
 		permit_BreakfallReady = true
 		permit_CatLeap = true
-		permit_ChargeJump = false
+		permit_ChargeJump = true
 		permit_ClimbPoles = true
 		permit_ClimbUp = true
 		permit_ClingToCliff = true
@@ -142,7 +142,7 @@
 		#Max number of times of successive Dodge action
 		# Default: 2147483647
 		# Range: > 1
-		max_successive_dodge_count = 1
+		max_successive_dodge_count = 40
 		#Window time of just time breakfall
 		# Default: 5
 		# Range: > 0
@@ -150,7 +150,7 @@
 		#Max coyote time tick (how long tick player can behave like on ground after getting off ledge
 		# Default: 3
 		# Range: 0 ~ 20
-		max_coyote_time = 5
+		max_coyote_time = 10
 		#Lowest fall distance needed to trigger breakfall movements
 		# Default: 2.0
 		# Range: 0.0 ~ 10.0
@@ -158,11 +158,11 @@
 		#How long breakfall can remove damage
 		# Default: 6.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		max_breakfall_damage_remove_height = 6.0
+		max_breakfall_damage_remove_height = 10.0
 		#Damage reduction rate of Breakfall
 		# Default: 0.6
 		# Range: 0.0 ~ 1.0
-		max_breakfall_damage_reduction_rate = 0.6
+		max_breakfall_damage_reduction_rate = 0.8
 
 		[Limitations.Control.Modifier]
 			#How long you can do Horizontal Wall Run
@@ -188,7 +188,7 @@
 			#SkyDive speed decrease rate
 			# Default: 0.98
 			# Range: 0.001 ~ 1.0
-			min_sky-dive_speed_decrease = 0.98
+			min_sky-dive_speed_decrease = 0.9
 
 		[Limitations.Control.Control]
 			#Allow disabling cooldown of wall jump
@@ -212,7 +212,7 @@
 			#Max coyote time tick (how long tick player can behave like on ground after getting off ledge
 			# Default: 3
 			# Range: 0 ~ 20
-			max_coyote_time = 3
+			max_coyote_time = 10
 			#Lowest fall distance needed to trigger breakfall movements
 			# Default: 2.0
 			# Range: 0.0 ~ 10.0
@@ -220,8 +220,8 @@
 			#How long breakfall can remove damage
 			# Default: 6.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			max_breakfall_damage_remove_height = 6.0
+			max_breakfall_damage_remove_height = 10.0
 			#Damage reduction rate of Breakfall
 			# Default: 0.6
 			# Range: 0.0 ~ 1.0
-			max_breakfall_damage_reduction_rate = 0.6
+			max_breakfall_damage_reduction_rate = 0.8
