@@ -76,6 +76,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:crafting/materials/aluminum_axe' })
     event.remove({ id: 'tfmg:crafting/materials/aluminum_shovel' })
     event.remove({ id: 'tfmg:crafting/materials/aluminum_hoe' })
+//Furniture
+    event.remove({ id: 'furniture:bin' })
+    event.remove({ id: 'furniture:coffer' })
+    event.shaped('furniture:coffer', ['ABA','BCB','BBB'], {A: 'minecraft:iron_nugget', B: '#minecraft:sulfur_cube_archetype/light', C: '#c:shulker_boxes'})
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
