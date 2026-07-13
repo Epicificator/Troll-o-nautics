@@ -39,6 +39,18 @@ ServerEvents.recipes(event => {
     stupgrade('sophisticatedstorage:limited_gold_barrel_2', 'sophisticatedstorage:limited_iron_barrel_2', 'sophisticatedstorage:limited_gold_barrel_2')
     stupgrade('sophisticatedstorage:limited_gold_barrel_3', 'sophisticatedstorage:limited_iron_barrel_3', 'sophisticatedstorage:limited_gold_barrel_3')
     stupgrade('sophisticatedstorage:limited_gold_barrel_4', 'sophisticatedstorage:limited_iron_barrel_4', 'sophisticatedstorage:limited_gold_barrel_4')
+    //sophisticatedbackpacks
+    event.remove({ id: 'sophisticatedbackpacks:gold_backpack' })
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+            "B": { "item": "sophisticatedbackpacks:iron_backpack" },
+            "G": { "tag": "c:ingots/brass" }
+        },
+        "pattern": [ "GGG", "GBG", "GGG" ],
+        "result": { "count": 1, "id": "sophisticatedbackpacks:gold_backpack" }
+    })
 //Blank Disc
     event.stonecutting('2x kubejs:blank_disc', 'tfmg:plastic_sheet')
     const discs = Ingredient.of("#c:music_discs").getItemIds()
@@ -53,11 +65,32 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'computercraft:turtle_advanced' })
 //Lodestone
     event.remove({ id: 'nomansland:lodestone' })
+//Equipment
+    event.remove({ id: 'tfmg:crafting/materials/steel_sword' })
+    event.remove({ id: 'tfmg:crafting/materials/steel_pickaxe' })
+    event.remove({ id: 'tfmg:crafting/materials/steel_axe' })
+    event.remove({ id: 'tfmg:crafting/materials/steel_shovel' })
+    event.remove({ id: 'tfmg:crafting/materials/steel_hoe' })
+    event.remove({ id: 'tfmg:crafting/materials/aluminum_sword' })
+    event.remove({ id: 'tfmg:crafting/materials/aluminum_pickaxe' })
+    event.remove({ id: 'tfmg:crafting/materials/aluminum_axe' })
+    event.remove({ id: 'tfmg:crafting/materials/aluminum_shovel' })
+    event.remove({ id: 'tfmg:crafting/materials/aluminum_hoe' })
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
     event.remove('computercraft:turtle_advanced')
     event.remove('lootr:trophy')
+    event.remove('tfmg:steel_sword')
+    event.remove('tfmg:steel_pickaxe')
+    event.remove('tfmg:steel_axe')
+    event.remove('tfmg:steel_shovel')
+    event.remove('tfmg:steel_hoe')
+    event.remove('tfmg:aluminum_sword')
+    event.remove('tfmg:aluminum_pickaxe')
+    event.remove('tfmg:aluminum_axe')
+    event.remove('tfmg:aluminum_shovel')
+    event.remove('tfmg:aluminum_hoe')
 })
 
 //Tagging
