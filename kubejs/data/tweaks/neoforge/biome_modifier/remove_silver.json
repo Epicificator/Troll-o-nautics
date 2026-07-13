@@ -1,0 +1,6 @@
+{
+    "type": "neoforge:remove_features",
+    "biomes": "#c:is_overworld",
+    "features": ["oreganized:silver_ore", "oreganized:silver_ore_extra"],
+    "steps": ["underground_ores", "underground_decoration"]
+}
