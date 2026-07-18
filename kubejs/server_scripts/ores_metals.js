@@ -91,6 +91,20 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: '#c:ingots/platinum' }, 'createpropulsion:platinum_ingot', 'galosphere:palladium_ingot')
     event.replaceInput({ input: '#c:nuggets/platinum' }, 'createpropulsion:platinum_nugget', 'galosphere:palladium_nugget')
     event.replaceInput({ input: '#c:storage_blocks/platinum' }, 'createpropulsion:platinum_block', 'galosphere:palladium_block')
+    //remove platinum crushing
+    event.remove({ id: 'createpropulsion:crushing/deepslate_platinum_ore' })
+    event.remove({ id: 'createpropulsion:crushing/platinum_ore' })
+    event.remove({ id: 'createpropulsion:crushing/raw_platinum_block' })
+    event.remove({ id: 'create:crushing/raw_platinum' })
+    event.remove({ id: 'create:crushing/platinum_ore' })
+    event.remove({ id: 'create:crushing/raw_platinum_block' })
+    //add palladium crushing
+    event.recipes.create.crushing(['create:crushed_raw_platinum', CreateItem.of('create:experience_nugget', 0.75)], 'galosphere:raw_palladium').processingTime(250)
+    event.recipes.create.crushing(['9x create:crushed_raw_platinum', CreateItem.of('9x create:experience_nugget', 0.75)], 'galosphere:raw_palladium_block').processingTime(250)
+    event.recipes.create.crushing(['create:crushed_raw_platinum', CreateItem.of('create:crushed_raw_platinum', 0.75), CreateItem.of('create:experience_nugget', 0.75)], Ingredient.of('#c:ores/palladium')).processingTime(250)
+    //add crushed palladium smelting
+    event.smelting('galosphere:palladium_ingot', 'create:crushed_raw_platinum').xp(0.1).cookingTime(200)
+    event.blasting('galosphere:palladium_ingot', 'create:crushed_raw_platinum').xp(0.1).cookingTime(100)
 
 //Lead
     event.replaceInput({ input: '#c:ingots/lead' }, 'tfmg:lead_ingot', 'oreganized:lead_ingot')

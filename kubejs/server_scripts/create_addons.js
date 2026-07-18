@@ -67,4 +67,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('petrolsparts:hydraulic_transmission')
     //simulatedrubies
     event.remove('simulatedrubies:chunk_loader')
+    //tfmg
+    event.remove('tfmg:brass_pipe')
 })

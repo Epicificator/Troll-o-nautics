@@ -8,7 +8,8 @@
         "minecraft:frozen_ocean",
         "minecraft:cold_ocean",
         "minecraft:ocean",
-        "minecraft:lukewarm_ocean"
+        "minecraft:lukewarm_ocean",
+        "nomansland:cave_depths"
     ],
     "features": "clifftree:ocean_ravine_magma"
 }
