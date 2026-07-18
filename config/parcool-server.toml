@@ -33,7 +33,7 @@
 
 	[Limitations.Stamina]
 		#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
-		forced_stamina = "PARCOOL"
+		forced_stamina = "NONE"
 		#Permission of infinite stamina
 		allow_infinite_stamina = true
 		#Limitation of max stamina value
