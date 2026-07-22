@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({ id: 'createfood:create/mixing/salt_from_mixing_water' })
 //spelunkery salt bucket cooking
     event.remove({ id: 'createfood:farmersdelight/cooking/salt_from_cooking' })
     event.custom({
