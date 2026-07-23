@@ -1,5 +1,8 @@
 StartupEvents.registry('item', event => {
     event.create('blank_disc')
+    event.create('ion_engine')
+    event.create('incomplete_ion_engine', 'create:sequenced_assembly')
+    event.create('lignite_nodule', 'create:sequenced_assembly')
 })
 
 ItemEvents.modification(event => {

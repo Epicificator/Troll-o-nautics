@@ -1,5 +1,9 @@
+ServerEvents.tags('item', event => {
+    event.remove('c:plates/andesite_alloy', 'createcasing:andesite_sheet')
+    event.remove('c:wires/copper', 'tfmg:copper_wire')
+})
 ServerEvents.recipes(event => {
-//Oxidizer
+    //Oxidizer
     event.remove({ id: 'createpropulsion:mixing/oxidizer' })
     event.custom({
         "type": "tfmg:vat_machine_recipe",
@@ -20,8 +24,7 @@ ServerEvents.recipes(event => {
         "processing_time": 20,
         "results": [{ "amount": 100, "id": "createpropulsion:oxidizer" }]
     })
-
-//Circuts
+    //Circuts
     // event.remove({ id: 'powergrid:mechanical_crafting/integrated_circuit' })
     // event.remove({ id: 'powergrid:sequenced_assembly/electrical_gizmo' })
     // const gizmo = 'powergrid:incomplete_electrical_gizmo'
@@ -38,11 +41,32 @@ ServerEvents.recipes(event => {
     //     event.recipes.createDeploying(gizmo, [gizmo, 'ccbr:integrated_circuit']),
     //     event.recipes.createDeploying(gizmo, [gizmo, 'minecraft:gold_nugget']),
     // ]).transitionalItem(gizmo).loops(1)
-
     event.remove({ id: 'glaidens_radio_mod:circuit_board' })
     event.replaceInput({ input: 'glaidens_radio_mod:circuit_board'  }, 'glaidens_radio_mod:circuit_board', 'ccbr:basic_integrated_circuit')
+    //Ion engine
+    event.remove({ id: 'createpropulsion:crafting/ion_thruster' })
+    const ion_part = 'kubejs:incomplete_ion_engine'
+    event.recipes.createSequencedAssembly([
+        'kubejs:ion_engine'
+    ], 'create:precision_mechanism', [
+        event.recipes.createDeploying(ion_part, [ion_part, 'tfmg:screwdriver']),
+                                          event.recipes.createDeploying(ion_part, [ion_part, 'electroenergetics:copper_wire']),
+                                          event.recipes.createFilling(ion_part, [ion_part, Fluid.of('createmetallurgy:molten_silver', 90)]),
+                                          event.recipes.createDeploying(ion_part, [ion_part, 'createpropulsion:platinum_sheet']),
+                                          event.recipes.createPressing(ion_part, ion_part)
+    ]).transitionalItem(ion_part).loops(4)
+    event.shaped(Item.of('createpropulsion:ion_thruster', 1),
+                 [ 'ABC','DED', 'DFD' ],
+                 { A: 'simulated:redstone_accumulator', B: 'tfmg:brass_cable_hub', C: 'simulated:redstone_inductor', D: 'create:sturdy_sheet', E: 'createpropulsion:thruster', F: 'kubejs:ion_engine' })
+
+    //Intermediates
+    event.remove({ id: 'tfmg:copper_wire_from_ingots_copper_stonecutting' })
+    event.remove({ id: 'createcasing:pressing/andesite_alloy' })
 })
 RecipeViewerEvents.removeEntries('item', event => {
     // event.remove('powergrid:integrated_circuit')
     event.remove('glaidens_radio_mod:circuit_board')
+    event.remove('tfmg:copper_wire')
+    event.remove('createcasing:andesite_sheet')
+    event.remove('kubejs:incomplete_ion_engine')
 })
