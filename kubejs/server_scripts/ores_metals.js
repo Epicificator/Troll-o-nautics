@@ -66,6 +66,18 @@ ServerEvents.recipes(event => {
         })
     }
 
+//Coal
+    event.remove({ id: 'create:crafting/palettes/scorchia' })
+    const lignite_nodule = 'kubejs:lignite_nodule'
+    event.recipes.createSequencedAssembly([
+        'tfmg:lignite'
+    ], 'createmetallurgy:graphite', [
+        event.recipes.createFilling(lignite_nodule, [lignite_nodule, Fluid.of('minecraft:lava', 144)]),
+        event.recipes.createPressing(lignite_nodule, lignite_nodule),
+        event.recipes.createFilling(lignite_nodule, [lignite_nodule, Fluid.of('createmetallurgy:molten_slag', 72)]),
+        event.recipes.createPressing(lignite_nodule, lignite_nodule)
+    ]).transitionalItem(lignite_nodule).loops(2)
+
 //Iron
     event.remove({ id: 'create:crushing/crimsite_recycling' })
     event.remove({ id: 'create:crushing/crimsite' })
