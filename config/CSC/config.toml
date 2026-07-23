@@ -36,7 +36,7 @@ UUID = "792b0216-72e2-48f7-8aaa-507b198594d7"
     KillEntity = true
     # #----------------------------------------------------------------------
     # Whether to enable mod id whitelist mode. Recommended to enable, as it can directly eliminate blueprint vulnerabilities caused by unfamiliar mods
-    WhiteListModEnable = true
+    WhiteListModEnable = false
     # #----------------------------------------------------------------------
     # Only mods listed here will be allowed to retain NBT. Enter the modid (e.g., for minecraft:dirt, enter minecraft)
     WhiteListModList = [
