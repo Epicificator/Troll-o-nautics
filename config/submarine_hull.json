@@ -3773,6 +3773,10 @@
     "maxWaterDepth": 33,
     "implosionChance": 0.8
   },
+  "aeroworks:control_desk": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
   "aeroworks:gyroscope": {
     "maxWaterDepth": 120,
     "implosionChance": 0.28
@@ -20221,6 +20225,22 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createendertransmission:chunk_loader": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createendertransmission:energy_transmitter": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createendertransmission:fluid_transmitter": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createendertransmission:item_transmitter": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
   "createfirefightingadd:bucket_controller": {
     "maxWaterDepth": 92,
     "implosionChance": 0.45
@@ -20234,6 +20254,10 @@
     "implosionChance": 0.67
   },
   "createfirefightingadd:fire_hose_connector": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createfirefightingadd:fire_hydrant_cabinet": {
     "maxWaterDepth": 55,
     "implosionChance": 0.67
   },
@@ -20253,9 +20277,17 @@
     "maxWaterDepth": 55,
     "implosionChance": 0.67
   },
+  "createfirefightingadd:fluid_flow_meter": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
   "createfirefightingadd:high_pressure_pump": {
     "maxWaterDepth": 92,
     "implosionChance": 0.45
+  },
+  "createfirefightingadd:multipurpose_backtank": {
+    "maxWaterDepth": 84,
+    "implosionChance": 0.5
   },
   "createfirefightingadd:pipeline_turbine": {
     "maxWaterDepth": 55,
@@ -26917,26 +26949,6 @@
     "maxWaterDepth": 27,
     "implosionChance": 0.8333333
   },
-  "createunderpressure:cylinder": {
-    "maxWaterDepth": 45,
-    "implosionChance": 0.73
-  },
-  "createunderpressure:cylinder_anchor": {
-    "maxWaterDepth": 45,
-    "implosionChance": 0.73
-  },
-  "createunderpressure:hose_connector": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "createunderpressure:hose_pulley": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "createunderpressure:pressure_gauge": {
-    "maxWaterDepth": 45,
-    "implosionChance": 0.73
-  },
   "darkerdepths:amber_block": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -27464,22 +27476,6 @@
   "darkerdepths:wall_void_soul_torch": {
     "maxWaterDepth": 3,
     "implosionChance": 0.85
-  },
-  "dashpanels:cable": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "dashpanels:control_panel": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "dashpanels:panel_link": {
-    "maxWaterDepth": 6,
-    "implosionChance": 0.85
-  },
-  "dashpanels:stripped_cable": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
   },
   "delightfulcreators:apple_cider_block": {
     "maxWaterDepth": 300,
@@ -36128,46 +36124,6 @@
   "industrialhellscape:yellow_stair_railing": {
     "maxWaterDepth": 161,
     "implosionChance": 0.05
-  },
-  "linearbearing:andesite_lamp": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "linearbearing:bubble_gum_block": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "linearbearing:gyroscopic_gearbox": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:linear_bearing": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:linear_casing": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:linear_moving": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:magnetic_port": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:redstone_converter": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:slippery_copycat": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:torsional_anchor": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
   },
   "lootr:decorated_pot": {
     "maxWaterDepth": 25,
@@ -53225,6 +53181,26 @@
     "maxWaterDepth": 8,
     "implosionChance": 0.85
   },
+  "supplementaries:brittlestone": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.76666665
+  },
+  "supplementaries:brittlestone_bricks": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
+  "supplementaries:brittlestone_bricks_slab": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
+  "supplementaries:brittlestone_bricks_stairs": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
+  "supplementaries:brittlestone_bricks_wall": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
   "supplementaries:bubble_block": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -54149,6 +54125,10 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.85
   },
+  "supplementaries:rope_tomatoes": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "supplementaries:sack": {
     "maxWaterDepth": 13,
     "implosionChance": 0.85
@@ -54222,6 +54202,10 @@
     "implosionChance": 0.78
   },
   "supplementaries:stick": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "supplementaries:stick_tomatoes": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
@@ -56236,5 +56220,21 @@
   "vsfluidlink:magnet_hose_connector": {
     "maxWaterDepth": 36,
     "implosionChance": 0.78
+  },
+  "xercamusic:block_metronome": {
+    "maxWaterDepth": 33,
+    "implosionChance": 0.8
+  },
+  "xercamusic:drum_kit": {
+    "maxWaterDepth": 33,
+    "implosionChance": 0.8
+  },
+  "xercamusic:music_box": {
+    "maxWaterDepth": 33,
+    "implosionChance": 0.8
+  },
+  "xercamusic:piano": {
+    "maxWaterDepth": 33,
+    "implosionChance": 0.8
   }
 }
