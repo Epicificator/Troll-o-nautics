@@ -36,6 +36,9 @@ ServerEvents.recipes(event => {
     //tfmg
     event.remove({ id: 'tfmg:crafting/materials/brass_pipe' })
     event.remove({ id: 'tfmg:crafting/materials/brass_pipe_vertical' })
+    event.remove({ id: 'tfmg:crafting/materials/brass_smart_fluid_pipe' })
+    event.remove({ id: 'tfmg:crafting/materials/brass_fluid_valve' })
+    event.remove({ id: 'tfmg:crafting/materials/brass_mechanical_pump' })
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
@@ -69,4 +72,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('simulatedrubies:chunk_loader')
     //tfmg
     event.remove('tfmg:brass_pipe')
+    event.remove('tfmg:brass_smart_fluid_pipe')
+    event.remove('tfmg:brass_fluid_valve')
+    event.remove('tfmg:brass_mechanical_pump')
 })
