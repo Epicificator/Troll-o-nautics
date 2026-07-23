@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
     discs.forEach(disc => {
         event.recipes.createdieselgenerators.basin_fermenting(
             [Item.of(disc).withLore("Copy"), disc],
-                                                              [Ingredient.of('#c:music_discs'), disc],
+            [Ingredient.of('#c:music_discs'), disc],
         ).processingTime(180)
     })
 //Remove Turtles
