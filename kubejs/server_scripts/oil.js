@@ -1,4 +1,10 @@
+ServerEvents.tags('fluid', event => {
+    event.remove('c:plantoil', 'electroenergetics:plant_oil')
+    event.remove('c:plantoil', 'electroenergetics:flowing_plant_oil')
+})
 ServerEvents.recipes(event => {
+//plant oil
+    event.remove({ id: 'electroenergetics:compacting/plant_oil' })
 //oil unification
     event.remove({ id: 'createdieselgenerators:distillation/crude_oil' })
     event.replaceInput({ id: 'createdieselgenerators:crafting/asphalt_block' }, 'createdieselgenerators:crude_oil_bucket',  'tfmg:crude_oil_bucket')
@@ -48,11 +54,13 @@ RecipeViewerEvents.removeEntries('fluid', event => {
     event.remove('createdieselgenerators:crude_oil')
     event.remove('createdieselgenerators:gasoline')
     event.remove('createdieselgenerators:diesel')
+    event.remove('electroenergetics:plant_oil')
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createdieselgenerators:crude_oil_bucket')
     event.remove('createdieselgenerators:gasoline_bucket')
     event.remove('createdieselgenerators:diesel_bucket')
+    event.remove('electroenergetics:plant_oil_bucket')
     event.remove('tfmg:pumpjack_hammer')
     event.remove('tfmg:pumpjack_crank')
     event.remove('tfmg:pumpjack_base')
