@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
     discs.forEach(disc => {
         event.recipes.createdieselgenerators.basin_fermenting(
             [Item.of(disc).withLore("Copy"), disc],
-                                                              [Ingredient.of('#c:music_discs'), disc],
+            [Ingredient.of('#c:music_discs'), disc],
         ).processingTime(180)
     })
 //Remove Turtles
@@ -80,11 +80,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'furniture:bin' })
     event.remove({ id: 'furniture:coffer' })
     event.shaped('furniture:coffer', ['ABA','BCB','BBB'], {A: 'minecraft:iron_nugget', B: '#minecraft:sulfur_cube_archetype/light', C: '#c:shulker_boxes'})
-//Remove Infested Blocks Recipes
-    const nests = ['infested_stone', 'infested_stone_bricks', 'infested_mossy_stone_bricks', 'infested_cracked_stone_bricks', 'infested_chiseled_stone_bricks', 'infested_deepslate']
-    nests.forEach(nest => {
-        event.remove({ id: 'create:haunting/'+nest+''})
-    })
+//Remove Infested Blocks Recipes... but is that really fair? it's base create...
+    // const nests = ['infested_stone', 'infested_stone_bricks', 'infested_mossy_stone_bricks', 'infested_cracked_stone_bricks', 'infested_chiseled_stone_bricks', 'infested_deepslate']
+    // nests.forEach(nest => {
+    //     event.remove({ id: 'create:haunting/'+nest+''})
+    // })
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
