@@ -80,11 +80,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'furniture:bin' })
     event.remove({ id: 'furniture:coffer' })
     event.shaped('furniture:coffer', ['ABA','BCB','BBB'], {A: 'minecraft:iron_nugget', B: '#minecraft:sulfur_cube_archetype/light', C: '#c:shulker_boxes'})
-//Remove Infested Blocks Recipes... but is that really fair? it's base create...
+//Remove Infested Blocks Recipes... but is that really fair? it's base create... # yeah it is, because it is a haunting recipe, the bulk haunting is too overpowered
     // const nests = ['infested_stone', 'infested_stone_bricks', 'infested_mossy_stone_bricks', 'infested_cracked_stone_bricks', 'infested_chiseled_stone_bricks', 'infested_deepslate']
     // nests.forEach(nest => {
     //     event.remove({ id: 'create:haunting/'+nest+''})
     // })
+//grapplemod
+    event.remove({ mod: 'grapplemod' })
+    event.shapeless(Item.of('grapplemod:grappling_hook', 1), ['minecraft:iron_pickaxe', '4x #c:ropes'])
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
@@ -100,6 +103,12 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('tfmg:aluminum_axe')
     event.remove('tfmg:aluminum_shovel')
     event.remove('tfmg:aluminum_hoe')
+    event.remove('grapplemod:ender_staff')
+    event.remove('grapplemod:forcefield')
+    event.remove('grapplemod:rocket')
+    event.remove('grapplemod:base_upgrade')
+    event.remove('grapplemod:long_fall_boots')
+    event.remove('grapplemod:long_fall_boots_smithing_template')
 })
 
 //Tagging
