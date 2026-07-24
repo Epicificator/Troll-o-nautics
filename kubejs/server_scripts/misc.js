@@ -88,6 +88,8 @@ ServerEvents.recipes(event => {
 //grapplemod
     event.remove({ mod: 'grapplemod' })
     event.shapeless(Item.of('grapplemod:grappling_hook', 1), ['minecraft:iron_pickaxe', '4x #c:ropes'])
+//netherrack
+    event.recipes.create.mixing('4x minecraft:netherrack', [Fluid.of('minecraft:lava'), '4x create:cinder_flour', '4x minecraft:cobblestone']).heated()
 })
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
