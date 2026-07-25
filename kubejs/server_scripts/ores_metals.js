@@ -65,6 +65,64 @@ ServerEvents.recipes(event => {
             results: [{ "amount": amount, "id": output }]
         })
     }
+//Orestones
+    //ochrum
+        event.recipes.create.mixing(['kubejs:ochrum_nodule', CreateItem.of('kubejs:ochrum_nodule', 0.8)], ['minecraft:glowstone_dust', 'createmetallurgy:dirty_gold_dust', 'minecraft:sandstone']).heated()
+        event.recipes.create.mixing(['kubejs:ochrum_nodule', CreateItem.of('kubejs:ochrum_nodule', 0.3)], ['minecraft:glowstone_dust', 'spelunkery:raw_gold_nugget', 'minecraft:sandstone']).heated()
+        event.recipes.create.filling('create:ochrum', [Fluid.of('supplementaries:lumisene', 500), 'kubejs:ochrum_nodule'])
+    //asurine
+        event.recipes.create.mixing(['kubejs:asurine_nodule', CreateItem.of('kubejs:asurine_nodule', 0.8)], ['2x minecraft:clay_ball', 'createmetallurgy:dirty_zinc_dust', 'minecraft:blue_ice'])
+        event.recipes.create.mixing(['kubejs:asurine_nodule', CreateItem.of('kubejs:asurine_nodule', 0.3)], ['2x minecraft:clay_ball', 'spelunkery:raw_zinc_nugget', 'minecraft:blue_ice'])
+        event.recipes.create.filling('create:asurine', [Fluid.of('minecraft:water'), 'kubejs:asurine_nodule'])
+    //crimiste
+        event.recipes.create.mixing(['kubejs:crimsite_node', CreateItem.of('kubejs:crimsite_node', 0.8)], ['create:cinder_flour', 'createmetallurgy:dirty_iron_dust', 'minecraft:cobblestone']).heated()
+        event.recipes.create.mixing(['kubejs:crimsite_node', CreateItem.of('kubejs:crimsite_node', 0.3)], ['create:cinder_flour', 'spelunkery:raw_iron_nugget', 'minecraft:cobblestone']).heated()
+        const crimsite_nodule = 'kubejs:crimsite_nodule'
+        event.recipes.createSequencedAssembly([
+            'create:crimsite'
+        ], 'kubejs:crimsite_node', [
+            event.recipes.create.filling(crimsite_nodule, [crimsite_nodule, Fluid.of('minecraft:lava', 100)]),
+            event.recipes.create.pressing(crimsite_nodule, crimsite_nodule),
+            event.recipes.create.deploying(crimsite_nodule, [crimsite_nodule, 'minecraft:flint_and_steel']),
+            event.recipes.create.pressing(crimsite_nodule, crimsite_nodule)
+        ]).transitionalItem(crimsite_nodule).loops(1)
+    //veridium
+        event.smoking('2x supplementaries:ash', '#minecraft:logs_that_burn')
+        event.recipes.create.mixing(['kubejs:veridium_node', CreateItem.of('kubejs:veridium_node', 0.8)], ['3x supplementaries:ash', 'createmetallurgy:dirty_copper_dust', 'minecraft:mossy_cobblestone'])
+        event.recipes.create.mixing(['kubejs:veridium_node', CreateItem.of('kubejs:veridium_node', 0.3)], ['3x supplementaries:ash', 'spelunkery:raw_copper_nugget', 'minecraft:mossy_cobblestone'])
+        const veridium_nodule = 'kubejs:veridium_nodule'
+        event.recipes.createSequencedAssembly([
+            'create:veridium'
+        ], 'kubejs:veridium_node', [
+            event.recipes.create.deploying(veridium_nodule, [veridium_nodule, 'minecraft:bone_meal']),
+            event.recipes.create.deploying(veridium_nodule, [veridium_nodule, 'minecraft:bone_meal']),
+            event.recipes.create.deploying(veridium_nodule, [veridium_nodule, 'minecraft:bone_meal']),
+            event.recipes.create.pressing(veridium_nodule, veridium_nodule)
+        ]).transitionalItem(veridium_nodule).loops(2)
+    //bauxite
+        event.recipes.create.mixing('kubejs:bauxite_node', ['tfmg:bauxite_powder', 'tfmg:aluminum_nugget', 'minecraft:tuff'])
+        const bauxite_nodule = 'kubejs:bauxite_nodule'
+        event.recipes.createSequencedAssembly([
+            'tfmg:bauxite'
+        ], 'kubejs:bauxite_node', [
+            event.recipes.create.filling(bauxite_nodule, [bauxite_nodule, Fluid.of('tfmg:air', 500)]),
+            event.recipes.create.pressing(bauxite_nodule, bauxite_nodule),
+            event.recipes.create.filling(bauxite_nodule, [bauxite_nodule, Fluid.of('tfmg:air', 500)]),
+            event.recipes.create.pressing(bauxite_nodule, bauxite_nodule)
+        ]).transitionalItem(bauxite_nodule).loops(2)
+    //galena
+        event.recipes.create.mixing(['kubejs:galena_node', CreateItem.of('kubejs:galena_node', 0.3)], ['2x create:powdered_obsidian', 'spelunkery:raw_lead_nugget', 'minecraft:cobbled_deepslate']).heated()
+        const galena_nodule = 'kubejs:galena_nodule'
+        event.recipes.createSequencedAssembly([
+            'tfmg:galena'
+        ], 'kubejs:galena_node', [
+            event.recipes.create.pressing(galena_nodule, galena_nodule),
+            event.recipes.create.pressing(galena_nodule, galena_nodule),
+            event.recipes.create.pressing(galena_nodule, galena_nodule),
+            event.recipes.create.pressing(galena_nodule, galena_nodule),
+            event.recipes.create.pressing(galena_nodule, galena_nodule)
+        ]).transitionalItem(galena_nodule).loops(2)
+
 
 //Coal
     event.remove({ id: 'create:crafting/palettes/scorchia' })
@@ -81,6 +139,11 @@ ServerEvents.recipes(event => {
 //Iron
     event.remove({ id: 'create:crushing/crimsite_recycling' })
     event.remove({ id: 'create:crushing/crimsite' })
+    event.remove({ id: 'spelunkery:crushing/crimsite_recycling' })
+    event.remove({ id: 'spelunkery:crushing/crimsite' })
+    event.remove({ id: 'create:splashing/gravel' })
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_iron', 0.4), CreateItem.of('2x spelunkery:raw_iron_nugget', 0.4)], 'create:crimsite').processingTime(250)
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_iron', 0.4), CreateItem.of('2x spelunkery:raw_iron_nugget', 0.4)], Ingredient.of('#create:stone_types/crimsite')).processingTime(250)
 
 //Copper
     event.remove({ id: 'create:crushing/veridium_recycling' })
@@ -90,7 +153,13 @@ ServerEvents.recipes(event => {
 //Zinc
     event.remove({ id: 'create:crushing/asurine_recycling' })
     event.remove({ id: 'create:crushing/asurine' })
-
+//Gold
+    event.remove({ id: 'spelunkery:crushing/ochrum_recycling' })
+    event.remove({ id: 'spelunkery:crushing/ochrum' })
+    event.remove({ id: 'create:splashing/red_sand' })
+    event.remove({ id: 'create:splashing/soul_sand' })
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_gold', 0.4), CreateItem.of('2x spelunkery:raw_gold_nugget', 0.4)], 'create:ochrum').processingTime(250)
+    event.recipes.create.crushing([CreateItem.of('create:crushed_raw_gold', 0.4), CreateItem.of('2x spelunkery:raw_gold_nugget', 0.4)], Ingredient.of('#create:stone_types/ochrum')).processingTime(250)
 
 //Netherite
     event.remove({ id: 'oreganized:netherite_nugget' })

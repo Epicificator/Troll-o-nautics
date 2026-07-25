@@ -50,10 +50,10 @@ ServerEvents.recipes(event => {
         'kubejs:ion_engine'
     ], 'create:precision_mechanism', [
         event.recipes.createDeploying(ion_part, [ion_part, 'tfmg:screwdriver']),
-                                          event.recipes.createDeploying(ion_part, [ion_part, 'electroenergetics:copper_wire']),
-                                          event.recipes.createFilling(ion_part, [ion_part, Fluid.of('createmetallurgy:molten_silver', 90)]),
-                                          event.recipes.createDeploying(ion_part, [ion_part, 'createpropulsion:platinum_sheet']),
-                                          event.recipes.createPressing(ion_part, ion_part)
+        event.recipes.createDeploying(ion_part, [ion_part, 'electroenergetics:copper_wire']),
+        event.recipes.createFilling(ion_part, [ion_part, Fluid.of('createmetallurgy:molten_silver', 90)]),
+        event.recipes.createDeploying(ion_part, [ion_part, 'createpropulsion:platinum_sheet']),
+        event.recipes.createPressing(ion_part, ion_part)
     ]).transitionalItem(ion_part).loops(4)
     event.shaped(Item.of('createpropulsion:ion_thruster', 1),
                  [ 'ABC','DED', 'DFD' ],

@@ -2,7 +2,8 @@ ServerEvents.recipes(event => {
     event.smelting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.blasting('spelunkery:charcoal_lump', 'minecraft:stick')
     event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.1, 120)
-
+//ice
+    event.recipes.create.mixing('2x minecraft:ice', [Fluid.of('minecraft:water'), 'minecraft:packed_ice'])
 //stones
     event.recipes.create.crushing('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone')
     event.recipes.create.milling('natures_spirit:pink_sand', 'natures_spirit:pink_sandstone')
@@ -10,6 +11,10 @@ ServerEvents.recipes(event => {
     event.recipes.create.milling('natures_spirit:pink_sand', 'minecraft:pink_terracotta')
     event.recipes.create.crushing('minecraft:red_sand', 'minecraft:red_sandstone')
     event.recipes.create.milling('minecraft:red_sand', 'minecraft:red_sandstone')
+    //netherrack
+    event.recipes.create.mixing('4x minecraft:netherrack', [Fluid.of('minecraft:lava', 250), '4x create:cinder_flour', '4x minecraft:cobblestone']).heated()
+    //cobblestone
+    event.recipes.create.mixing('3x minecraft:cobblestone', [Fluid.of('minecraft:lava', 500), Fluid.of('minecraft:water', 500)])
 
 //sophisticated storage changes
     event.replaceInput({ mod: 'sophisticatedstorage', input: '#c:ingots/gold' }, Ingredient.of('#c:ingots/gold'), 'create:brass_ingot')
@@ -88,9 +93,8 @@ ServerEvents.recipes(event => {
 //grapplemod
     event.remove({ mod: 'grapplemod' })
     event.shapeless(Item.of('grapplemod:grappling_hook', 1), ['minecraft:iron_pickaxe', '4x #c:ropes'])
-//netherrack
-    event.recipes.create.mixing('4x minecraft:netherrack', [Fluid.of('minecraft:lava'), '4x create:cinder_flour', '4x minecraft:cobblestone']).heated()
 })
+
 RecipeViewerEvents.removeEntries('item', event => {
     event.remove('computercraft:turtle_normal')
     event.remove('computercraft:turtle_advanced')
