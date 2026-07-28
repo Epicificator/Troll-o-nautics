@@ -90,6 +90,19 @@ ServerEvents.recipes(event => {
     // nests.forEach(nest => {
     //     event.remove({ id: 'create:haunting/'+nest+''})
     // })
+//Experience and Sculk
+    event.recipes.createdieselgenerators
+    .bulk_fermenting(
+        ['2x minecraft:echo_shard', 'minecraft:sculk_catalyst'],
+        ['minecraft:echo_shard', 'minecraft:sculk_catalyst', Fluid.of('create_enchantment_industry:experience', 4000)]
+    ).processingTime(200)
+    event.custom({
+        "type": "create_enchantment_industry:grinding",
+        "ingredients": [{ "item": "spelunkery:nephrite_chunk" }],
+        "results": [{ "amount": 8, "id": "create_enchantment_industry:experience" }]
+    })
+    event.recipes.create.crushing('4x spelunkery:nephrite_chunk', 'spelunkery:nephrite').processingTime(250)
+    event.recipes.create.filling('spelunkery:nephrite', [Fluid.of('create_enchantment_industry:experience', 40), 'spelunkery:nephrite_chunk'])
 //grapplemod
     event.remove({ mod: 'grapplemod' })
     event.shapeless(Item.of('grapplemod:grappling_hook', 1), ['minecraft:iron_pickaxe', '4x #c:ropes'])
