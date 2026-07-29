@@ -1,0 +1,22 @@
+{
+  "values": [
+    "nomansland:raw_horse",
+    "nomansland:raw_venison",
+    "nomansland:billhook_bass",
+    "nomansland:frog_leg",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:tropical_fish",
+    "minecraft:beef",
+    "minecraft:porkchop",
+    "minecraft:mutton",
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    "createfood:ground_beef",
+    "createfood:ground_porkchop",
+    "createfood:ground_mutton",
+    "createfood:ground_chicken",
+    "createfood:ground_rabbit",
+    "farmersdelight:ham"
+  ]
+}
