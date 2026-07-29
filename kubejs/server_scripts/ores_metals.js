@@ -135,6 +135,13 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(galena_nodule, galena_nodule)
         ]).transitionalItem(galena_nodule).loops(1)
 
+//lapis
+    event.recipes.createdieselgenerators
+    .bulk_fermenting(
+        ['spelunkery:rough_lazurite', Output.of('spelunkery:rough_lazurite', 0.4), Output.of('4x spelunkery:rough_lazurite_shard', 0.4)],
+        ['spelunkery:rough_lazurite', 'spelunkery:nephrite_chunk', '2x spelunkery:raw_gold_nugget', Fluid.of('create_enchantment_industry:experience', 16)]
+    )
+    .processingTime(300)
 
 //Coal
     event.remove({ id: 'create:crafting/palettes/scorchia' })
