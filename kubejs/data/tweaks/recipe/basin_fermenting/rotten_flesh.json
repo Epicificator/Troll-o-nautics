@@ -1,0 +1,35 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "tag": "tweaks:spoilable_meat",
+      "count": 4
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "create:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:poison"
+        }
+      },
+      "amount": 50
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "id": "minecraft:rotten_flesh",
+      "count": 4
+    },
+    {
+      "id": "create:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:awkward"
+        }
+      },
+      "amount": 25
+    }
+  ]
+}
