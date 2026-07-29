@@ -107,7 +107,11 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing('4x spelunkery:nephrite_chunk', 'spelunkery:nephrite').processingTime(250)
     event.recipes.create.filling('spelunkery:nephrite', [Fluid.of('create_enchantment_industry:experience', 40), 'spelunkery:nephrite_chunk'])
 //rotten_flesh
-    event.recipes.create.filling('minecraft:rotten_flesh', [Fluid.ingredientOf('create:potion', { 'create:potion_fluid_bottle_type': 'regular', 'minecraft:potion_contents': { potion: 'minecraft:poison' }}).withAmount(75), Ingredient.of('#tweaks:spoilable_meat')])
+    event.recipes.create.filling(CreateItem.of('minecraft:rotten_flesh', 0.75), [Fluid.ingredientOf('create:potion', { 'create:potion_fluid_bottle_type': 'regular', 'minecraft:potion_contents': { potion: 'minecraft:poison' }}).withAmount(75), Ingredient.of('#tweaks:spoilable_meat')])
+    event.recipes.createdieselgenerators.basin_fermenting(
+        ['4x minecraft:rotten_flesh', Fluid.of("create:potion", 50, { "create:potion_fluid_bottle_type": "regular", "minecraft:potion_contents": { "potion": "minecraft:awkward" }})],
+        [Ingredient.of('#tweaks:spoilable_meat', 4), Fluid.of("create:potion", 50, { "create:potion_fluid_bottle_type": "regular", "minecraft:potion_contents": { "potion": "minecraft:poison" }})]
+    ).processingTime(400)
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
