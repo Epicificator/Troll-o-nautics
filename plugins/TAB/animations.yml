@@ -1,0 +1,117 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&6d&eiscord.gg/prFpM89RP9'
+  - '&ed&6i&escord.gg/prFpM89RP9'
+  - '&edi&6s&ecord.gg/prFpM89RP9'
+  - '&edis&6c&eord.gg/prFpM89RP9'
+  - '&edisc&6o&erd.gg/prFpM89RP9'
+  - '&edisco&6r&ed.gg/prFpM89RP9'
+  - '&ediscor&6d&e.gg/prFpM89RP9'
+  - '&ediscord&6.&egg/prFpM89RP9'
+  - '&ediscord.&6g&eg/prFpM89RP9'
+  - '&ediscord.g&6g&e/prFpM89RP9'
+  - '&ediscord.gg&6/&eprFpM89RP9'
+  - '&ediscord.gg/&6p&erFpM89RP9'
+  - '&ediscord.gg/p&6r&eFpM89RP9'
+  - '&ediscord.gg/pr&6F&epM89RP9'
+  - '&ediscord.gg/prF&6p&eM89RP9'
+  - '&ediscord.gg/prFp&6M&e89RP9'
+  - '&ediscord.gg/prFpM&68&e9RP9'
+  - '&ediscord.gg/prFpM8&69&eRP9'
+  - '&ediscord.gg/prFpM89&6R&eP9'
+  - '&ediscord.gg/prFpM89R&6P&e9'
+  - '&ediscord.gg/prFpM89RP&69'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+  - '&ediscord.gg/prFpM89RP9'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW
