@@ -1,7 +1,0 @@
-minCommands v1.11
-reProtect v24.0
-adDrop v2.8.2
-ugManX v3.0.2
-ulbound v1.0
-nish v0.1
-rldEdit v7.3.9+6959-7adf70b
