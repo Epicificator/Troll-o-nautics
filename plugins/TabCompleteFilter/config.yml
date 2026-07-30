@@ -346,6 +346,7 @@ groups:
   - /.
   - /;
   - /xp
+  - /difficulty
   
   owner:
   - /op
@@ -353,4 +354,94 @@ groups:
   - /lp
   - /unban
   - /unban-ip
-
+  
+  helper:
+  - /gm0
+  - /gms
+  - //center
+  - //chunk
+  - //clearhistory
+  - //cone
+  - //contract
+  - //copy
+  - //count
+  - //curve
+  - //cut
+  - //cyl
+  - //deform
+  - //desel
+  - //distr
+  - //drain
+  - //drawsel
+  - //ex
+  - //ext
+  - //faces
+  - //fill
+  - //fillr
+  - //fixlava
+  - //fixwater
+  - //flip
+  - //flora
+  - //forest
+  - //g
+  - //gb
+  - //gmask
+  - //green
+  - //help
+  - //hcyl
+  - //hollow
+  - //hpos1
+  - //hpos2
+  - //hpyramid
+  - //hsphere
+  - //inset
+  - //l
+  - //line
+  - //lrbuild
+  - //material
+  - //middle
+  - //move
+  - //naturalize
+  - //navwand
+  - //outline
+  - //outset
+  - //overlay
+  - //paste
+  - //perf
+  - //placement
+  - //pos
+  - //pos1
+  - //pos2
+  - //pyramid
+  - //re
+  - //removeabove
+  - //removebelow
+  - //removenear
+  - //reorder
+  - //rep
+  - //replacenear
+  - //restore
+  - //rotate
+  - //schem
+  - //search
+  - //searchitem
+  - //sel
+  - //selwand
+  - //set
+  - //setbiome
+  - //shift
+  - //size
+  - //smooth
+  - //snow
+  - //snowsmooth
+  - //sphere
+  - //stack
+  - //thaw
+  - //timeout
+  - //toggleplace
+  - //trim
+  - //undo
+  - //update
+  - //walls
+  - //wand
+  - //world
