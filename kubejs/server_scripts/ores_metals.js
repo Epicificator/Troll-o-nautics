@@ -168,6 +168,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/veridium_recycling' })
     event.remove({ id: 'create:crushing/veridium' })
     event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', 'create:copper_nugget')
+    event.remove({ id: 'createbb:copper_crushing' })
 
 //Zinc
     event.remove({ id: 'create:crushing/asurine_recycling' })
@@ -176,6 +177,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'spelunkery:crushing/asurine' })
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_zinc', 0.4), CreateItem.of('2x spelunkery:raw_zinc_nugget', 0.4)], 'create:asurine').processingTime(250)
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_zinc', 0.4), CreateItem.of('2x spelunkery:raw_zinc_nugget', 0.4)], Ingredient.of('#create:stone_types/asurine')).processingTime(250)
+    event.remove({ id: 'createbb:zinc_crushing' })
+
 //Aluminum
     event.remove({ id: 'create:crushing/bauxite' })
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_aluminum', 0.4), CreateItem.of('2x kubejs:raw_aluminum_nugget', 0.4)], 'tfmg:bauxite').processingTime(250)
@@ -508,7 +511,6 @@ RecipeViewerEvents.removeEntries('fluid', event => {
 
 RecipeViewerEvents.removeEntries('item', event => {
     //materials
-    event.remove('spelunkery:copper_nugget')
     event.remove('tfmg:lead_ingot')
     event.remove('tfmg:lead_nugget')
     event.remove('tfmg:lead_block')
@@ -516,8 +518,11 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('tfmg:raw_lead_block')
     event.remove('tfmg:lead_ore')
     event.remove('tfmg:deepslate_lead_ore')
+    //spelunkery
+    event.remove('spelunkery:copper_nugget')
     event.remove('spelunkery:sulfur_block')
     event.remove('spelunkery:sulfur')
+    //createmetallurgy
     event.remove('createmetallurgy:slag_block')
     event.remove('createmetallurgy:slag')
     event.remove('createpropulsion:platinum_ore')
@@ -528,6 +533,9 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createpropulsion:platinum_nugget')
     event.remove('createpropulsion:raw_platinum')
     event.remove('oreganized:netherite_nugget')
+    //createbb
+    event.remove('createbb:crushed_copper')
+    event.remove('createbb:crushed_zinc')
     //steel
     event.remove('createbigcannons:steel_block')
     event.remove('createbigcannons:steel_ingot')

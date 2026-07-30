@@ -1,0 +1,13 @@
+{
+  "type": "simple",
+  "price": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "offer": {
+    "id": "nirvana:hemp",
+    "count": 1
+  },
+  "max_trades": 8,
+  "level": 2
+}
