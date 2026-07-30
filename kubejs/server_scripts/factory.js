@@ -62,6 +62,9 @@ ServerEvents.recipes(event => {
     //Intermediates
     event.remove({ id: 'tfmg:copper_wire_from_ingots_copper_stonecutting' })
     event.remove({ id: 'createcasing:pressing/andesite_alloy' })
+    //createbb (broken bad)
+    event.remove({ id: 'createbb:copper_zinc_catalyst' })
+    event.shapeless('createbb:copper_zinc_catalyst', [ '2x #c:dusts/zinc', '2x #c:dusts/copper' ])
 })
 RecipeViewerEvents.removeEntries('item', event => {
     // event.remove('powergrid:integrated_circuit')
