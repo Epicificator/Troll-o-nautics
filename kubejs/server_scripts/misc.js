@@ -81,6 +81,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfmg:crafting/materials/aluminum_axe' })
     event.remove({ id: 'tfmg:crafting/materials/aluminum_shovel' })
     event.remove({ id: 'tfmg:crafting/materials/aluminum_hoe' })
+    //grapplemod
+    event.remove({ mod: 'grapplemod' })
+    event.shapeless(Item.of('grapplemod:grappling_hook', 1), ['minecraft:iron_pickaxe', '4x #c:ropes'])
 //Furniture
     event.remove({ id: 'furniture:bin' })
     event.remove({ id: 'furniture:coffer' })
@@ -103,9 +106,6 @@ ServerEvents.recipes(event => {
     })
     event.recipes.create.crushing('4x spelunkery:nephrite_chunk', 'spelunkery:nephrite').processingTime(250)
     event.recipes.create.filling('spelunkery:nephrite', [Fluid.of('create_enchantment_industry:experience', 40), 'spelunkery:nephrite_chunk'])
-//grapplemod
-    event.remove({ mod: 'grapplemod' })
-    event.shapeless(Item.of('grapplemod:grappling_hook', 1), ['minecraft:iron_pickaxe', '4x #c:ropes'])
 })
 
 RecipeViewerEvents.removeEntries('item', event => {
