@@ -76,3 +76,13 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('tfmg:brass_fluid_valve')
     event.remove('tfmg:brass_mechanical_pump')
 })
+//tagging
+ServerEvents.tags('block', event => {
+    //airtight block tag for nirvana burlap blocks
+    Color.DYE.forEach(color => {
+        event.add('aeronautics:airtight', 'nirvana:'+color+'_hemp_burlap')
+        event.add('aeronautics:airtight', 'nirvana:'+color+'_woven_burlap')
+    })
+    event.add('aeronautics:airtight', 'nirvana:hemp_burlap')
+    event.add('aeronautics:airtight', 'nirvana:woven_burlap')
+})
