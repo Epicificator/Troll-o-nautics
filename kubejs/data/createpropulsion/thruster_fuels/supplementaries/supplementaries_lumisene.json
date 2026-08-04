@@ -1,0 +1,6 @@
+{
+    "fluid": "supplementaries:lumisene",
+    "thrust_multiplier": 0.5,
+    "consumption_multiplier": 2.0,
+    "required_mod": "supplementaries"
+}
