@@ -21,6 +21,8 @@ ServerEvents.tags('item', event => {
     event.remove('c:ingots/cast_iron', 'createbigcannons:cast_iron_ingot')
     event.remove('c:nuggets/cast_iron', 'createbigcannons:cast_iron_nugget')
     event.remove('c:nuggets/netherite', 'oreganized:netherite_nugget')
+    event.add('spelunkery:diamond_ores', 'natures_spirit:chert_diamond_ore')
+    event.add('spelunkery:emerald_ores', 'natures_spirit:chert_emerald_ore')
 })
 
 
@@ -135,11 +137,24 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(galena_nodule, galena_nodule)
         ]).transitionalItem(galena_nodule).loops(1)
 
-//lapis
+//gems
+    //diamond
+    event.remove({ id: 'minecraft:diamond_from_smelting_diamond_ore' })
+    event.remove({ id: 'minecraft:diamond_from_blasting_diamond_ore' })
+    event.remove({ id: 'create:crushing/diamond_ore' })
+    event.remove({ id: 'create:crushing/deepslate_diamond_ore' })
+    event.recipes.create.crushing([CreateItem.of('spelunkery:rough_diamond'), CreateItem.of('spelunkery:rough_diamond', 0.5), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('natures_spirit:chert', 0.125)], 'natures_spirit:chert_diamond_ore').processingTime(350)
+    //emerald
+    event.remove({ id: 'minecraft:emerald_from_smelting_emerald_ore' })
+    event.remove({ id: 'minecraft:emerald_from_blasting_emerald_ore' })
+    event.remove({ id: 'create:crushing/emerald_ore' })
+    event.remove({ id: 'create:crushing/deepslate_emerald_ore' })
+    event.recipes.create.crushing([CreateItem.of('spelunkery:rough_emerald'), CreateItem.of('spelunkery:rough_emerald', 0.5), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('natures_spirit:chert', 0.125)], 'natures_spirit:chert_emerald_ore').processingTime(350)
+    //lapis
     event.recipes.createdieselgenerators
     .bulk_fermenting(
         ['spelunkery:rough_lazurite', Output.of('spelunkery:rough_lazurite', 0.4), Output.of('4x spelunkery:rough_lazurite_shard', 0.4)],
-        ['spelunkery:rough_lazurite', 'spelunkery:nephrite_chunk', '2x spelunkery:raw_gold_nugget', Fluid.of('create_enchantment_industry:experience', 16)]
+                     ['spelunkery:rough_lazurite', 'spelunkery:nephrite_chunk', '2x spelunkery:raw_gold_nugget', Fluid.of('create_enchantment_industry:experience', 16)]
     )
     .processingTime(300)
 
