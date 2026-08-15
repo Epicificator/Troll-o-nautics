@@ -501,7 +501,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'spelunkery:gunpowder' })
     //sulfur dust
     event.remove({ id: 'create:crushing/sulfur' })
-
     event.recipes.create.crushing([CreateItem.of('tfmg:sulfur_dust', 0.2), CreateItem.of('tfmg:sulfur_dust', 0.1)], Ingredient.of('#tweaks:sulfur'))
     //silicon
     event.remove({ id: 'tfmg:casting/silicon' })
@@ -512,7 +511,11 @@ ServerEvents.recipes(event => {
     //cinderblock
     event.remove({ id: 'tfmg:casting/cinderblock' })
     tablecast('tfmg:liquid_concrete', 144, 'tfmg:cinderblock', 'createmetallurgy:graphite_ingot_mold', 50)
-
+    //create metallurgy compat buckets drain
+    const moltenbucketmetals = ['aluminum', 'nickel', 'silver', 'lithium', 'electrum', 'bronze', 'constantan']
+    moltenbucketmetals.forEach(metal => {
+        event.recipes.create.emptying([Fluid.of('createmetallurgy:molten_'+metal+''), 'minecraft:bucket'], 'createmetallurgy:molten_'+metal+'_bucket')
+    })
 })
 
 RecipeViewerEvents.removeEntries('fluid', event => {
