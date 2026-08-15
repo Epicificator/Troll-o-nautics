@@ -21,10 +21,7 @@ ServerEvents.tags('item', event => {
     event.remove('c:ingots/cast_iron', 'createbigcannons:cast_iron_ingot')
     event.remove('c:nuggets/cast_iron', 'createbigcannons:cast_iron_nugget')
     event.remove('c:nuggets/netherite', 'oreganized:netherite_nugget')
-    event.add('spelunkery:diamond_ores', 'natures_spirit:chert_diamond_ore')
-    event.add('spelunkery:emerald_ores', 'natures_spirit:chert_emerald_ore')
 })
-
 
 ServerEvents.recipes(event => {
 
@@ -138,18 +135,6 @@ ServerEvents.recipes(event => {
         ]).transitionalItem(galena_nodule).loops(1)
 
 //gems
-    //diamond
-    event.remove({ id: 'minecraft:diamond_from_smelting_diamond_ore' })
-    event.remove({ id: 'minecraft:diamond_from_blasting_diamond_ore' })
-    event.remove({ id: 'create:crushing/diamond_ore' })
-    event.remove({ id: 'create:crushing/deepslate_diamond_ore' })
-    event.recipes.create.crushing([CreateItem.of('spelunkery:rough_diamond'), CreateItem.of('spelunkery:rough_diamond', 0.5), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('natures_spirit:chert', 0.125)], 'natures_spirit:chert_diamond_ore').processingTime(350)
-    //emerald
-    event.remove({ id: 'minecraft:emerald_from_smelting_emerald_ore' })
-    event.remove({ id: 'minecraft:emerald_from_blasting_emerald_ore' })
-    event.remove({ id: 'create:crushing/emerald_ore' })
-    event.remove({ id: 'create:crushing/deepslate_emerald_ore' })
-    event.recipes.create.crushing([CreateItem.of('spelunkery:rough_emerald'), CreateItem.of('spelunkery:rough_emerald', 0.5), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('natures_spirit:chert', 0.125)], 'natures_spirit:chert_emerald_ore').processingTime(350)
     //lapis
     event.recipes.createdieselgenerators
     .bulk_fermenting(
@@ -183,7 +168,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/veridium_recycling' })
     event.remove({ id: 'create:crushing/veridium' })
     event.replaceInput({ input: '#c:nuggets/copper' }, 'spelunkery:copper_nugget', 'create:copper_nugget')
-    event.remove({ id: 'createbb:copper_crushing' })
 
 //Zinc
     event.remove({ id: 'create:crushing/asurine_recycling' })
@@ -192,8 +176,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'spelunkery:crushing/asurine' })
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_zinc', 0.4), CreateItem.of('2x spelunkery:raw_zinc_nugget', 0.4)], 'create:asurine').processingTime(250)
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_zinc', 0.4), CreateItem.of('2x spelunkery:raw_zinc_nugget', 0.4)], Ingredient.of('#create:stone_types/asurine')).processingTime(250)
-    event.remove({ id: 'createbb:zinc_crushing' })
-
 //Aluminum
     event.remove({ id: 'create:crushing/bauxite' })
     event.recipes.create.crushing([CreateItem.of('create:crushed_raw_aluminum', 0.4), CreateItem.of('2x kubejs:raw_aluminum_nugget', 0.4)], 'tfmg:bauxite').processingTime(250)
@@ -228,7 +210,6 @@ ServerEvents.recipes(event => {
     //add palladium crushing
     event.recipes.create.crushing(['create:crushed_raw_platinum', CreateItem.of('create:experience_nugget', 0.75)], 'galosphere:raw_palladium').processingTime(250)
     event.recipes.create.crushing(['9x create:crushed_raw_platinum', CreateItem.of('9x create:experience_nugget', 0.75)], 'galosphere:raw_palladium_block').processingTime(250)
-    event.recipes.create.crushing(['create:crushed_raw_platinum', CreateItem.of('create:crushed_raw_platinum', 0.75), CreateItem.of('create:experience_nugget', 0.75)], Ingredient.of('#c:ores/palladium')).processingTime(250)
     //add crushed palladium smelting
     event.smelting('galosphere:palladium_ingot', 'create:crushed_raw_platinum').xp(0.1).cookingTime(200)
     event.blasting('galosphere:palladium_ingot', 'create:crushed_raw_platinum').xp(0.1).cookingTime(100)
@@ -262,7 +243,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/raw_lead' })
     event.recipes.create.crushing(['create:crushed_raw_lead', CreateItem.of('create:experience_nugget', 0.75)], 'oreganized:raw_lead').processingTime(400)
     event.remove({ id: 'create:crushing/lead_ore' })
-    event.recipes.create.crushing(['create:crushed_raw_lead', CreateItem.of('create:crushed_raw_lead', 0.75), CreateItem.of('create:experience_nugget', 0.75)], Ingredient.of('#tweaks:ores_lead')).processingTime(400)
     event.remove({ id: 'create:crushing/raw_lead_block' })
     event.recipes.create.crushing(['9x create:crushed_raw_lead', CreateItem.of('9x create:experience_nugget', 0.75)], 'oreganized:raw_lead_block').processingTime(400)
     event.remove({ id: 'tfmg:crafting/materials/raw_lead_block' })
@@ -501,6 +481,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'spelunkery:gunpowder' })
     //sulfur dust
     event.remove({ id: 'create:crushing/sulfur' })
+
     event.recipes.create.crushing([CreateItem.of('tfmg:sulfur_dust', 0.2), CreateItem.of('tfmg:sulfur_dust', 0.1)], Ingredient.of('#tweaks:sulfur'))
     //silicon
     event.remove({ id: 'tfmg:casting/silicon' })
@@ -529,6 +510,7 @@ RecipeViewerEvents.removeEntries('fluid', event => {
 
 RecipeViewerEvents.removeEntries('item', event => {
     //materials
+    event.remove('spelunkery:copper_nugget')
     event.remove('tfmg:lead_ingot')
     event.remove('tfmg:lead_nugget')
     event.remove('tfmg:lead_block')
@@ -536,11 +518,8 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('tfmg:raw_lead_block')
     event.remove('tfmg:lead_ore')
     event.remove('tfmg:deepslate_lead_ore')
-    //spelunkery
-    event.remove('spelunkery:copper_nugget')
     event.remove('spelunkery:sulfur_block')
     event.remove('spelunkery:sulfur')
-    //createmetallurgy
     event.remove('createmetallurgy:slag_block')
     event.remove('createmetallurgy:slag')
     event.remove('createpropulsion:platinum_ore')
@@ -551,9 +530,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('createpropulsion:platinum_nugget')
     event.remove('createpropulsion:raw_platinum')
     event.remove('oreganized:netherite_nugget')
-    //createbb
-    event.remove('createbb:crushed_copper')
-    event.remove('createbb:crushed_zinc')
     //steel
     event.remove('createbigcannons:steel_block')
     event.remove('createbigcannons:steel_ingot')
