@@ -137,3 +137,7 @@ ServerEvents.tags('item', event => {
     event.add('c:music_discs', 'furniture:cphs_pride')
     event.add('c:music_discs', 'furniture:letsdo_theme')
 })
+ServerEvents.tags('block', event => {
+    event.removeAll('minecraft:enderman_holdable')
+    event.remove('minecraft:mineable/pickaxe', 'nomansland:moon_carving')
+})
