@@ -5,9 +5,10 @@
 # config folders
 !/config/bettercombat/*
 !/config/CSC/*
-!/config/EndRemastered-NeoForge/*
 !/config/emixx/*
 !/config/emixx/stack_groups/*
+!/config/EndRemastered-NeoForge/*
+!/config/enhancedai/*
 !/config/inventoryprofilesnext/*
 !/config/jade/*
 !/config/sable_beyond/*
