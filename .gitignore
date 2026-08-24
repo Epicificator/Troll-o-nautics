@@ -58,6 +58,9 @@
 # kubejs
 !/kubejs/**
 
+# ld2lib
+!/ldlib2/**
+
 # mods
 !/mods/*
 
