@@ -1,5 +1,6 @@
 ServerEvents.tags('item', event => {
     event.remove('c:plates/andesite_alloy', 'createcasing:andesite_sheet')
+    event.remove('c:plates/zinc', 'createcasing:zinc_sheet')
     event.remove('c:wires/copper', 'tfmg:copper_wire')
 })
 ServerEvents.recipes(event => {
@@ -74,5 +75,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('glaidens_radio_mod:circuit_board')
     event.remove('tfmg:copper_wire')
     event.remove('createcasing:andesite_sheet')
+    event.remove('createcasing:zinc_sheet')
     event.remove('kubejs:incomplete_ion_engine')
 })
