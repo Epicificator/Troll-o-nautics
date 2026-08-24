@@ -6,6 +6,6 @@
     "multiblock.unformed": "§6Not Formed§r",
     "multiblock.catalyst": "§aRequires Catalyst§r",
     "block.mbd2.spawner_siphon": "Spawner Siphon",
-    "block.mbd2.spawner_siphon_grindstone": "Siphon Grindstone",
+    "block.mbd2.obsidian_grindstone": "Obsidian Grindstone",
     "recipe_type.mbd2.spawner_siphon": "Spawner Siphon"
 }
