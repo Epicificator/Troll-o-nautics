@@ -142,7 +142,9 @@ ServerEvents.recipes(event => {
                      ['spelunkery:rough_lazurite', 'spelunkery:nephrite_chunk', '2x spelunkery:raw_gold_nugget', Fluid.of('create_enchantment_industry:experience', 16)]
     )
     .processingTime(300)
-
+    //redstone - cinnabar
+    event.recipes.create.compacting(['minecraft:redstone', CreateItem.of('minecraft:redstone', 0.25)], 'spelunkery:cinnabar')
+    
 //Coal
     event.remove({ id: 'create:crafting/palettes/scorchia' })
     const lignite_nodule = 'kubejs:lignite_nodule'
