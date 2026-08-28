@@ -88,11 +88,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'furniture:bin' })
     event.remove({ id: 'furniture:coffer' })
     event.shaped('furniture:coffer', ['ABA','BCB','BBB'], {A: 'minecraft:iron_nugget', B: '#minecraft:sulfur_cube_archetype/light', C: '#c:shulker_boxes'})
-//Remove Infested Blocks Recipes... but is that really fair? it's base create... # yeah it is, because it is a haunting recipe, the bulk haunting is too overpowered
-    // const nests = ['infested_stone', 'infested_stone_bricks', 'infested_mossy_stone_bricks', 'infested_cracked_stone_bricks', 'infested_chiseled_stone_bricks', 'infested_deepslate']
-    // nests.forEach(nest => {
-    //     event.remove({ id: 'create:haunting/'+nest+''})
-    // })
+//Remove Infested Blocks Recipes
+    const nests = ['infested_stone', 'infested_stone_bricks', 'infested_mossy_stone_bricks', 'infested_cracked_stone_bricks', 'infested_chiseled_stone_bricks', 'infested_deepslate']
+    nests.forEach(nest => {
+        event.remove({ id: 'create:haunting/'+nest+''})
+    })
 //Experience and Sculk
     event.recipes.createdieselgenerators
     .bulk_fermenting(

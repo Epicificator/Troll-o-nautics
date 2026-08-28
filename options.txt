@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/CreateSophStorage.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/CoolConsole.zip","file/CC Greentech V2.0.zip","file/CreateSophBackpacks.zip","file/DieselDepot"]
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/CreateSophStorage.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/CoolConsole.zip","file/CC Greentech V2.0.zip","file/CreateSophBackpacks.zip","file/DieselDepot"]
 incompatibleResourcePacks:["file/CreateSophStorage.zip","file/§6[Create] §fFixed §cRedstone Links.zip","file/CoolConsole.zip"]
 lastServer:
 lang:en_us
@@ -124,8 +124,8 @@ key_key.hotbar.9:key.keyboard.9
 key_key.modernfix.config:key.keyboard.unknown
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.y
+key_key.corpse.death_history:key.keyboard.u
 key_key.curios.open.desc:key.keyboard.unknown
-key_key.hackersandslashers.parry:key.mouse.right
 key_key.createbigcannons.pitch_mode:key.keyboard.x
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
@@ -140,6 +140,9 @@ key_key.jei.showUses:key.keyboard.u
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.showBookmarkTooltipFeatures:key.keyboard.left.control
+key_key.jei.quickMove:key.mouse.left:SHIFT
+key_key.jei.shareToChat:key.keyboard.unknown
 key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
@@ -155,6 +158,7 @@ key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
 key_key.jei.recipeBack:key.keyboard.backspace
 key_key.jei.previousRecipePage:key.keyboard.page.up
 key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.pauseRecipeCycling:key.keyboard.left.shift
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
@@ -196,16 +200,15 @@ key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
-key_key.antique_atlas.open:key.keyboard.m
 key_key.kubejs.kubedex:key.keyboard.unknown
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
@@ -217,9 +220,10 @@ key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_key.aeroworks.joystick.free_camera:key.keyboard.left.alt
 key_key.climbable_ropes.lock_rope_camera:key.keyboard.left.alt
 key_key.pipeorgans.midi_config:key.keyboard.semicolon
-key_key.tracks.open_tuning:key.keyboard.j
 key_key.sablecleanup.open_list:key.keyboard.backslash
-key_petrolpark.key.tube.build:key.keyboard.unknown
+key_key.sable_schematic_api.blueprint_tool.open:key.keyboard.tab
+key_key.sable_schematic_api.camera.open:key.keyboard.tab
+key_petrolpark.key.tube.build:key.keyboard.left.alt
 key_petrolpark.key.tube.delete_control_point:key.keyboard.unknown
 key_petrolpark.key.tube.add_control_point_after:key.keyboard.unknown
 key_petrolpark.key.tube.add_control_point_before:key.keyboard.unknown
